@@ -1,0 +1,10 @@
+D:\Universidad\Ciclo 7\1- DS2\Proyecto\Sistema\Sistema de Inventario\ProyectoDSII - INTERFAZ\SesionManager\obj\Debug\SesionManager.csprojResolveAssemblyReference.cache
+D:\Universidad\Ciclo 7\1- DS2\Proyecto\Sistema\Sistema de Inventario\ProyectoDSII - INTERFAZ\SesionManager\bin\Debug\SesionManager.dll
+D:\Universidad\Ciclo 7\1- DS2\Proyecto\Sistema\Sistema de Inventario\ProyectoDSII - INTERFAZ\SesionManager\bin\Debug\SesionManager.pdb
+D:\Universidad\Ciclo 7\1- DS2\Proyecto\Sistema\Sistema de Inventario\ProyectoDSII - INTERFAZ\SesionManager\bin\Debug\CacheManager.dll
+D:\Universidad\Ciclo 7\1- DS2\Proyecto\Sistema\Sistema de Inventario\ProyectoDSII - INTERFAZ\SesionManager\bin\Debug\DataManager.dll
+D:\Universidad\Ciclo 7\1- DS2\Proyecto\Sistema\Sistema de Inventario\ProyectoDSII - INTERFAZ\SesionManager\bin\Debug\MySql.Data.dll
+D:\Universidad\Ciclo 7\1- DS2\Proyecto\Sistema\Sistema de Inventario\ProyectoDSII - INTERFAZ\SesionManager\bin\Debug\CacheManager.pdb
+D:\Universidad\Ciclo 7\1- DS2\Proyecto\Sistema\Sistema de Inventario\ProyectoDSII - INTERFAZ\SesionManager\bin\Debug\DataManager.pdb
+D:\Universidad\Ciclo 7\1- DS2\Proyecto\Sistema\Sistema de Inventario\ProyectoDSII - INTERFAZ\SesionManager\obj\Debug\SesionManager.dll
+D:\Universidad\Ciclo 7\1- DS2\Proyecto\Sistema\Sistema de Inventario\ProyectoDSII - INTERFAZ\SesionManager\obj\Debug\SesionManager.pdb
