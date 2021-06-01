@@ -39,7 +39,7 @@
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle7 = new System.Windows.Forms.DataGridViewCellStyle();
             this.panelMain = new System.Windows.Forms.Panel();
-            this.btnAñadirProductosaCatalogo = new Guna.UI2.WinForms.Guna2Button();
+            this.btnGenerarReporteInventario = new Guna.UI2.WinForms.Guna2Button();
             this.label1 = new System.Windows.Forms.Label();
             this.panelDtgExistencias = new System.Windows.Forms.Panel();
             this.dtgExistencias = new System.Windows.Forms.DataGridView();
@@ -62,7 +62,7 @@
             // panelMain
             // 
             this.panelMain.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(237)))), ((int)(((byte)(242)))));
-            this.panelMain.Controls.Add(this.btnAñadirProductosaCatalogo);
+            this.panelMain.Controls.Add(this.btnGenerarReporteInventario);
             this.panelMain.Controls.Add(this.label1);
             this.panelMain.Controls.Add(this.panelDtgExistencias);
             this.panelMain.Controls.Add(this.panelcbb);
@@ -73,28 +73,29 @@
             this.panelMain.Size = new System.Drawing.Size(900, 595);
             this.panelMain.TabIndex = 7;
             // 
-            // btnAñadirProductosaCatalogo
+            // btnGenerarReporteInventario
             // 
-            this.btnAñadirProductosaCatalogo.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnAñadirProductosaCatalogo.BorderRadius = 6;
-            this.btnAñadirProductosaCatalogo.CheckedState.Parent = this.btnAñadirProductosaCatalogo;
-            this.btnAñadirProductosaCatalogo.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnAñadirProductosaCatalogo.CustomImages.Parent = this.btnAñadirProductosaCatalogo;
-            this.btnAñadirProductosaCatalogo.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(182)))), ((int)(((byte)(146)))));
-            this.btnAñadirProductosaCatalogo.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnAñadirProductosaCatalogo.ForeColor = System.Drawing.Color.White;
-            this.btnAñadirProductosaCatalogo.HoverState.Parent = this.btnAñadirProductosaCatalogo;
-            this.btnAñadirProductosaCatalogo.Image = ((System.Drawing.Image)(resources.GetObject("btnAñadirProductosaCatalogo.Image")));
-            this.btnAñadirProductosaCatalogo.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.btnAñadirProductosaCatalogo.ImageSize = new System.Drawing.Size(15, 15);
-            this.btnAñadirProductosaCatalogo.Location = new System.Drawing.Point(705, 79);
-            this.btnAñadirProductosaCatalogo.Name = "btnAñadirProductosaCatalogo";
-            this.btnAñadirProductosaCatalogo.ShadowDecoration.Parent = this.btnAñadirProductosaCatalogo;
-            this.btnAñadirProductosaCatalogo.Size = new System.Drawing.Size(167, 35);
-            this.btnAñadirProductosaCatalogo.TabIndex = 16;
-            this.btnAñadirProductosaCatalogo.Text = "GENERAR REPORTE";
-            this.btnAñadirProductosaCatalogo.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
-            this.btnAñadirProductosaCatalogo.TextOffset = new System.Drawing.Point(3, 0);
+            this.btnGenerarReporteInventario.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnGenerarReporteInventario.BorderRadius = 6;
+            this.btnGenerarReporteInventario.CheckedState.Parent = this.btnGenerarReporteInventario;
+            this.btnGenerarReporteInventario.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnGenerarReporteInventario.CustomImages.Parent = this.btnGenerarReporteInventario;
+            this.btnGenerarReporteInventario.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(182)))), ((int)(((byte)(146)))));
+            this.btnGenerarReporteInventario.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnGenerarReporteInventario.ForeColor = System.Drawing.Color.White;
+            this.btnGenerarReporteInventario.HoverState.Parent = this.btnGenerarReporteInventario;
+            this.btnGenerarReporteInventario.Image = ((System.Drawing.Image)(resources.GetObject("btnGenerarReporteInventario.Image")));
+            this.btnGenerarReporteInventario.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.btnGenerarReporteInventario.ImageSize = new System.Drawing.Size(15, 15);
+            this.btnGenerarReporteInventario.Location = new System.Drawing.Point(705, 79);
+            this.btnGenerarReporteInventario.Name = "btnGenerarReporteInventario";
+            this.btnGenerarReporteInventario.ShadowDecoration.Parent = this.btnGenerarReporteInventario;
+            this.btnGenerarReporteInventario.Size = new System.Drawing.Size(167, 35);
+            this.btnGenerarReporteInventario.TabIndex = 16;
+            this.btnGenerarReporteInventario.Text = "GENERAR REPORTE";
+            this.btnGenerarReporteInventario.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.btnGenerarReporteInventario.TextOffset = new System.Drawing.Point(3, 0);
+            this.btnGenerarReporteInventario.Click += new System.EventHandler(this.btnGenerarReporteInventario_Click);
             // 
             // label1
             // 
@@ -301,6 +302,6 @@
         private System.Windows.Forms.Panel panelcbb;
         public System.Windows.Forms.ComboBox cbbOpciones;
         private System.Windows.Forms.Label lblAgregarProductosaBodega;
-        private Guna.UI2.WinForms.Guna2Button btnAñadirProductosaCatalogo;
+        private Guna.UI2.WinForms.Guna2Button btnGenerarReporteInventario;
     }
 }

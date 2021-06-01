@@ -12,6 +12,8 @@ namespace Skoll.GUI.PRODUCTOS
 {
     public partial class Catalogo : Form
     {
+        SesionManager.CLS.Sesion oSesion = SesionManager.CLS.Sesion.Instancia;
+
         public Catalogo()
         {
             InitializeComponent();
@@ -21,14 +23,22 @@ namespace Skoll.GUI.PRODUCTOS
 
         private void btnAñadirProductosaCatalogo_Click(object sender, EventArgs e)
         {
-            AgregarProductosaCatalogo apac = new AgregarProductosaCatalogo();
-            apac.ShowDialog();
+            if (oSesion.ComprobarPermisos(7))
+            {
+                AgregarProductosaCatalogo apac = new AgregarProductosaCatalogo();
+                apac.ShowDialog();
+            }
+            
         }
 
         private void btnEditarProductosdeCatalogo_Click(object sender, EventArgs e)
         {
-            EditarProductodeCatalogo epdc = new EditarProductodeCatalogo();
-            epdc.ShowDialog();
+            if (oSesion.ComprobarPermisos(7))
+            {
+                EditarProductodeCatalogo epdc = new EditarProductodeCatalogo();
+                epdc.ShowDialog();
+            }
+            
         }
     }
 }

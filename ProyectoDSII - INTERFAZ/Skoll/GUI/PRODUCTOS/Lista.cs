@@ -12,6 +12,8 @@ namespace Skoll.GUI.PRODUCTOS
 {
     public partial class Lista : Form
     {
+        SesionManager.CLS.Sesion oSesion = SesionManager.CLS.Sesion.Instancia;
+
         public Lista()
         {
             InitializeComponent();
@@ -21,14 +23,22 @@ namespace Skoll.GUI.PRODUCTOS
 
         private void btnAgregaraBodega_Click(object sender, EventArgs e)
         {
-            AgregarProductosaBodega apab = new AgregarProductosaBodega();
-            apab.ShowDialog();
+            if (oSesion.ComprobarPermisos(9))
+            {
+                AgregarProductosaBodega apab = new AgregarProductosaBodega();
+                apab.ShowDialog();
+            }
+            
         }
 
         private void btnExtraerdeBodega_Click(object sender, EventArgs e)
         {
-            ExtraerProductosdeBodega epdb = new ExtraerProductosdeBodega();
-            epdb.ShowDialog();
+            if (oSesion.ComprobarPermisos(9))
+            {
+                ExtraerProductosdeBodega epdb = new ExtraerProductosdeBodega();
+                epdb.ShowDialog();
+            }
+            
         }
 
         private void btnSeleccionarZona_Click(object sender, EventArgs e)

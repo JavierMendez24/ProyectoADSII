@@ -12,6 +12,8 @@ namespace Skoll.GUI.CONTRATOS
 {
     public partial class Contratos : Form
     {
+        SesionManager.CLS.Sesion oSesion = SesionManager.CLS.Sesion.Instancia;
+
         public Contratos()
         {
             InitializeComponent();
@@ -43,14 +45,22 @@ namespace Skoll.GUI.CONTRATOS
 
         private void btnAgregarContrato_Click(object sender, EventArgs e)
         {
-            AgregarContrato aggc = new AgregarContrato();
-            aggc.ShowDialog();
+            if (oSesion.ComprobarPermisos(5))
+            {
+                AgregarContrato aggc = new AgregarContrato();
+                aggc.ShowDialog();
+            }
+            
         }
 
         private void btnEditarContrato_Click(object sender, EventArgs e)
         {
-            EditarContrato edc = new EditarContrato();
-            edc.ShowDialog();
+            if (oSesion.ComprobarPermisos(5))
+            {
+                EditarContrato edc = new EditarContrato();
+                edc.ShowDialog();
+            }
+            
         }
 
         private void btnDetallesContrato_Click(object sender, EventArgs e)

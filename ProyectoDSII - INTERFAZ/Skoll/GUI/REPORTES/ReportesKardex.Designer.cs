@@ -40,7 +40,7 @@
             this.guna2VSeparator1 = new Guna.UI2.WinForms.Guna2VSeparator();
             this.pbSearch = new System.Windows.Forms.PictureBox();
             this.txbBuscarPDC = new Guna.UI2.WinForms.Guna2TextBox();
-            this.btnAñadirProductosaCatalogo = new Guna.UI2.WinForms.Guna2Button();
+            this.btnGenerarReporteKardex = new Guna.UI2.WinForms.Guna2Button();
             this.label1 = new System.Windows.Forms.Label();
             this.panelDtgLstPdrKardex = new System.Windows.Forms.Panel();
             this.dtgLstPdrKardex = new System.Windows.Forms.DataGridView();
@@ -65,7 +65,7 @@
             this.panelMain.Controls.Add(this.guna2VSeparator1);
             this.panelMain.Controls.Add(this.pbSearch);
             this.panelMain.Controls.Add(this.txbBuscarPDC);
-            this.panelMain.Controls.Add(this.btnAñadirProductosaCatalogo);
+            this.panelMain.Controls.Add(this.btnGenerarReporteKardex);
             this.panelMain.Controls.Add(this.label1);
             this.panelMain.Controls.Add(this.panelDtgLstPdrKardex);
             this.panelMain.Controls.Add(this.panelcbb);
@@ -135,28 +135,29 @@
             this.txbBuscarPDC.Size = new System.Drawing.Size(199, 35);
             this.txbBuscarPDC.TabIndex = 66;
             // 
-            // btnAñadirProductosaCatalogo
+            // btnGenerarReporteKardex
             // 
-            this.btnAñadirProductosaCatalogo.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnAñadirProductosaCatalogo.BorderRadius = 6;
-            this.btnAñadirProductosaCatalogo.CheckedState.Parent = this.btnAñadirProductosaCatalogo;
-            this.btnAñadirProductosaCatalogo.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnAñadirProductosaCatalogo.CustomImages.Parent = this.btnAñadirProductosaCatalogo;
-            this.btnAñadirProductosaCatalogo.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(182)))), ((int)(((byte)(146)))));
-            this.btnAñadirProductosaCatalogo.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnAñadirProductosaCatalogo.ForeColor = System.Drawing.Color.White;
-            this.btnAñadirProductosaCatalogo.HoverState.Parent = this.btnAñadirProductosaCatalogo;
-            this.btnAñadirProductosaCatalogo.Image = ((System.Drawing.Image)(resources.GetObject("btnAñadirProductosaCatalogo.Image")));
-            this.btnAñadirProductosaCatalogo.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.btnAñadirProductosaCatalogo.ImageSize = new System.Drawing.Size(15, 15);
-            this.btnAñadirProductosaCatalogo.Location = new System.Drawing.Point(715, 79);
-            this.btnAñadirProductosaCatalogo.Name = "btnAñadirProductosaCatalogo";
-            this.btnAñadirProductosaCatalogo.ShadowDecoration.Parent = this.btnAñadirProductosaCatalogo;
-            this.btnAñadirProductosaCatalogo.Size = new System.Drawing.Size(157, 35);
-            this.btnAñadirProductosaCatalogo.TabIndex = 16;
-            this.btnAñadirProductosaCatalogo.Text = "GENERAR KARDEX";
-            this.btnAñadirProductosaCatalogo.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
-            this.btnAñadirProductosaCatalogo.TextOffset = new System.Drawing.Point(3, 0);
+            this.btnGenerarReporteKardex.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnGenerarReporteKardex.BorderRadius = 6;
+            this.btnGenerarReporteKardex.CheckedState.Parent = this.btnGenerarReporteKardex;
+            this.btnGenerarReporteKardex.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnGenerarReporteKardex.CustomImages.Parent = this.btnGenerarReporteKardex;
+            this.btnGenerarReporteKardex.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(182)))), ((int)(((byte)(146)))));
+            this.btnGenerarReporteKardex.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnGenerarReporteKardex.ForeColor = System.Drawing.Color.White;
+            this.btnGenerarReporteKardex.HoverState.Parent = this.btnGenerarReporteKardex;
+            this.btnGenerarReporteKardex.Image = ((System.Drawing.Image)(resources.GetObject("btnGenerarReporteKardex.Image")));
+            this.btnGenerarReporteKardex.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.btnGenerarReporteKardex.ImageSize = new System.Drawing.Size(15, 15);
+            this.btnGenerarReporteKardex.Location = new System.Drawing.Point(715, 79);
+            this.btnGenerarReporteKardex.Name = "btnGenerarReporteKardex";
+            this.btnGenerarReporteKardex.ShadowDecoration.Parent = this.btnGenerarReporteKardex;
+            this.btnGenerarReporteKardex.Size = new System.Drawing.Size(157, 35);
+            this.btnGenerarReporteKardex.TabIndex = 16;
+            this.btnGenerarReporteKardex.Text = "GENERAR KARDEX";
+            this.btnGenerarReporteKardex.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.btnGenerarReporteKardex.TextOffset = new System.Drawing.Point(3, 0);
+            this.btnGenerarReporteKardex.Click += new System.EventHandler(this.btnGenerarReporteKardex_Click);
             // 
             // label1
             // 
@@ -326,7 +327,7 @@
         #endregion
 
         public System.Windows.Forms.Panel panelMain;
-        private Guna.UI2.WinForms.Guna2Button btnAñadirProductosaCatalogo;
+        private Guna.UI2.WinForms.Guna2Button btnGenerarReporteKardex;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Panel panelcbb;
         public System.Windows.Forms.ComboBox cbbOpciones;

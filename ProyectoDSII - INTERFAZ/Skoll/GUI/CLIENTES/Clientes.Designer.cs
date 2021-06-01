@@ -351,6 +351,7 @@
             this.btnEliminarCliente.Text = "ELIMINAR";
             this.btnEliminarCliente.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             this.btnEliminarCliente.TextOffset = new System.Drawing.Point(3, 0);
+            this.btnEliminarCliente.Click += new System.EventHandler(this.btnEliminarCliente_Click);
             // 
             // guna2VSeparator1
             // 

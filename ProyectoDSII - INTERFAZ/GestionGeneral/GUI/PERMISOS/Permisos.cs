@@ -12,6 +12,8 @@ namespace GestionGeneral.GUI.PERMISOS
 {
     public partial class Permisos : Form
     {
+        SesionManager.CLS.Sesion oSesion = SesionManager.CLS.Sesion.Instancia;
+
         BindingSource _DATOSPERM = new BindingSource();
 
         private void CargarPermisos()
@@ -93,6 +95,7 @@ namespace GestionGeneral.GUI.PERMISOS
                             CargarPermisos();
                         }
                     }
+                    oSesion.CargarPermisos();
                 }
             }
             catch

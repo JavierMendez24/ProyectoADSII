@@ -12,6 +12,7 @@ namespace Skoll.GUI.REPORTES
 {
     public partial class ReportesInventario : Form
     {
+        SesionManager.CLS.Sesion oSesion = SesionManager.CLS.Sesion.Instancia;
         public ReportesInventario()
         {
             InitializeComponent();
@@ -34,6 +35,14 @@ namespace Skoll.GUI.REPORTES
             else
             {
 
+            }
+        }
+
+        private void btnGenerarReporteInventario_Click(object sender, EventArgs e)
+        {
+            if (oSesion.ComprobarPermisos(14))
+            {
+                // CODIGO DE GENERAR REPORTE DE INVENTARIO (CONTEO) AQUI
             }
         }
     }

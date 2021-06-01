@@ -22,3 +22,11 @@ D:\Universidad\Ciclo 7\1- DS2\Proyecto\Sistema\Sistema de Inventario\ProyectoDSI
 D:\Universidad\Ciclo 7\1- DS2\Proyecto\Sistema\Sistema de Inventario\ProyectoDSII - INTERFAZ\CacheManager\obj\Debug\CacheManager.csprojResolveAssemblyReference.cache
 D:\Universidad\Ciclo 7\1- DS2\Proyecto\Sistema\Sistema de Inventario\ProyectoDSII - INTERFAZ\CacheManager\obj\Debug\CacheManager.dll
 D:\Universidad\Ciclo 7\1- DS2\Proyecto\Sistema\Sistema de Inventario\ProyectoDSII - INTERFAZ\CacheManager\obj\Debug\CacheManager.pdb
+D:\Universidad\ProyectoDSII\ProyectoADSII\ProyectoDSII - INTERFAZ\CacheManager\bin\Debug\CacheManager.dll
+D:\Universidad\ProyectoDSII\ProyectoADSII\ProyectoDSII - INTERFAZ\CacheManager\bin\Debug\CacheManager.pdb
+D:\Universidad\ProyectoDSII\ProyectoADSII\ProyectoDSII - INTERFAZ\CacheManager\bin\Debug\DataManager.dll
+D:\Universidad\ProyectoDSII\ProyectoADSII\ProyectoDSII - INTERFAZ\CacheManager\bin\Debug\MySql.Data.dll
+D:\Universidad\ProyectoDSII\ProyectoADSII\ProyectoDSII - INTERFAZ\CacheManager\bin\Debug\DataManager.pdb
+D:\Universidad\ProyectoDSII\ProyectoADSII\ProyectoDSII - INTERFAZ\CacheManager\obj\Debug\CacheManager.csprojResolveAssemblyReference.cache
+D:\Universidad\ProyectoDSII\ProyectoADSII\ProyectoDSII - INTERFAZ\CacheManager\obj\Debug\CacheManager.dll
+D:\Universidad\ProyectoDSII\ProyectoADSII\ProyectoDSII - INTERFAZ\CacheManager\obj\Debug\CacheManager.pdb

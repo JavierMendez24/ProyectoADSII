@@ -12,6 +12,8 @@ namespace Skoll.GUI.CLIENTES
 {
     public partial class Clientes : Form
     {
+        SesionManager.CLS.Sesion oSesion = SesionManager.CLS.Sesion.Instancia;
+
         BindingSource _DATOSE = new BindingSource();
 
         BindingSource _DATOSP = new BindingSource();
@@ -85,15 +87,23 @@ namespace Skoll.GUI.CLIENTES
 
         private void btnAgregarCliente_Click(object sender, EventArgs e)
         {
-            AgregarCliente ac = new AgregarCliente();
-            ac.ShowDialog();
-            Cargar();
+            if (oSesion.ComprobarPermisos(3))
+            {
+                AgregarCliente ac = new AgregarCliente();
+                ac.ShowDialog();
+                Cargar();
+            }
+            
         }
 
         private void btnEditarCliente_Click(object sender, EventArgs e)
         {
-            EditarClienteEmpresa ece = new EditarClienteEmpresa();
-            ece.ShowDialog();
+            if (oSesion.ComprobarPermisos(3))
+            {
+                EditarClienteEmpresa ece = new EditarClienteEmpresa();
+                ece.ShowDialog();
+            }
+            
         }
 
         private void btnDetallesCliente_Click(object sender, EventArgs e)
@@ -110,6 +120,14 @@ namespace Skoll.GUI.CLIENTES
         private void Clientes_Load(object sender, EventArgs e)
         {
             Cargar();
+        }
+
+        private void btnEliminarCliente_Click(object sender, EventArgs e)
+        {
+            if (oSesion.ComprobarPermisos(3))
+            {
+                // CODIGO DE ELIMINAR AQUI
+            }
         }
     }
 }

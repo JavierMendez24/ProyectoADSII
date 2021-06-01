@@ -197,7 +197,27 @@ namespace CacheManager.CLS
                                 IF(IFNULL((SELECT ID_Permiso FROM permisos z WHERE z.ID_Rol = " + pIDRol + @" AND z.ID_Opcion = a.ID_Opcion), 0) = 0, 0, 1) Seleccion,
                                 IFNULL((SELECT ID_Permiso FROM permisos z WHERE z.ID_Rol = " + pIDRol + @" AND z.ID_Opcion = a.ID_Opcion), 0) as ID_Permiso
                                 FROM opciones a
-                                ORDER BY Opcion ASC;";
+                                ORDER BY ID_Opcion ASC;";
+            try
+            {
+                Resultados = Consultor.Consultar(Consulta);
+            }
+            catch
+            {
+                Resultados = new DataTable();
+            }
+            return Resultados;
+        }
+
+        // VER TODOS LOS PERMISOS DE UN USUARIO
+        public static DataTable PERMISOS_DE_UN_USUARIO(String pIDRol)
+        {
+            DataTable Resultados = new DataTable();
+            DataManager.CLS.OperacionBD Consultor = new DataManager.CLS.OperacionBD();
+            String Consulta = @"SELECT DISTINCT a.ID_Opcion, b.Opcion 
+                                FROM permisos a, opciones b 
+                                WHERE a.ID_Opcion=b.ID_Opcion 
+                                AND a.ID_Rol="+pIDRol+";";
             try
             {
                 Resultados = Consultor.Consultar(Consulta);

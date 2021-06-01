@@ -38,7 +38,7 @@
             this.panelMain = new System.Windows.Forms.Panel();
             this.label2 = new System.Windows.Forms.Label();
             this.dtpBuscarFecha = new Guna.UI2.WinForms.Guna2DateTimePicker();
-            this.btnAñadirProductosaCatalogo = new Guna.UI2.WinForms.Guna2Button();
+            this.btnGenerarReporteSalida = new Guna.UI2.WinForms.Guna2Button();
             this.guna2VSeparator1 = new Guna.UI2.WinForms.Guna2VSeparator();
             this.pbSearch = new System.Windows.Forms.PictureBox();
             this.label1 = new System.Windows.Forms.Label();
@@ -61,7 +61,7 @@
             this.panelMain.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(237)))), ((int)(((byte)(242)))));
             this.panelMain.Controls.Add(this.label2);
             this.panelMain.Controls.Add(this.dtpBuscarFecha);
-            this.panelMain.Controls.Add(this.btnAñadirProductosaCatalogo);
+            this.panelMain.Controls.Add(this.btnGenerarReporteSalida);
             this.panelMain.Controls.Add(this.guna2VSeparator1);
             this.panelMain.Controls.Add(this.pbSearch);
             this.panelMain.Controls.Add(this.label1);
@@ -105,28 +105,29 @@
             this.dtpBuscarFecha.TabIndex = 64;
             this.dtpBuscarFecha.Value = new System.DateTime(2021, 4, 13, 16, 31, 51, 340);
             // 
-            // btnAñadirProductosaCatalogo
+            // btnGenerarReporteSalida
             // 
-            this.btnAñadirProductosaCatalogo.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnAñadirProductosaCatalogo.BorderRadius = 6;
-            this.btnAñadirProductosaCatalogo.CheckedState.Parent = this.btnAñadirProductosaCatalogo;
-            this.btnAñadirProductosaCatalogo.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnAñadirProductosaCatalogo.CustomImages.Parent = this.btnAñadirProductosaCatalogo;
-            this.btnAñadirProductosaCatalogo.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(182)))), ((int)(((byte)(146)))));
-            this.btnAñadirProductosaCatalogo.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnAñadirProductosaCatalogo.ForeColor = System.Drawing.Color.White;
-            this.btnAñadirProductosaCatalogo.HoverState.Parent = this.btnAñadirProductosaCatalogo;
-            this.btnAñadirProductosaCatalogo.Image = ((System.Drawing.Image)(resources.GetObject("btnAñadirProductosaCatalogo.Image")));
-            this.btnAñadirProductosaCatalogo.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.btnAñadirProductosaCatalogo.ImageSize = new System.Drawing.Size(15, 15);
-            this.btnAñadirProductosaCatalogo.Location = new System.Drawing.Point(690, 79);
-            this.btnAñadirProductosaCatalogo.Name = "btnAñadirProductosaCatalogo";
-            this.btnAñadirProductosaCatalogo.ShadowDecoration.Parent = this.btnAñadirProductosaCatalogo;
-            this.btnAñadirProductosaCatalogo.Size = new System.Drawing.Size(167, 35);
-            this.btnAñadirProductosaCatalogo.TabIndex = 15;
-            this.btnAñadirProductosaCatalogo.Text = "GENERAR REPORTE";
-            this.btnAñadirProductosaCatalogo.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
-            this.btnAñadirProductosaCatalogo.TextOffset = new System.Drawing.Point(3, 0);
+            this.btnGenerarReporteSalida.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnGenerarReporteSalida.BorderRadius = 6;
+            this.btnGenerarReporteSalida.CheckedState.Parent = this.btnGenerarReporteSalida;
+            this.btnGenerarReporteSalida.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnGenerarReporteSalida.CustomImages.Parent = this.btnGenerarReporteSalida;
+            this.btnGenerarReporteSalida.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(182)))), ((int)(((byte)(146)))));
+            this.btnGenerarReporteSalida.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnGenerarReporteSalida.ForeColor = System.Drawing.Color.White;
+            this.btnGenerarReporteSalida.HoverState.Parent = this.btnGenerarReporteSalida;
+            this.btnGenerarReporteSalida.Image = ((System.Drawing.Image)(resources.GetObject("btnGenerarReporteSalida.Image")));
+            this.btnGenerarReporteSalida.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.btnGenerarReporteSalida.ImageSize = new System.Drawing.Size(15, 15);
+            this.btnGenerarReporteSalida.Location = new System.Drawing.Point(690, 79);
+            this.btnGenerarReporteSalida.Name = "btnGenerarReporteSalida";
+            this.btnGenerarReporteSalida.ShadowDecoration.Parent = this.btnGenerarReporteSalida;
+            this.btnGenerarReporteSalida.Size = new System.Drawing.Size(167, 35);
+            this.btnGenerarReporteSalida.TabIndex = 15;
+            this.btnGenerarReporteSalida.Text = "GENERAR REPORTE";
+            this.btnGenerarReporteSalida.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.btnGenerarReporteSalida.TextOffset = new System.Drawing.Point(3, 0);
+            this.btnGenerarReporteSalida.Click += new System.EventHandler(this.btnGenerarReporteSalida_Click);
             // 
             // guna2VSeparator1
             // 
@@ -317,7 +318,7 @@
         public System.Windows.Forms.Panel panelMain;
         private System.Windows.Forms.Label label2;
         private Guna.UI2.WinForms.Guna2DateTimePicker dtpBuscarFecha;
-        private Guna.UI2.WinForms.Guna2Button btnAñadirProductosaCatalogo;
+        private Guna.UI2.WinForms.Guna2Button btnGenerarReporteSalida;
         private Guna.UI2.WinForms.Guna2VSeparator guna2VSeparator1;
         private System.Windows.Forms.PictureBox pbSearch;
         private System.Windows.Forms.Label label1;
