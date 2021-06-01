@@ -1,0 +1,72 @@
+C:\Users\MELKEE\Desktop\PROYECTO FINAL DESARROLLO DE SOFTWARE\ProyectoDSII\GestionGeneral\bin\Debug\GestionGeneral.dll
+C:\Users\MELKEE\Desktop\PROYECTO FINAL DESARROLLO DE SOFTWARE\ProyectoDSII\GestionGeneral\bin\Debug\GestionGeneral.pdb
+C:\Users\MELKEE\Desktop\PROYECTO FINAL DESARROLLO DE SOFTWARE\ProyectoDSII\GestionGeneral\bin\Debug\Guna.UI2.dll
+C:\Users\MELKEE\Desktop\PROYECTO FINAL DESARROLLO DE SOFTWARE\ProyectoDSII\GestionGeneral\obj\Debug\GestionGeneral.csprojResolveAssemblyReference.cache
+C:\Users\MELKEE\Desktop\PROYECTO FINAL DESARROLLO DE SOFTWARE\ProyectoDSII\GestionGeneral\obj\Debug\GestionGeneral.csproj.GenerateResource.Cache
+C:\Users\MELKEE\Desktop\PROYECTO FINAL DESARROLLO DE SOFTWARE\ProyectoDSII\GestionGeneral\obj\Debug\GestionGeneral.dll
+C:\Users\MELKEE\Desktop\PROYECTO FINAL DESARROLLO DE SOFTWARE\ProyectoDSII\GestionGeneral\obj\Debug\GestionGeneral.pdb
+C:\Users\MELKEE\Desktop\PROYECTO FINAL DESARROLLO DE SOFTWARE\ProyectoDSII\GestionGeneral\obj\Debug\GestionGeneral.GUI.EMPLEADOS.Empleados.resources
+C:\Users\MELKEE\Desktop\PROYECTO FINAL DESARROLLO DE SOFTWARE\ProyectoDSII\GestionGeneral\obj\Debug\GestionGeneral.GUI.EMPLEADOS.AgregarEmpleado.resources
+C:\Users\MELKEE\Desktop\PROYECTO FINAL DESARROLLO DE SOFTWARE\ProyectoDSII\GestionGeneral\obj\Debug\GestionGeneral.GUI.EMPLEADOS.EditarEmpleado.resources
+C:\Users\MELKEE\Desktop\PROYECTO FINAL DESARROLLO DE SOFTWARE\ProyectoDSII\GestionGeneral\obj\Debug\GestionGeneral.GUI.EMPLEADOS.DetallesEmpleado.resources
+C:\Users\MELKEE\Desktop\PROYECTO FINAL DESARROLLO DE SOFTWARE\ProyectoDSII\GestionGeneral\obj\Debug\GestionGeneral.GUI.USUARIOS.Usuarios.resources
+C:\Users\MELKEE\Desktop\PROYECTO FINAL DESARROLLO DE SOFTWARE\ProyectoDSII\GestionGeneral\obj\Debug\GestionGeneral.GUI.USUARIOS.AgregarUsuario.resources
+C:\Users\MELKEE\Desktop\PROYECTO FINAL DESARROLLO DE SOFTWARE\ProyectoDSII\GestionGeneral\obj\Debug\GestionGeneral.GUI.USUARIOS.SeleccionarEmpleado.resources
+C:\Users\MELKEE\Desktop\PROYECTO FINAL DESARROLLO DE SOFTWARE\ProyectoDSII\GestionGeneral\obj\Debug\GestionGeneral.GUI.USUARIOS.EditarEmpleado.resources
+C:\Users\MELKEE\Desktop\PROYECTO FINAL DESARROLLO DE SOFTWARE\ProyectoDSII\GestionGeneral\obj\Debug\GestionGeneral.GUI.ROLES.Roles.resources
+C:\Users\MELKEE\Desktop\PROYECTO FINAL DESARROLLO DE SOFTWARE\ProyectoDSII\GestionGeneral\obj\Debug\GestionGeneral.GUI.ROLES.AgregarRol.resources
+C:\Users\MELKEE\Desktop\PROYECTO FINAL DESARROLLO DE SOFTWARE\ProyectoDSII\GestionGeneral\obj\Debug\GestionGeneral.GUI.ROLES.EditarRol.resources
+C:\Users\MELKEE\Desktop\PROYECTO FINAL DESARROLLO DE SOFTWARE\ProyectoDSII\GestionGeneral\obj\Debug\GestionGeneral.GUI.PERMISOS.Permisos.resources
+C:\Users\MELKEE\Desktop\PROYECTO FINAL DESARROLLO DE SOFTWARE\ProyectoDSII\GestionGeneral\obj\Debug\GestionGeneral.GUI.PERMISOS.GestionarPermisos.resources
+C:\Users\MELKEE\Desktop\PROYECTO FINAL DESARROLLO DE SOFTWARE\ProyectoDSII\GestionGeneral\bin\Debug\CacheManager.dll
+C:\Users\MELKEE\Desktop\PROYECTO FINAL DESARROLLO DE SOFTWARE\ProyectoDSII\GestionGeneral\bin\Debug\DataManager.dll
+C:\Users\MELKEE\Desktop\PROYECTO FINAL DESARROLLO DE SOFTWARE\ProyectoDSII\GestionGeneral\bin\Debug\MySql.Data.dll
+C:\Users\MELKEE\Desktop\PROYECTO FINAL DESARROLLO DE SOFTWARE\ProyectoDSII\GestionGeneral\bin\Debug\CacheManager.pdb
+C:\Users\MELKEE\Desktop\PROYECTO FINAL DESARROLLO DE SOFTWARE\ProyectoDSII\GestionGeneral\bin\Debug\DataManager.pdb
+D:\Universidad\Ciclo 7\1- DS2\Proyecto\Sistema\Sistema de Inventario\ProyectoDSII - INTERFAZ\GestionGeneral\bin\Debug\GestionGeneral.dll
+D:\Universidad\Ciclo 7\1- DS2\Proyecto\Sistema\Sistema de Inventario\ProyectoDSII - INTERFAZ\GestionGeneral\bin\Debug\GestionGeneral.pdb
+D:\Universidad\Ciclo 7\1- DS2\Proyecto\Sistema\Sistema de Inventario\ProyectoDSII - INTERFAZ\GestionGeneral\bin\Debug\CacheManager.dll
+D:\Universidad\Ciclo 7\1- DS2\Proyecto\Sistema\Sistema de Inventario\ProyectoDSII - INTERFAZ\GestionGeneral\bin\Debug\DataManager.dll
+D:\Universidad\Ciclo 7\1- DS2\Proyecto\Sistema\Sistema de Inventario\ProyectoDSII - INTERFAZ\GestionGeneral\bin\Debug\MySql.Data.dll
+D:\Universidad\Ciclo 7\1- DS2\Proyecto\Sistema\Sistema de Inventario\ProyectoDSII - INTERFAZ\GestionGeneral\bin\Debug\CacheManager.pdb
+D:\Universidad\Ciclo 7\1- DS2\Proyecto\Sistema\Sistema de Inventario\ProyectoDSII - INTERFAZ\GestionGeneral\bin\Debug\DataManager.pdb
+D:\Universidad\Ciclo 7\1- DS2\Proyecto\Sistema\Sistema de Inventario\ProyectoDSII - INTERFAZ\GestionGeneral\obj\Debug\GestionGeneral.csprojResolveAssemblyReference.cache
+D:\Universidad\Ciclo 7\1- DS2\Proyecto\Sistema\Sistema de Inventario\ProyectoDSII - INTERFAZ\GestionGeneral\obj\Debug\GestionGeneral.GUI.EMPLEADOS.AgregarEmpleado.resources
+D:\Universidad\Ciclo 7\1- DS2\Proyecto\Sistema\Sistema de Inventario\ProyectoDSII - INTERFAZ\GestionGeneral\obj\Debug\GestionGeneral.GUI.EMPLEADOS.DetallesEmpleado.resources
+D:\Universidad\Ciclo 7\1- DS2\Proyecto\Sistema\Sistema de Inventario\ProyectoDSII - INTERFAZ\GestionGeneral\obj\Debug\GestionGeneral.GUI.EMPLEADOS.EditarEmpleado.resources
+D:\Universidad\Ciclo 7\1- DS2\Proyecto\Sistema\Sistema de Inventario\ProyectoDSII - INTERFAZ\GestionGeneral\obj\Debug\GestionGeneral.GUI.EMPLEADOS.Empleados.resources
+D:\Universidad\Ciclo 7\1- DS2\Proyecto\Sistema\Sistema de Inventario\ProyectoDSII - INTERFAZ\GestionGeneral\obj\Debug\GestionGeneral.GUI.PERMISOS.Permisos.resources
+D:\Universidad\Ciclo 7\1- DS2\Proyecto\Sistema\Sistema de Inventario\ProyectoDSII - INTERFAZ\GestionGeneral\obj\Debug\GestionGeneral.GUI.ROLES.AgregarRol.resources
+D:\Universidad\Ciclo 7\1- DS2\Proyecto\Sistema\Sistema de Inventario\ProyectoDSII - INTERFAZ\GestionGeneral\obj\Debug\GestionGeneral.GUI.ROLES.EditarRol.resources
+D:\Universidad\Ciclo 7\1- DS2\Proyecto\Sistema\Sistema de Inventario\ProyectoDSII - INTERFAZ\GestionGeneral\obj\Debug\GestionGeneral.GUI.ROLES.Roles.resources
+D:\Universidad\Ciclo 7\1- DS2\Proyecto\Sistema\Sistema de Inventario\ProyectoDSII - INTERFAZ\GestionGeneral\obj\Debug\GestionGeneral.GUI.USUARIOS.AgregarUsuario.resources
+D:\Universidad\Ciclo 7\1- DS2\Proyecto\Sistema\Sistema de Inventario\ProyectoDSII - INTERFAZ\GestionGeneral\obj\Debug\GestionGeneral.GUI.USUARIOS.EditarEmpleado.resources
+D:\Universidad\Ciclo 7\1- DS2\Proyecto\Sistema\Sistema de Inventario\ProyectoDSII - INTERFAZ\GestionGeneral\obj\Debug\GestionGeneral.GUI.USUARIOS.SeleccionarEmpleado.resources
+D:\Universidad\Ciclo 7\1- DS2\Proyecto\Sistema\Sistema de Inventario\ProyectoDSII - INTERFAZ\GestionGeneral\obj\Debug\GestionGeneral.GUI.USUARIOS.Usuarios.resources
+D:\Universidad\Ciclo 7\1- DS2\Proyecto\Sistema\Sistema de Inventario\ProyectoDSII - INTERFAZ\GestionGeneral\obj\Debug\GestionGeneral.csproj.GenerateResource.Cache
+D:\Universidad\Ciclo 7\1- DS2\Proyecto\Sistema\Sistema de Inventario\ProyectoDSII - INTERFAZ\GestionGeneral\obj\Debug\GestionGeneral.dll
+D:\Universidad\Ciclo 7\1- DS2\Proyecto\Sistema\Sistema de Inventario\ProyectoDSII - INTERFAZ\GestionGeneral\obj\Debug\GestionGeneral.pdb
+C:\Users\MELKEE\Downloads\ProyectoDSII con BD\ProyectoDSII - INTERFAZ\GestionGeneral\bin\Debug\GestionGeneral.dll
+C:\Users\MELKEE\Downloads\ProyectoDSII con BD\ProyectoDSII - INTERFAZ\GestionGeneral\bin\Debug\GestionGeneral.pdb
+C:\Users\MELKEE\Downloads\ProyectoDSII con BD\ProyectoDSII - INTERFAZ\GestionGeneral\bin\Debug\CacheManager.dll
+C:\Users\MELKEE\Downloads\ProyectoDSII con BD\ProyectoDSII - INTERFAZ\GestionGeneral\bin\Debug\DataManager.dll
+C:\Users\MELKEE\Downloads\ProyectoDSII con BD\ProyectoDSII - INTERFAZ\GestionGeneral\bin\Debug\Guna.UI2.dll
+C:\Users\MELKEE\Downloads\ProyectoDSII con BD\ProyectoDSII - INTERFAZ\GestionGeneral\bin\Debug\MySql.Data.dll
+C:\Users\MELKEE\Downloads\ProyectoDSII con BD\ProyectoDSII - INTERFAZ\GestionGeneral\bin\Debug\CacheManager.pdb
+C:\Users\MELKEE\Downloads\ProyectoDSII con BD\ProyectoDSII - INTERFAZ\GestionGeneral\bin\Debug\DataManager.pdb
+C:\Users\MELKEE\Downloads\ProyectoDSII con BD\ProyectoDSII - INTERFAZ\GestionGeneral\obj\Debug\GestionGeneral.csprojResolveAssemblyReference.cache
+C:\Users\MELKEE\Downloads\ProyectoDSII con BD\ProyectoDSII - INTERFAZ\GestionGeneral\obj\Debug\GestionGeneral.GUI.EMPLEADOS.AgregarEmpleado.resources
+C:\Users\MELKEE\Downloads\ProyectoDSII con BD\ProyectoDSII - INTERFAZ\GestionGeneral\obj\Debug\GestionGeneral.GUI.EMPLEADOS.DetallesEmpleado.resources
+C:\Users\MELKEE\Downloads\ProyectoDSII con BD\ProyectoDSII - INTERFAZ\GestionGeneral\obj\Debug\GestionGeneral.GUI.EMPLEADOS.EditarEmpleado.resources
+C:\Users\MELKEE\Downloads\ProyectoDSII con BD\ProyectoDSII - INTERFAZ\GestionGeneral\obj\Debug\GestionGeneral.GUI.EMPLEADOS.Empleados.resources
+C:\Users\MELKEE\Downloads\ProyectoDSII con BD\ProyectoDSII - INTERFAZ\GestionGeneral\obj\Debug\GestionGeneral.GUI.PERMISOS.Permisos.resources
+C:\Users\MELKEE\Downloads\ProyectoDSII con BD\ProyectoDSII - INTERFAZ\GestionGeneral\obj\Debug\GestionGeneral.GUI.ROLES.AgregarRol.resources
+C:\Users\MELKEE\Downloads\ProyectoDSII con BD\ProyectoDSII - INTERFAZ\GestionGeneral\obj\Debug\GestionGeneral.GUI.ROLES.EditarRol.resources
+C:\Users\MELKEE\Downloads\ProyectoDSII con BD\ProyectoDSII - INTERFAZ\GestionGeneral\obj\Debug\GestionGeneral.GUI.ROLES.Roles.resources
+C:\Users\MELKEE\Downloads\ProyectoDSII con BD\ProyectoDSII - INTERFAZ\GestionGeneral\obj\Debug\GestionGeneral.GUI.USUARIOS.AgregarUsuario.resources
+C:\Users\MELKEE\Downloads\ProyectoDSII con BD\ProyectoDSII - INTERFAZ\GestionGeneral\obj\Debug\GestionGeneral.GUI.USUARIOS.EditarEmpleado.resources
+C:\Users\MELKEE\Downloads\ProyectoDSII con BD\ProyectoDSII - INTERFAZ\GestionGeneral\obj\Debug\GestionGeneral.GUI.USUARIOS.SeleccionarEmpleado.resources
+C:\Users\MELKEE\Downloads\ProyectoDSII con BD\ProyectoDSII - INTERFAZ\GestionGeneral\obj\Debug\GestionGeneral.GUI.USUARIOS.Usuarios.resources
+C:\Users\MELKEE\Downloads\ProyectoDSII con BD\ProyectoDSII - INTERFAZ\GestionGeneral\obj\Debug\GestionGeneral.csproj.GenerateResource.Cache
+C:\Users\MELKEE\Downloads\ProyectoDSII con BD\ProyectoDSII - INTERFAZ\GestionGeneral\obj\Debug\GestionGeneral.dll
+C:\Users\MELKEE\Downloads\ProyectoDSII con BD\ProyectoDSII - INTERFAZ\GestionGeneral\obj\Debug\GestionGeneral.pdb

@@ -1,0 +1,24 @@
+C:\DES-SOFTWARE-II\ProyectoDSII\CacheManager\bin\Debug\CacheManager.dll
+C:\DES-SOFTWARE-II\ProyectoDSII\CacheManager\bin\Debug\CacheManager.pdb
+C:\DES-SOFTWARE-II\ProyectoDSII\CacheManager\bin\Debug\DataManager.dll
+C:\DES-SOFTWARE-II\ProyectoDSII\CacheManager\bin\Debug\MySql.Data.dll
+C:\DES-SOFTWARE-II\ProyectoDSII\CacheManager\bin\Debug\DataManager.pdb
+C:\DES-SOFTWARE-II\ProyectoDSII\CacheManager\obj\Debug\CacheManager.csprojResolveAssemblyReference.cache
+C:\DES-SOFTWARE-II\ProyectoDSII\CacheManager\obj\Debug\CacheManager.dll
+C:\DES-SOFTWARE-II\ProyectoDSII\CacheManager\obj\Debug\CacheManager.pdb
+C:\Users\MELKEE\Desktop\PROYECTO FINAL DESARROLLO DE SOFTWARE\ProyectoDSII\CacheManager\bin\Debug\CacheManager.dll
+C:\Users\MELKEE\Desktop\PROYECTO FINAL DESARROLLO DE SOFTWARE\ProyectoDSII\CacheManager\bin\Debug\CacheManager.pdb
+C:\Users\MELKEE\Desktop\PROYECTO FINAL DESARROLLO DE SOFTWARE\ProyectoDSII\CacheManager\bin\Debug\DataManager.dll
+C:\Users\MELKEE\Desktop\PROYECTO FINAL DESARROLLO DE SOFTWARE\ProyectoDSII\CacheManager\bin\Debug\MySql.Data.dll
+C:\Users\MELKEE\Desktop\PROYECTO FINAL DESARROLLO DE SOFTWARE\ProyectoDSII\CacheManager\bin\Debug\DataManager.pdb
+C:\Users\MELKEE\Desktop\PROYECTO FINAL DESARROLLO DE SOFTWARE\ProyectoDSII\CacheManager\obj\Debug\CacheManager.csprojResolveAssemblyReference.cache
+C:\Users\MELKEE\Desktop\PROYECTO FINAL DESARROLLO DE SOFTWARE\ProyectoDSII\CacheManager\obj\Debug\CacheManager.dll
+C:\Users\MELKEE\Desktop\PROYECTO FINAL DESARROLLO DE SOFTWARE\ProyectoDSII\CacheManager\obj\Debug\CacheManager.pdb
+D:\Universidad\Ciclo 7\1- DS2\Proyecto\Sistema\Sistema de Inventario\ProyectoDSII - INTERFAZ\CacheManager\bin\Debug\CacheManager.dll
+D:\Universidad\Ciclo 7\1- DS2\Proyecto\Sistema\Sistema de Inventario\ProyectoDSII - INTERFAZ\CacheManager\bin\Debug\CacheManager.pdb
+D:\Universidad\Ciclo 7\1- DS2\Proyecto\Sistema\Sistema de Inventario\ProyectoDSII - INTERFAZ\CacheManager\bin\Debug\DataManager.dll
+D:\Universidad\Ciclo 7\1- DS2\Proyecto\Sistema\Sistema de Inventario\ProyectoDSII - INTERFAZ\CacheManager\bin\Debug\MySql.Data.dll
+D:\Universidad\Ciclo 7\1- DS2\Proyecto\Sistema\Sistema de Inventario\ProyectoDSII - INTERFAZ\CacheManager\bin\Debug\DataManager.pdb
+D:\Universidad\Ciclo 7\1- DS2\Proyecto\Sistema\Sistema de Inventario\ProyectoDSII - INTERFAZ\CacheManager\obj\Debug\CacheManager.csprojResolveAssemblyReference.cache
+D:\Universidad\Ciclo 7\1- DS2\Proyecto\Sistema\Sistema de Inventario\ProyectoDSII - INTERFAZ\CacheManager\obj\Debug\CacheManager.dll
+D:\Universidad\Ciclo 7\1- DS2\Proyecto\Sistema\Sistema de Inventario\ProyectoDSII - INTERFAZ\CacheManager\obj\Debug\CacheManager.pdb
