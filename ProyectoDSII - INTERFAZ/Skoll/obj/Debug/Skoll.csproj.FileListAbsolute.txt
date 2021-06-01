@@ -187,3 +187,6 @@ C:\Users\MELKEE\Downloads\ProyectoDSII con BD\ProyectoDSII - INTERFAZ\Skoll\obj\
 C:\Users\MELKEE\Downloads\ProyectoDSII con BD\ProyectoDSII - INTERFAZ\Skoll\obj\Debug\Skoll.GUI.REPORTES.SeleccionarZona.resources
 C:\Users\MELKEE\Downloads\ProyectoDSII con BD\ProyectoDSII - INTERFAZ\Skoll\obj\Debug\Skoll.Properties.Resources.resources
 C:\Users\MELKEE\Downloads\ProyectoDSII con BD\ProyectoDSII - INTERFAZ\Skoll\obj\Debug\Skoll.csproj.GenerateResource.Cache
+D:\Universidad\ProyectoDSII\ProyectoADSII\ProyectoDSII - INTERFAZ\Skoll\bin\Debug\Skoll.exe.config
+D:\Universidad\ProyectoDSII\ProyectoADSII\ProyectoDSII - INTERFAZ\Skoll\obj\Debug\Skoll.exe
+D:\Universidad\ProyectoDSII\ProyectoADSII\ProyectoDSII - INTERFAZ\Skoll\obj\Debug\Skoll.pdb
