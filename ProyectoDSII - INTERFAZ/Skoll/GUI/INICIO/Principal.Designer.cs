@@ -33,7 +33,7 @@
             this.panelBG = new Guna.UI2.WinForms.Guna2Panel();
             this.panelMainContent = new Guna.UI2.WinForms.Guna2Panel();
             this.panelTop = new Guna.UI2.WinForms.Guna2Panel();
-            this.guna2Panel1 = new Guna.UI2.WinForms.Guna2Panel();
+            this.panelGestionGeneral = new Guna.UI2.WinForms.Guna2Panel();
             this.btnUsuariosAdmin2 = new Guna.UI2.WinForms.Guna2Button();
             this.btnUsuariosAdmin = new Guna.UI2.WinForms.Guna2Button();
             this.btnEmpleadosAdmin2 = new Guna.UI2.WinForms.Guna2Button();
@@ -64,6 +64,16 @@
             this.label1 = new System.Windows.Forms.Label();
             this.panelLateralIzquierdo = new Guna.UI2.WinForms.Guna2Panel();
             this.panelMenuSidebar = new Guna.UI2.WinForms.Guna2Panel();
+            this.panelSubmenuReportes = new Guna.UI2.WinForms.Guna2Panel();
+            this.btnKardex = new Guna.UI2.WinForms.Guna2Button();
+            this.btnConteo = new Guna.UI2.WinForms.Guna2Button();
+            this.btnOutputReports = new Guna.UI2.WinForms.Guna2Button();
+            this.btnInputReports = new Guna.UI2.WinForms.Guna2Button();
+            this.btnReportes = new Guna.UI2.WinForms.Guna2Button();
+            this.panelSubmenuProductos = new Guna.UI2.WinForms.Guna2Panel();
+            this.btnLista = new Guna.UI2.WinForms.Guna2Button();
+            this.btnCatalogo = new Guna.UI2.WinForms.Guna2Button();
+            this.btnProductos = new Guna.UI2.WinForms.Guna2Button();
             this.btnContratos = new Guna.UI2.WinForms.Guna2Button();
             this.btnClientes = new Guna.UI2.WinForms.Guna2Button();
             this.btnBodegas = new Guna.UI2.WinForms.Guna2Button();
@@ -73,19 +83,9 @@
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.RadiusPrincipal = new Guna.UI2.WinForms.Guna2Elipse(this.components);
             this.Hora = new System.Windows.Forms.Timer(this.components);
-            this.panelSubmenuProductos = new Guna.UI2.WinForms.Guna2Panel();
-            this.btnLista = new Guna.UI2.WinForms.Guna2Button();
-            this.btnCatalogo = new Guna.UI2.WinForms.Guna2Button();
-            this.btnProductos = new Guna.UI2.WinForms.Guna2Button();
-            this.panelSubmenuReportes = new Guna.UI2.WinForms.Guna2Panel();
-            this.btnKardex = new Guna.UI2.WinForms.Guna2Button();
-            this.btnConteo = new Guna.UI2.WinForms.Guna2Button();
-            this.btnOutputReports = new Guna.UI2.WinForms.Guna2Button();
-            this.btnInputReports = new Guna.UI2.WinForms.Guna2Button();
-            this.btnReportes = new Guna.UI2.WinForms.Guna2Button();
             this.panelBG.SuspendLayout();
             this.panelTop.SuspendLayout();
-            this.guna2Panel1.SuspendLayout();
+            this.panelGestionGeneral.SuspendLayout();
             this.panelUsr.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.btnConfig2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnConfiguracion)).BeginInit();
@@ -102,11 +102,11 @@
             ((System.ComponentModel.ISupportInitialize)(this.btnCloseApp)).BeginInit();
             this.panelLateralIzquierdo.SuspendLayout();
             this.panelMenuSidebar.SuspendLayout();
+            this.panelSubmenuReportes.SuspendLayout();
+            this.panelSubmenuProductos.SuspendLayout();
             this.panelMenuItem.SuspendLayout();
             this.panelLogoEmpresa.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            this.panelSubmenuProductos.SuspendLayout();
-            this.panelSubmenuReportes.SuspendLayout();
             this.SuspendLayout();
             // 
             // panelBG
@@ -139,7 +139,7 @@
             this.panelTop.BackColor = System.Drawing.Color.White;
             this.panelTop.BorderColor = System.Drawing.Color.Transparent;
             this.panelTop.BorderStyle = System.Drawing.Drawing2D.DashStyle.Dash;
-            this.panelTop.Controls.Add(this.guna2Panel1);
+            this.panelTop.Controls.Add(this.panelGestionGeneral);
             this.panelTop.Controls.Add(this.panelUsr);
             this.panelTop.CustomBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
             this.panelTop.Dock = System.Windows.Forms.DockStyle.Top;
@@ -149,22 +149,22 @@
             this.panelTop.Size = new System.Drawing.Size(900, 30);
             this.panelTop.TabIndex = 12;
             // 
-            // guna2Panel1
+            // panelGestionGeneral
             // 
-            this.guna2Panel1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.guna2Panel1.Controls.Add(this.btnUsuariosAdmin2);
-            this.guna2Panel1.Controls.Add(this.btnUsuariosAdmin);
-            this.guna2Panel1.Controls.Add(this.btnEmpleadosAdmin2);
-            this.guna2Panel1.Controls.Add(this.btnEmpleadosAdmin);
-            this.guna2Panel1.Controls.Add(this.btnPermisosAdmin2);
-            this.guna2Panel1.Controls.Add(this.btnPermisosAdmin);
-            this.guna2Panel1.Controls.Add(this.btnRolesAdmin2);
-            this.guna2Panel1.Controls.Add(this.btnRolesAdmin);
-            this.guna2Panel1.Location = new System.Drawing.Point(15, 0);
-            this.guna2Panel1.Name = "guna2Panel1";
-            this.guna2Panel1.ShadowDecoration.Parent = this.guna2Panel1;
-            this.guna2Panel1.Size = new System.Drawing.Size(404, 30);
-            this.guna2Panel1.TabIndex = 16;
+            this.panelGestionGeneral.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.panelGestionGeneral.Controls.Add(this.btnUsuariosAdmin2);
+            this.panelGestionGeneral.Controls.Add(this.btnUsuariosAdmin);
+            this.panelGestionGeneral.Controls.Add(this.btnEmpleadosAdmin2);
+            this.panelGestionGeneral.Controls.Add(this.btnEmpleadosAdmin);
+            this.panelGestionGeneral.Controls.Add(this.btnPermisosAdmin2);
+            this.panelGestionGeneral.Controls.Add(this.btnPermisosAdmin);
+            this.panelGestionGeneral.Controls.Add(this.btnRolesAdmin2);
+            this.panelGestionGeneral.Controls.Add(this.btnRolesAdmin);
+            this.panelGestionGeneral.Location = new System.Drawing.Point(15, 0);
+            this.panelGestionGeneral.Name = "panelGestionGeneral";
+            this.panelGestionGeneral.ShadowDecoration.Parent = this.panelGestionGeneral;
+            this.panelGestionGeneral.Size = new System.Drawing.Size(404, 30);
+            this.panelGestionGeneral.TabIndex = 16;
             // 
             // btnUsuariosAdmin2
             // 
@@ -234,13 +234,14 @@
             this.btnEmpleadosAdmin2.HoverState.Parent = this.btnEmpleadosAdmin2;
             this.btnEmpleadosAdmin2.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.btnEmpleadosAdmin2.ImageSize = new System.Drawing.Size(25, 25);
-            this.btnEmpleadosAdmin2.Location = new System.Drawing.Point(180, 2);
+            this.btnEmpleadosAdmin2.Location = new System.Drawing.Point(180, 3);
             this.btnEmpleadosAdmin2.Name = "btnEmpleadosAdmin2";
             this.btnEmpleadosAdmin2.ShadowDecoration.Parent = this.btnEmpleadosAdmin2;
             this.btnEmpleadosAdmin2.Size = new System.Drawing.Size(90, 28);
             this.btnEmpleadosAdmin2.TabIndex = 22;
             this.btnEmpleadosAdmin2.Text = "Empleados";
             this.btnEmpleadosAdmin2.TextOffset = new System.Drawing.Point(0, -3);
+            this.btnEmpleadosAdmin2.Visible = false;
             this.btnEmpleadosAdmin2.Click += new System.EventHandler(this.btnEmpleadosAdmin2_Click_1);
             // 
             // btnEmpleadosAdmin
@@ -267,6 +268,7 @@
             this.btnEmpleadosAdmin.TabIndex = 21;
             this.btnEmpleadosAdmin.Text = "Empleados";
             this.btnEmpleadosAdmin.TextOffset = new System.Drawing.Point(0, -3);
+            this.btnEmpleadosAdmin.Visible = false;
             // 
             // btnPermisosAdmin2
             // 
@@ -669,251 +671,6 @@
             this.panelMenuSidebar.Size = new System.Drawing.Size(200, 684);
             this.panelMenuSidebar.TabIndex = 0;
             // 
-            // btnContratos
-            // 
-            this.btnContratos.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(65)))), ((int)(((byte)(170)))), ((int)(((byte)(174)))));
-            this.btnContratos.CheckedState.ForeColor = System.Drawing.Color.White;
-            this.btnContratos.CheckedState.Image = ((System.Drawing.Image)(resources.GetObject("btnContratos.CheckedState.Image")));
-            this.btnContratos.CheckedState.Parent = this.btnContratos;
-            this.btnContratos.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnContratos.CustomImages.Parent = this.btnContratos;
-            this.btnContratos.Dock = System.Windows.Forms.DockStyle.Top;
-            this.btnContratos.FillColor = System.Drawing.Color.White;
-            this.btnContratos.Font = new System.Drawing.Font("Microsoft YaHei UI", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnContratos.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(5)))), ((int)(((byte)(28)))), ((int)(((byte)(88)))));
-            this.btnContratos.HoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(65)))), ((int)(((byte)(170)))), ((int)(((byte)(174)))));
-            this.btnContratos.HoverState.ForeColor = System.Drawing.Color.White;
-            this.btnContratos.HoverState.Image = ((System.Drawing.Image)(resources.GetObject("btnContratos.HoverState.Image")));
-            this.btnContratos.HoverState.Parent = this.btnContratos;
-            this.btnContratos.Image = ((System.Drawing.Image)(resources.GetObject("btnContratos.Image")));
-            this.btnContratos.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.btnContratos.ImageOffset = new System.Drawing.Point(15, 0);
-            this.btnContratos.ImageSize = new System.Drawing.Size(25, 25);
-            this.btnContratos.Location = new System.Drawing.Point(0, 172);
-            this.btnContratos.Name = "btnContratos";
-            this.btnContratos.ShadowDecoration.Parent = this.btnContratos;
-            this.btnContratos.Size = new System.Drawing.Size(200, 35);
-            this.btnContratos.TabIndex = 7;
-            this.btnContratos.Text = "Contratos";
-            this.btnContratos.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.btnContratos.TextOffset = new System.Drawing.Point(25, 0);
-            this.btnContratos.Click += new System.EventHandler(this.btnContratos_Click);
-            // 
-            // btnClientes
-            // 
-            this.btnClientes.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(65)))), ((int)(((byte)(170)))), ((int)(((byte)(174)))));
-            this.btnClientes.CheckedState.ForeColor = System.Drawing.Color.White;
-            this.btnClientes.CheckedState.Image = ((System.Drawing.Image)(resources.GetObject("btnClientes.CheckedState.Image")));
-            this.btnClientes.CheckedState.Parent = this.btnClientes;
-            this.btnClientes.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnClientes.CustomImages.Parent = this.btnClientes;
-            this.btnClientes.Dock = System.Windows.Forms.DockStyle.Top;
-            this.btnClientes.FillColor = System.Drawing.Color.White;
-            this.btnClientes.Font = new System.Drawing.Font("Microsoft YaHei UI", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnClientes.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(5)))), ((int)(((byte)(28)))), ((int)(((byte)(88)))));
-            this.btnClientes.HoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(65)))), ((int)(((byte)(170)))), ((int)(((byte)(174)))));
-            this.btnClientes.HoverState.ForeColor = System.Drawing.Color.White;
-            this.btnClientes.HoverState.Image = ((System.Drawing.Image)(resources.GetObject("btnClientes.HoverState.Image")));
-            this.btnClientes.HoverState.Parent = this.btnClientes;
-            this.btnClientes.Image = ((System.Drawing.Image)(resources.GetObject("btnClientes.Image")));
-            this.btnClientes.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.btnClientes.ImageOffset = new System.Drawing.Point(15, 0);
-            this.btnClientes.ImageSize = new System.Drawing.Size(25, 25);
-            this.btnClientes.Location = new System.Drawing.Point(0, 137);
-            this.btnClientes.Name = "btnClientes";
-            this.btnClientes.ShadowDecoration.Parent = this.btnClientes;
-            this.btnClientes.Size = new System.Drawing.Size(200, 35);
-            this.btnClientes.TabIndex = 6;
-            this.btnClientes.Text = "Clientes";
-            this.btnClientes.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.btnClientes.TextOffset = new System.Drawing.Point(25, 0);
-            this.btnClientes.Click += new System.EventHandler(this.btnClientes_Click);
-            // 
-            // btnBodegas
-            // 
-            this.btnBodegas.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(65)))), ((int)(((byte)(170)))), ((int)(((byte)(174)))));
-            this.btnBodegas.CheckedState.ForeColor = System.Drawing.Color.White;
-            this.btnBodegas.CheckedState.Image = ((System.Drawing.Image)(resources.GetObject("btnBodegas.CheckedState.Image")));
-            this.btnBodegas.CheckedState.Parent = this.btnBodegas;
-            this.btnBodegas.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnBodegas.CustomImages.Parent = this.btnBodegas;
-            this.btnBodegas.Dock = System.Windows.Forms.DockStyle.Top;
-            this.btnBodegas.FillColor = System.Drawing.Color.White;
-            this.btnBodegas.Font = new System.Drawing.Font("Microsoft YaHei UI", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnBodegas.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(5)))), ((int)(((byte)(28)))), ((int)(((byte)(88)))));
-            this.btnBodegas.HoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(65)))), ((int)(((byte)(170)))), ((int)(((byte)(174)))));
-            this.btnBodegas.HoverState.ForeColor = System.Drawing.Color.White;
-            this.btnBodegas.HoverState.Image = ((System.Drawing.Image)(resources.GetObject("btnBodegas.HoverState.Image")));
-            this.btnBodegas.HoverState.Parent = this.btnBodegas;
-            this.btnBodegas.Image = ((System.Drawing.Image)(resources.GetObject("btnBodegas.Image")));
-            this.btnBodegas.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.btnBodegas.ImageOffset = new System.Drawing.Point(15, 0);
-            this.btnBodegas.ImageSize = new System.Drawing.Size(25, 25);
-            this.btnBodegas.Location = new System.Drawing.Point(0, 102);
-            this.btnBodegas.Name = "btnBodegas";
-            this.btnBodegas.ShadowDecoration.Parent = this.btnBodegas;
-            this.btnBodegas.Size = new System.Drawing.Size(200, 35);
-            this.btnBodegas.TabIndex = 3;
-            this.btnBodegas.Text = "Bodegas";
-            this.btnBodegas.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.btnBodegas.TextOffset = new System.Drawing.Point(25, 0);
-            this.btnBodegas.Click += new System.EventHandler(this.btnBodegas_Click);
-            // 
-            // panelMenuItem
-            // 
-            this.panelMenuItem.BackColor = System.Drawing.Color.White;
-            this.panelMenuItem.Controls.Add(this.label2);
-            this.panelMenuItem.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panelMenuItem.Location = new System.Drawing.Point(0, 62);
-            this.panelMenuItem.Name = "panelMenuItem";
-            this.panelMenuItem.ShadowDecoration.Parent = this.panelMenuItem;
-            this.panelMenuItem.Size = new System.Drawing.Size(200, 40);
-            this.panelMenuItem.TabIndex = 1;
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Microsoft YaHei UI", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(5)))), ((int)(((byte)(28)))), ((int)(((byte)(88)))));
-            this.label2.Location = new System.Drawing.Point(71, 10);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(58, 19);
-            this.label2.TabIndex = 0;
-            this.label2.Text = "MENÚ";
-            // 
-            // panelLogoEmpresa
-            // 
-            this.panelLogoEmpresa.BackColor = System.Drawing.Color.White;
-            this.panelLogoEmpresa.Controls.Add(this.pictureBox1);
-            this.panelLogoEmpresa.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panelLogoEmpresa.Location = new System.Drawing.Point(0, 0);
-            this.panelLogoEmpresa.Name = "panelLogoEmpresa";
-            this.panelLogoEmpresa.ShadowDecoration.Parent = this.panelLogoEmpresa;
-            this.panelLogoEmpresa.Size = new System.Drawing.Size(200, 62);
-            this.panelLogoEmpresa.TabIndex = 0;
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(28, 9);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(130, 45);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 0;
-            this.pictureBox1.TabStop = false;
-            // 
-            // RadiusPrincipal
-            // 
-            this.RadiusPrincipal.BorderRadius = 15;
-            this.RadiusPrincipal.TargetControl = this;
-            // 
-            // Hora
-            // 
-            this.Hora.Enabled = true;
-            this.Hora.Tick += new System.EventHandler(this.Hora_Tick);
-            // 
-            // panelSubmenuProductos
-            // 
-            this.panelSubmenuProductos.Controls.Add(this.btnLista);
-            this.panelSubmenuProductos.Controls.Add(this.btnCatalogo);
-            this.panelSubmenuProductos.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panelSubmenuProductos.Location = new System.Drawing.Point(0, 242);
-            this.panelSubmenuProductos.Name = "panelSubmenuProductos";
-            this.panelSubmenuProductos.ShadowDecoration.Parent = this.panelSubmenuProductos;
-            this.panelSubmenuProductos.Size = new System.Drawing.Size(200, 70);
-            this.panelSubmenuProductos.TabIndex = 11;
-            // 
-            // btnLista
-            // 
-            this.btnLista.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(65)))), ((int)(((byte)(170)))), ((int)(((byte)(174)))));
-            this.btnLista.CheckedState.ForeColor = System.Drawing.Color.White;
-            this.btnLista.CheckedState.Image = ((System.Drawing.Image)(resources.GetObject("btnLista.CheckedState.Image")));
-            this.btnLista.CheckedState.Parent = this.btnLista;
-            this.btnLista.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnLista.CustomImages.Parent = this.btnLista;
-            this.btnLista.Dock = System.Windows.Forms.DockStyle.Top;
-            this.btnLista.FillColor = System.Drawing.Color.White;
-            this.btnLista.Font = new System.Drawing.Font("Microsoft YaHei UI", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnLista.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(5)))), ((int)(((byte)(28)))), ((int)(((byte)(88)))));
-            this.btnLista.HoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(65)))), ((int)(((byte)(170)))), ((int)(((byte)(174)))));
-            this.btnLista.HoverState.ForeColor = System.Drawing.Color.White;
-            this.btnLista.HoverState.Image = ((System.Drawing.Image)(resources.GetObject("btnLista.HoverState.Image")));
-            this.btnLista.HoverState.Parent = this.btnLista;
-            this.btnLista.Image = ((System.Drawing.Image)(resources.GetObject("btnLista.Image")));
-            this.btnLista.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.btnLista.ImageOffset = new System.Drawing.Point(35, 0);
-            this.btnLista.ImageSize = new System.Drawing.Size(25, 25);
-            this.btnLista.Location = new System.Drawing.Point(0, 35);
-            this.btnLista.Name = "btnLista";
-            this.btnLista.ShadowDecoration.Parent = this.btnLista;
-            this.btnLista.Size = new System.Drawing.Size(200, 35);
-            this.btnLista.TabIndex = 1;
-            this.btnLista.Text = "Lista";
-            this.btnLista.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.btnLista.TextOffset = new System.Drawing.Point(45, 0);
-            this.btnLista.Click += new System.EventHandler(this.btnLista_Click_1);
-            // 
-            // btnCatalogo
-            // 
-            this.btnCatalogo.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(65)))), ((int)(((byte)(170)))), ((int)(((byte)(174)))));
-            this.btnCatalogo.CheckedState.ForeColor = System.Drawing.Color.White;
-            this.btnCatalogo.CheckedState.Image = ((System.Drawing.Image)(resources.GetObject("btnCatalogo.CheckedState.Image")));
-            this.btnCatalogo.CheckedState.Parent = this.btnCatalogo;
-            this.btnCatalogo.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnCatalogo.CustomImages.Parent = this.btnCatalogo;
-            this.btnCatalogo.Dock = System.Windows.Forms.DockStyle.Top;
-            this.btnCatalogo.FillColor = System.Drawing.Color.White;
-            this.btnCatalogo.Font = new System.Drawing.Font("Microsoft YaHei UI", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnCatalogo.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(5)))), ((int)(((byte)(28)))), ((int)(((byte)(88)))));
-            this.btnCatalogo.HoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(65)))), ((int)(((byte)(170)))), ((int)(((byte)(174)))));
-            this.btnCatalogo.HoverState.ForeColor = System.Drawing.Color.White;
-            this.btnCatalogo.HoverState.Image = ((System.Drawing.Image)(resources.GetObject("btnCatalogo.HoverState.Image")));
-            this.btnCatalogo.HoverState.Parent = this.btnCatalogo;
-            this.btnCatalogo.Image = ((System.Drawing.Image)(resources.GetObject("btnCatalogo.Image")));
-            this.btnCatalogo.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.btnCatalogo.ImageOffset = new System.Drawing.Point(35, 0);
-            this.btnCatalogo.ImageSize = new System.Drawing.Size(25, 25);
-            this.btnCatalogo.Location = new System.Drawing.Point(0, 0);
-            this.btnCatalogo.Name = "btnCatalogo";
-            this.btnCatalogo.ShadowDecoration.Parent = this.btnCatalogo;
-            this.btnCatalogo.Size = new System.Drawing.Size(200, 35);
-            this.btnCatalogo.TabIndex = 0;
-            this.btnCatalogo.Text = "Catálogo";
-            this.btnCatalogo.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.btnCatalogo.TextOffset = new System.Drawing.Point(45, 0);
-            this.btnCatalogo.Click += new System.EventHandler(this.btnCatalogo_Click_1);
-            // 
-            // btnProductos
-            // 
-            this.btnProductos.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(65)))), ((int)(((byte)(170)))), ((int)(((byte)(174)))));
-            this.btnProductos.CheckedState.ForeColor = System.Drawing.Color.White;
-            this.btnProductos.CheckedState.Image = ((System.Drawing.Image)(resources.GetObject("btnProductos.CheckedState.Image")));
-            this.btnProductos.CheckedState.Parent = this.btnProductos;
-            this.btnProductos.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnProductos.CustomImages.Parent = this.btnProductos;
-            this.btnProductos.Dock = System.Windows.Forms.DockStyle.Top;
-            this.btnProductos.FillColor = System.Drawing.Color.White;
-            this.btnProductos.Font = new System.Drawing.Font("Microsoft YaHei UI", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnProductos.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(5)))), ((int)(((byte)(28)))), ((int)(((byte)(88)))));
-            this.btnProductos.HoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(65)))), ((int)(((byte)(170)))), ((int)(((byte)(174)))));
-            this.btnProductos.HoverState.ForeColor = System.Drawing.Color.White;
-            this.btnProductos.HoverState.Image = ((System.Drawing.Image)(resources.GetObject("btnProductos.HoverState.Image")));
-            this.btnProductos.HoverState.Parent = this.btnProductos;
-            this.btnProductos.Image = ((System.Drawing.Image)(resources.GetObject("btnProductos.Image")));
-            this.btnProductos.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.btnProductos.ImageOffset = new System.Drawing.Point(15, 0);
-            this.btnProductos.ImageSize = new System.Drawing.Size(25, 25);
-            this.btnProductos.Location = new System.Drawing.Point(0, 207);
-            this.btnProductos.Name = "btnProductos";
-            this.btnProductos.ShadowDecoration.Parent = this.btnProductos;
-            this.btnProductos.Size = new System.Drawing.Size(200, 35);
-            this.btnProductos.TabIndex = 10;
-            this.btnProductos.Text = "Productos";
-            this.btnProductos.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.btnProductos.TextOffset = new System.Drawing.Point(25, 0);
-            this.btnProductos.Click += new System.EventHandler(this.btnProductos_Click_1);
-            // 
             // panelSubmenuReportes
             // 
             this.panelSubmenuReportes.Controls.Add(this.btnKardex);
@@ -1077,6 +834,251 @@
             this.btnReportes.TextOffset = new System.Drawing.Point(25, 0);
             this.btnReportes.Click += new System.EventHandler(this.btnReportes_Click_1);
             // 
+            // panelSubmenuProductos
+            // 
+            this.panelSubmenuProductos.Controls.Add(this.btnLista);
+            this.panelSubmenuProductos.Controls.Add(this.btnCatalogo);
+            this.panelSubmenuProductos.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panelSubmenuProductos.Location = new System.Drawing.Point(0, 242);
+            this.panelSubmenuProductos.Name = "panelSubmenuProductos";
+            this.panelSubmenuProductos.ShadowDecoration.Parent = this.panelSubmenuProductos;
+            this.panelSubmenuProductos.Size = new System.Drawing.Size(200, 70);
+            this.panelSubmenuProductos.TabIndex = 11;
+            // 
+            // btnLista
+            // 
+            this.btnLista.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(65)))), ((int)(((byte)(170)))), ((int)(((byte)(174)))));
+            this.btnLista.CheckedState.ForeColor = System.Drawing.Color.White;
+            this.btnLista.CheckedState.Image = ((System.Drawing.Image)(resources.GetObject("btnLista.CheckedState.Image")));
+            this.btnLista.CheckedState.Parent = this.btnLista;
+            this.btnLista.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnLista.CustomImages.Parent = this.btnLista;
+            this.btnLista.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btnLista.FillColor = System.Drawing.Color.White;
+            this.btnLista.Font = new System.Drawing.Font("Microsoft YaHei UI", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnLista.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(5)))), ((int)(((byte)(28)))), ((int)(((byte)(88)))));
+            this.btnLista.HoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(65)))), ((int)(((byte)(170)))), ((int)(((byte)(174)))));
+            this.btnLista.HoverState.ForeColor = System.Drawing.Color.White;
+            this.btnLista.HoverState.Image = ((System.Drawing.Image)(resources.GetObject("btnLista.HoverState.Image")));
+            this.btnLista.HoverState.Parent = this.btnLista;
+            this.btnLista.Image = ((System.Drawing.Image)(resources.GetObject("btnLista.Image")));
+            this.btnLista.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.btnLista.ImageOffset = new System.Drawing.Point(35, 0);
+            this.btnLista.ImageSize = new System.Drawing.Size(25, 25);
+            this.btnLista.Location = new System.Drawing.Point(0, 35);
+            this.btnLista.Name = "btnLista";
+            this.btnLista.ShadowDecoration.Parent = this.btnLista;
+            this.btnLista.Size = new System.Drawing.Size(200, 35);
+            this.btnLista.TabIndex = 1;
+            this.btnLista.Text = "Lista";
+            this.btnLista.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.btnLista.TextOffset = new System.Drawing.Point(45, 0);
+            this.btnLista.Click += new System.EventHandler(this.btnLista_Click_1);
+            // 
+            // btnCatalogo
+            // 
+            this.btnCatalogo.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(65)))), ((int)(((byte)(170)))), ((int)(((byte)(174)))));
+            this.btnCatalogo.CheckedState.ForeColor = System.Drawing.Color.White;
+            this.btnCatalogo.CheckedState.Image = ((System.Drawing.Image)(resources.GetObject("btnCatalogo.CheckedState.Image")));
+            this.btnCatalogo.CheckedState.Parent = this.btnCatalogo;
+            this.btnCatalogo.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnCatalogo.CustomImages.Parent = this.btnCatalogo;
+            this.btnCatalogo.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btnCatalogo.FillColor = System.Drawing.Color.White;
+            this.btnCatalogo.Font = new System.Drawing.Font("Microsoft YaHei UI", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnCatalogo.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(5)))), ((int)(((byte)(28)))), ((int)(((byte)(88)))));
+            this.btnCatalogo.HoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(65)))), ((int)(((byte)(170)))), ((int)(((byte)(174)))));
+            this.btnCatalogo.HoverState.ForeColor = System.Drawing.Color.White;
+            this.btnCatalogo.HoverState.Image = ((System.Drawing.Image)(resources.GetObject("btnCatalogo.HoverState.Image")));
+            this.btnCatalogo.HoverState.Parent = this.btnCatalogo;
+            this.btnCatalogo.Image = ((System.Drawing.Image)(resources.GetObject("btnCatalogo.Image")));
+            this.btnCatalogo.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.btnCatalogo.ImageOffset = new System.Drawing.Point(35, 0);
+            this.btnCatalogo.ImageSize = new System.Drawing.Size(25, 25);
+            this.btnCatalogo.Location = new System.Drawing.Point(0, 0);
+            this.btnCatalogo.Name = "btnCatalogo";
+            this.btnCatalogo.ShadowDecoration.Parent = this.btnCatalogo;
+            this.btnCatalogo.Size = new System.Drawing.Size(200, 35);
+            this.btnCatalogo.TabIndex = 0;
+            this.btnCatalogo.Text = "Catálogo";
+            this.btnCatalogo.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.btnCatalogo.TextOffset = new System.Drawing.Point(45, 0);
+            this.btnCatalogo.Click += new System.EventHandler(this.btnCatalogo_Click_1);
+            // 
+            // btnProductos
+            // 
+            this.btnProductos.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(65)))), ((int)(((byte)(170)))), ((int)(((byte)(174)))));
+            this.btnProductos.CheckedState.ForeColor = System.Drawing.Color.White;
+            this.btnProductos.CheckedState.Image = ((System.Drawing.Image)(resources.GetObject("btnProductos.CheckedState.Image")));
+            this.btnProductos.CheckedState.Parent = this.btnProductos;
+            this.btnProductos.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnProductos.CustomImages.Parent = this.btnProductos;
+            this.btnProductos.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btnProductos.FillColor = System.Drawing.Color.White;
+            this.btnProductos.Font = new System.Drawing.Font("Microsoft YaHei UI", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnProductos.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(5)))), ((int)(((byte)(28)))), ((int)(((byte)(88)))));
+            this.btnProductos.HoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(65)))), ((int)(((byte)(170)))), ((int)(((byte)(174)))));
+            this.btnProductos.HoverState.ForeColor = System.Drawing.Color.White;
+            this.btnProductos.HoverState.Image = ((System.Drawing.Image)(resources.GetObject("btnProductos.HoverState.Image")));
+            this.btnProductos.HoverState.Parent = this.btnProductos;
+            this.btnProductos.Image = ((System.Drawing.Image)(resources.GetObject("btnProductos.Image")));
+            this.btnProductos.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.btnProductos.ImageOffset = new System.Drawing.Point(15, 0);
+            this.btnProductos.ImageSize = new System.Drawing.Size(25, 25);
+            this.btnProductos.Location = new System.Drawing.Point(0, 207);
+            this.btnProductos.Name = "btnProductos";
+            this.btnProductos.ShadowDecoration.Parent = this.btnProductos;
+            this.btnProductos.Size = new System.Drawing.Size(200, 35);
+            this.btnProductos.TabIndex = 10;
+            this.btnProductos.Text = "Productos";
+            this.btnProductos.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.btnProductos.TextOffset = new System.Drawing.Point(25, 0);
+            this.btnProductos.Click += new System.EventHandler(this.btnProductos_Click_1);
+            // 
+            // btnContratos
+            // 
+            this.btnContratos.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(65)))), ((int)(((byte)(170)))), ((int)(((byte)(174)))));
+            this.btnContratos.CheckedState.ForeColor = System.Drawing.Color.White;
+            this.btnContratos.CheckedState.Image = ((System.Drawing.Image)(resources.GetObject("btnContratos.CheckedState.Image")));
+            this.btnContratos.CheckedState.Parent = this.btnContratos;
+            this.btnContratos.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnContratos.CustomImages.Parent = this.btnContratos;
+            this.btnContratos.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btnContratos.FillColor = System.Drawing.Color.White;
+            this.btnContratos.Font = new System.Drawing.Font("Microsoft YaHei UI", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnContratos.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(5)))), ((int)(((byte)(28)))), ((int)(((byte)(88)))));
+            this.btnContratos.HoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(65)))), ((int)(((byte)(170)))), ((int)(((byte)(174)))));
+            this.btnContratos.HoverState.ForeColor = System.Drawing.Color.White;
+            this.btnContratos.HoverState.Image = ((System.Drawing.Image)(resources.GetObject("btnContratos.HoverState.Image")));
+            this.btnContratos.HoverState.Parent = this.btnContratos;
+            this.btnContratos.Image = ((System.Drawing.Image)(resources.GetObject("btnContratos.Image")));
+            this.btnContratos.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.btnContratos.ImageOffset = new System.Drawing.Point(15, 0);
+            this.btnContratos.ImageSize = new System.Drawing.Size(25, 25);
+            this.btnContratos.Location = new System.Drawing.Point(0, 172);
+            this.btnContratos.Name = "btnContratos";
+            this.btnContratos.ShadowDecoration.Parent = this.btnContratos;
+            this.btnContratos.Size = new System.Drawing.Size(200, 35);
+            this.btnContratos.TabIndex = 7;
+            this.btnContratos.Text = "Contratos";
+            this.btnContratos.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.btnContratos.TextOffset = new System.Drawing.Point(25, 0);
+            this.btnContratos.Click += new System.EventHandler(this.btnContratos_Click);
+            // 
+            // btnClientes
+            // 
+            this.btnClientes.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(65)))), ((int)(((byte)(170)))), ((int)(((byte)(174)))));
+            this.btnClientes.CheckedState.ForeColor = System.Drawing.Color.White;
+            this.btnClientes.CheckedState.Image = ((System.Drawing.Image)(resources.GetObject("btnClientes.CheckedState.Image")));
+            this.btnClientes.CheckedState.Parent = this.btnClientes;
+            this.btnClientes.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnClientes.CustomImages.Parent = this.btnClientes;
+            this.btnClientes.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btnClientes.FillColor = System.Drawing.Color.White;
+            this.btnClientes.Font = new System.Drawing.Font("Microsoft YaHei UI", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnClientes.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(5)))), ((int)(((byte)(28)))), ((int)(((byte)(88)))));
+            this.btnClientes.HoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(65)))), ((int)(((byte)(170)))), ((int)(((byte)(174)))));
+            this.btnClientes.HoverState.ForeColor = System.Drawing.Color.White;
+            this.btnClientes.HoverState.Image = ((System.Drawing.Image)(resources.GetObject("btnClientes.HoverState.Image")));
+            this.btnClientes.HoverState.Parent = this.btnClientes;
+            this.btnClientes.Image = ((System.Drawing.Image)(resources.GetObject("btnClientes.Image")));
+            this.btnClientes.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.btnClientes.ImageOffset = new System.Drawing.Point(15, 0);
+            this.btnClientes.ImageSize = new System.Drawing.Size(25, 25);
+            this.btnClientes.Location = new System.Drawing.Point(0, 137);
+            this.btnClientes.Name = "btnClientes";
+            this.btnClientes.ShadowDecoration.Parent = this.btnClientes;
+            this.btnClientes.Size = new System.Drawing.Size(200, 35);
+            this.btnClientes.TabIndex = 6;
+            this.btnClientes.Text = "Clientes";
+            this.btnClientes.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.btnClientes.TextOffset = new System.Drawing.Point(25, 0);
+            this.btnClientes.Click += new System.EventHandler(this.btnClientes_Click);
+            // 
+            // btnBodegas
+            // 
+            this.btnBodegas.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(65)))), ((int)(((byte)(170)))), ((int)(((byte)(174)))));
+            this.btnBodegas.CheckedState.ForeColor = System.Drawing.Color.White;
+            this.btnBodegas.CheckedState.Image = ((System.Drawing.Image)(resources.GetObject("btnBodegas.CheckedState.Image")));
+            this.btnBodegas.CheckedState.Parent = this.btnBodegas;
+            this.btnBodegas.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnBodegas.CustomImages.Parent = this.btnBodegas;
+            this.btnBodegas.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btnBodegas.FillColor = System.Drawing.Color.White;
+            this.btnBodegas.Font = new System.Drawing.Font("Microsoft YaHei UI", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnBodegas.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(5)))), ((int)(((byte)(28)))), ((int)(((byte)(88)))));
+            this.btnBodegas.HoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(65)))), ((int)(((byte)(170)))), ((int)(((byte)(174)))));
+            this.btnBodegas.HoverState.ForeColor = System.Drawing.Color.White;
+            this.btnBodegas.HoverState.Image = ((System.Drawing.Image)(resources.GetObject("btnBodegas.HoverState.Image")));
+            this.btnBodegas.HoverState.Parent = this.btnBodegas;
+            this.btnBodegas.Image = ((System.Drawing.Image)(resources.GetObject("btnBodegas.Image")));
+            this.btnBodegas.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.btnBodegas.ImageOffset = new System.Drawing.Point(15, 0);
+            this.btnBodegas.ImageSize = new System.Drawing.Size(25, 25);
+            this.btnBodegas.Location = new System.Drawing.Point(0, 102);
+            this.btnBodegas.Name = "btnBodegas";
+            this.btnBodegas.ShadowDecoration.Parent = this.btnBodegas;
+            this.btnBodegas.Size = new System.Drawing.Size(200, 35);
+            this.btnBodegas.TabIndex = 3;
+            this.btnBodegas.Text = "Bodegas";
+            this.btnBodegas.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.btnBodegas.TextOffset = new System.Drawing.Point(25, 0);
+            this.btnBodegas.Click += new System.EventHandler(this.btnBodegas_Click);
+            // 
+            // panelMenuItem
+            // 
+            this.panelMenuItem.BackColor = System.Drawing.Color.White;
+            this.panelMenuItem.Controls.Add(this.label2);
+            this.panelMenuItem.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panelMenuItem.Location = new System.Drawing.Point(0, 62);
+            this.panelMenuItem.Name = "panelMenuItem";
+            this.panelMenuItem.ShadowDecoration.Parent = this.panelMenuItem;
+            this.panelMenuItem.Size = new System.Drawing.Size(200, 40);
+            this.panelMenuItem.TabIndex = 1;
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Microsoft YaHei UI", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(5)))), ((int)(((byte)(28)))), ((int)(((byte)(88)))));
+            this.label2.Location = new System.Drawing.Point(71, 10);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(58, 19);
+            this.label2.TabIndex = 0;
+            this.label2.Text = "MENÚ";
+            // 
+            // panelLogoEmpresa
+            // 
+            this.panelLogoEmpresa.BackColor = System.Drawing.Color.White;
+            this.panelLogoEmpresa.Controls.Add(this.pictureBox1);
+            this.panelLogoEmpresa.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panelLogoEmpresa.Location = new System.Drawing.Point(0, 0);
+            this.panelLogoEmpresa.Name = "panelLogoEmpresa";
+            this.panelLogoEmpresa.ShadowDecoration.Parent = this.panelLogoEmpresa;
+            this.panelLogoEmpresa.Size = new System.Drawing.Size(200, 62);
+            this.panelLogoEmpresa.TabIndex = 0;
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Location = new System.Drawing.Point(28, 9);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(130, 45);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 0;
+            this.pictureBox1.TabStop = false;
+            // 
+            // RadiusPrincipal
+            // 
+            this.RadiusPrincipal.BorderRadius = 15;
+            this.RadiusPrincipal.TargetControl = this;
+            // 
+            // Hora
+            // 
+            this.Hora.Enabled = true;
+            this.Hora.Tick += new System.EventHandler(this.Hora_Tick);
+            // 
             // Principal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -1092,7 +1094,7 @@
             this.Load += new System.EventHandler(this.Principal_Load);
             this.panelBG.ResumeLayout(false);
             this.panelTop.ResumeLayout(false);
-            this.guna2Panel1.ResumeLayout(false);
+            this.panelGestionGeneral.ResumeLayout(false);
             this.panelUsr.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.btnConfig2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnConfiguracion)).EndInit();
@@ -1112,12 +1114,12 @@
             ((System.ComponentModel.ISupportInitialize)(this.btnCloseApp)).EndInit();
             this.panelLateralIzquierdo.ResumeLayout(false);
             this.panelMenuSidebar.ResumeLayout(false);
+            this.panelSubmenuReportes.ResumeLayout(false);
+            this.panelSubmenuProductos.ResumeLayout(false);
             this.panelMenuItem.ResumeLayout(false);
             this.panelMenuItem.PerformLayout();
             this.panelLogoEmpresa.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            this.panelSubmenuProductos.ResumeLayout(false);
-            this.panelSubmenuReportes.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -1158,7 +1160,7 @@
         private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.Label lblHora;
         public System.Windows.Forms.Timer Hora;
-        private Guna.UI2.WinForms.Guna2Panel guna2Panel1;
+        private Guna.UI2.WinForms.Guna2Panel panelGestionGeneral;
         private Guna.UI2.WinForms.Guna2Button btnUsuariosAdmin2;
         private Guna.UI2.WinForms.Guna2Button btnUsuariosAdmin;
         private Guna.UI2.WinForms.Guna2Button btnEmpleadosAdmin2;

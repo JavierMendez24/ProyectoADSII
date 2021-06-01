@@ -12,6 +12,8 @@ namespace Skoll.GUI.REPORTES
 {
     public partial class ReportesKardex : Form
     {
+        SesionManager.CLS.Sesion oSesion = SesionManager.CLS.Sesion.Instancia;
+
         public ReportesKardex()
         {
             InitializeComponent();
@@ -34,6 +36,14 @@ namespace Skoll.GUI.REPORTES
             else
             {
 
+            }
+        }
+
+        private void btnGenerarReporteKardex_Click(object sender, EventArgs e)
+        {
+            if (oSesion.ComprobarPermisos(16))
+            {
+                // CODIGO DE GENERAR REPORTE KARDEX AQUI
             }
         }
     }

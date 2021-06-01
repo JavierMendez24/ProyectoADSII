@@ -12,24 +12,26 @@ namespace Skoll.GUI.INICIO
 {
     public partial class Principal : Form 
     {
-     
+        SesionManager.CLS.Sesion oSesion = SesionManager.CLS.Sesion.Instancia;
+
         public Principal()
         {
-            InitializeComponent();
-            customizeDesign();
-            btnRolesAdmin.Visible = false;
-            btnUsuariosAdmin.Visible = false;
-            btnEmpleadosAdmin.Visible = false;
-            btnPermisosAdmin.Visible = false;
-            btnRolesAdmin2.Visible = true;
-            btnUsuariosAdmin2.Visible = true;
-            btnEmpleadosAdmin2.Visible = true;
-            btnPermisosAdmin2.Visible = true;
-            btnConfig2.Visible = false;
-            panelConfig.Visible = false;
-            BODEGAS.Bodegas bdg = new BODEGAS.Bodegas();
-            AddFormulario(bdg);
-            btnBodegas.Checked = true;
+                InitializeComponent();
+                customizeDesign();
+                btnRolesAdmin.Visible = false;
+                btnUsuariosAdmin.Visible = false;
+                btnEmpleadosAdmin.Visible = false;
+                btnPermisosAdmin.Visible = false;
+                btnRolesAdmin2.Visible = true;
+                btnUsuariosAdmin2.Visible = true;
+                btnEmpleadosAdmin2.Visible = true;
+                btnPermisosAdmin2.Visible = true;
+                btnConfig2.Visible = false;
+                panelConfig.Visible = false;
+                BODEGAS.Bodegas bdg = new BODEGAS.Bodegas();
+                AddFormulario(bdg);
+                btnBodegas.Checked = true;
+            
         }
 
         private void AddFormulario(Form f)
@@ -268,68 +270,77 @@ namespace Skoll.GUI.INICIO
 
         private void btnClientes_Click(object sender, EventArgs e)
         {
-            if (btnClientes.Checked == true)
+            // VER CLIENTES
+            if (oSesion.ComprobarPermisos(2))
             {
-                //evita recargar el form       
+                if (btnClientes.Checked == true)
+                {
+                    //evita recargar el form
+                }
+                else
+                {
+                    CLIENTES.Clientes cte = new CLIENTES.Clientes();
+                    AddFormulario(cte);
+                    btnBodegas.Checked = false;
+                    btnCatalogo.Checked = false;
+                    btnLista.Checked = false;
+                    btnClientes.Checked = true;
+                    btnContratos.Checked = false;
+                    btnInputReports.Checked = false;
+                    btnOutputReports.Checked = false;
+                    btnConteo.Checked = false;
+                    btnKardex.Checked = false;
+                    btnUsuariosAdmin.Visible = false;
+                    btnUsuariosAdmin2.Visible = true;
+                    btnRolesAdmin.Visible = false;
+                    btnRolesAdmin2.Visible = true;
+                    btnPermisosAdmin.Visible = false;
+                    btnPermisosAdmin2.Visible = true;
+                    btnEmpleadosAdmin.Visible = false;
+                    btnEmpleadosAdmin2.Visible = true;
+                    btnConfiguracion.Visible = true;
+                    btnConfig2.Visible = false;
+                    panelConfig.Visible = false;
+                }
             }
-            else
-            {
-                CLIENTES.Clientes cte = new CLIENTES.Clientes();
-                AddFormulario(cte);
-                btnBodegas.Checked = false;
-                btnCatalogo.Checked = false;
-                btnLista.Checked = false;
-                btnClientes.Checked = true;
-                btnContratos.Checked = false;
-                btnInputReports.Checked = false;
-                btnOutputReports.Checked = false;
-                btnConteo.Checked = false;
-                btnKardex.Checked = false;
-                btnUsuariosAdmin.Visible = false;
-                btnUsuariosAdmin2.Visible = true;
-                btnRolesAdmin.Visible = false;
-                btnRolesAdmin2.Visible = true;
-                btnPermisosAdmin.Visible = false;
-                btnPermisosAdmin2.Visible = true;
-                btnEmpleadosAdmin.Visible = false;
-                btnEmpleadosAdmin2.Visible = true;
-                btnConfiguracion.Visible = true;
-                btnConfig2.Visible = false;
-                panelConfig.Visible = false;
-            }
+            
         }
 
         private void btnContratos_Click(object sender, EventArgs e)
         {
-            if (btnContratos.Checked == true)
+            if (oSesion.ComprobarPermisos(4))
             {
-                //evita recargar el form       
+                if (btnContratos.Checked == true)
+                {
+                    //evita recargar el form       
+                }
+                else
+                {
+                    CONTRATOS.Contratos ctt = new CONTRATOS.Contratos();
+                    AddFormulario(ctt);
+                    btnBodegas.Checked = false;
+                    btnCatalogo.Checked = false;
+                    btnLista.Checked = false;
+                    btnClientes.Checked = false;
+                    btnContratos.Checked = true;
+                    btnInputReports.Checked = false;
+                    btnOutputReports.Checked = false;
+                    btnConteo.Checked = false;
+                    btnKardex.Checked = false;
+                    btnUsuariosAdmin.Visible = false;
+                    btnUsuariosAdmin2.Visible = true;
+                    btnRolesAdmin.Visible = false;
+                    btnRolesAdmin2.Visible = true;
+                    btnPermisosAdmin.Visible = false;
+                    btnPermisosAdmin2.Visible = true;
+                    btnEmpleadosAdmin.Visible = false;
+                    btnEmpleadosAdmin2.Visible = true;
+                    btnConfiguracion.Visible = true;
+                    btnConfig2.Visible = false;
+                    panelConfig.Visible = false;
+                }
             }
-            else
-            {
-                CONTRATOS.Contratos ctt = new CONTRATOS.Contratos();
-                AddFormulario(ctt);
-                btnBodegas.Checked = false;
-                btnCatalogo.Checked = false;
-                btnLista.Checked = false;
-                btnClientes.Checked = false;
-                btnContratos.Checked = true;
-                btnInputReports.Checked = false;
-                btnOutputReports.Checked = false;
-                btnConteo.Checked = false;
-                btnKardex.Checked = false;
-                btnUsuariosAdmin.Visible = false;
-                btnUsuariosAdmin2.Visible = true;
-                btnRolesAdmin.Visible = false;
-                btnRolesAdmin2.Visible = true;
-                btnPermisosAdmin.Visible = false;
-                btnPermisosAdmin2.Visible = true;
-                btnEmpleadosAdmin.Visible = false;
-                btnEmpleadosAdmin2.Visible = true;
-                btnConfiguracion.Visible = true;
-                btnConfig2.Visible = false;
-                panelConfig.Visible = false;
-            }
+            
         }
 
         private void btnProductos_Click_1(object sender, EventArgs e)
@@ -339,68 +350,76 @@ namespace Skoll.GUI.INICIO
 
         private void btnCatalogo_Click_1(object sender, EventArgs e)
         {
-            if (btnCatalogo.Checked == true)
+            if (oSesion.ComprobarPermisos(6))
             {
-                //evita recargar el form       
+                if (btnCatalogo.Checked == true)
+                {
+                    //evita recargar el form       
+                }
+                else
+                {
+                    GUI.PRODUCTOS.Catalogo ctg = new GUI.PRODUCTOS.Catalogo();
+                    AddFormulario(ctg);
+                    btnBodegas.Checked = false;
+                    btnCatalogo.Checked = true;
+                    btnLista.Checked = false;
+                    btnClientes.Checked = false;
+                    btnContratos.Checked = false;
+                    btnInputReports.Checked = false;
+                    btnOutputReports.Checked = false;
+                    btnConteo.Checked = false;
+                    btnKardex.Checked = false;
+                    btnUsuariosAdmin.Visible = false;
+                    btnUsuariosAdmin2.Visible = true;
+                    btnRolesAdmin.Visible = false;
+                    btnRolesAdmin2.Visible = true;
+                    btnPermisosAdmin.Visible = false;
+                    btnPermisosAdmin2.Visible = true;
+                    btnEmpleadosAdmin.Visible = false;
+                    btnEmpleadosAdmin2.Visible = true;
+                    btnConfiguracion.Visible = true;
+                    btnConfig2.Visible = false;
+                    panelConfig.Visible = false;
+                }
             }
-            else
-            {
-                GUI.PRODUCTOS.Catalogo ctg = new GUI.PRODUCTOS.Catalogo();
-                AddFormulario(ctg);
-                btnBodegas.Checked = false;
-                btnCatalogo.Checked = true;
-                btnLista.Checked = false;
-                btnClientes.Checked = false;
-                btnContratos.Checked = false;
-                btnInputReports.Checked = false;
-                btnOutputReports.Checked = false;
-                btnConteo.Checked = false;
-                btnKardex.Checked = false;
-                btnUsuariosAdmin.Visible = false;
-                btnUsuariosAdmin2.Visible = true;
-                btnRolesAdmin.Visible = false;
-                btnRolesAdmin2.Visible = true;
-                btnPermisosAdmin.Visible = false;
-                btnPermisosAdmin2.Visible = true;
-                btnEmpleadosAdmin.Visible = false;
-                btnEmpleadosAdmin2.Visible = true;
-                btnConfiguracion.Visible = true;
-                btnConfig2.Visible = false;
-                panelConfig.Visible = false;
-            }
+            
         }
 
         private void btnLista_Click_1(object sender, EventArgs e)
         {
-            if (btnLista.Checked == true)
+            if (oSesion.ComprobarPermisos(8))
             {
-                //evita recargar el form       
+                if (btnLista.Checked == true)
+                {
+                    //evita recargar el form       
+                }
+                else
+                {
+                    GUI.PRODUCTOS.Lista lst = new GUI.PRODUCTOS.Lista();
+                    AddFormulario(lst);
+                    btnBodegas.Checked = false;
+                    btnCatalogo.Checked = false;
+                    btnLista.Checked = true;
+                    btnClientes.Checked = false;
+                    btnContratos.Checked = false;
+                    btnInputReports.Checked = false;
+                    btnOutputReports.Checked = false;
+                    btnConteo.Checked = false;
+                    btnKardex.Checked = false;
+                    btnUsuariosAdmin.Visible = false;
+                    btnUsuariosAdmin2.Visible = true;
+                    btnRolesAdmin.Visible = false;
+                    btnRolesAdmin2.Visible = true;
+                    btnPermisosAdmin.Visible = false;
+                    btnPermisosAdmin2.Visible = true;
+                    btnEmpleadosAdmin.Visible = false;
+                    btnEmpleadosAdmin2.Visible = true;
+                    btnConfiguracion.Visible = true;
+                    btnConfig2.Visible = false;
+                    panelConfig.Visible = false;
+                }
             }
-            else
-            {
-                GUI.PRODUCTOS.Lista lst = new GUI.PRODUCTOS.Lista();
-                AddFormulario(lst);
-                btnBodegas.Checked = false;
-                btnCatalogo.Checked = false;
-                btnLista.Checked = true;
-                btnClientes.Checked = false;
-                btnContratos.Checked = false;
-                btnInputReports.Checked = false;
-                btnOutputReports.Checked = false;
-                btnConteo.Checked = false;
-                btnKardex.Checked = false;
-                btnUsuariosAdmin.Visible = false;
-                btnUsuariosAdmin2.Visible = true;
-                btnRolesAdmin.Visible = false;
-                btnRolesAdmin2.Visible = true;
-                btnPermisosAdmin.Visible = false;
-                btnPermisosAdmin2.Visible = true;
-                btnEmpleadosAdmin.Visible = false;
-                btnEmpleadosAdmin2.Visible = true;
-                btnConfiguracion.Visible = true;
-                btnConfig2.Visible = false;
-                panelConfig.Visible = false;
-            }
+            
         }
 
         private void btnReportes_Click_1(object sender, EventArgs e)
@@ -410,68 +429,76 @@ namespace Skoll.GUI.INICIO
 
         private void btnInputReports_Click_1(object sender, EventArgs e)
         {
-            if (btnInputReports.Checked == true)
+            if (oSesion.ComprobarPermisos(10))
             {
-                //evita recargar el form       
+                if (btnInputReports.Checked == true)
+                {
+                    //evita recargar el form       
+                }
+                else
+                {
+                    REPORTES.ReportesEntrada rpte = new REPORTES.ReportesEntrada();
+                    AddFormulario(rpte);
+                    btnBodegas.Checked = false;
+                    btnCatalogo.Checked = false;
+                    btnLista.Checked = false;
+                    btnClientes.Checked = false;
+                    btnContratos.Checked = false;
+                    btnInputReports.Checked = true;
+                    btnOutputReports.Checked = false;
+                    btnConteo.Checked = false;
+                    btnKardex.Checked = false;
+                    btnUsuariosAdmin.Visible = false;
+                    btnUsuariosAdmin2.Visible = true;
+                    btnRolesAdmin.Visible = false;
+                    btnRolesAdmin2.Visible = true;
+                    btnPermisosAdmin.Visible = false;
+                    btnPermisosAdmin2.Visible = true;
+                    btnEmpleadosAdmin.Visible = false;
+                    btnEmpleadosAdmin2.Visible = true;
+                    btnConfiguracion.Visible = true;
+                    btnConfig2.Visible = false;
+                    panelConfig.Visible = false;
+                }
             }
-            else
-            {
-                REPORTES.ReportesEntrada rpte = new REPORTES.ReportesEntrada();
-                AddFormulario(rpte);
-                btnBodegas.Checked = false;
-                btnCatalogo.Checked = false;
-                btnLista.Checked = false;
-                btnClientes.Checked = false;
-                btnContratos.Checked = false;
-                btnInputReports.Checked = true;
-                btnOutputReports.Checked = false;
-                btnConteo.Checked = false;
-                btnKardex.Checked = false;
-                btnUsuariosAdmin.Visible = false;
-                btnUsuariosAdmin2.Visible = true;
-                btnRolesAdmin.Visible = false;
-                btnRolesAdmin2.Visible = true;
-                btnPermisosAdmin.Visible = false;
-                btnPermisosAdmin2.Visible = true;
-                btnEmpleadosAdmin.Visible = false;
-                btnEmpleadosAdmin2.Visible = true;
-                btnConfiguracion.Visible = true;
-                btnConfig2.Visible = false;
-                panelConfig.Visible = false;
-            }
+            
         }
 
         private void btnOutputReports_Click_1(object sender, EventArgs e)
         {
-            if (btnOutputReports.Checked == true)
+            if (oSesion.ComprobarPermisos(12))
             {
-                //evita recargar el form       
+                if (btnOutputReports.Checked == true)
+                {
+                    //evita recargar el form       
+                }
+                else
+                {
+                    REPORTES.ReportesSalida rpts = new REPORTES.ReportesSalida();
+                    AddFormulario(rpts);
+                    btnBodegas.Checked = false;
+                    btnCatalogo.Checked = false;
+                    btnLista.Checked = false;
+                    btnClientes.Checked = false;
+                    btnContratos.Checked = false;
+                    btnInputReports.Checked = false;
+                    btnOutputReports.Checked = true;
+                    btnConteo.Checked = false;
+                    btnKardex.Checked = false;
+                    btnUsuariosAdmin.Visible = false;
+                    btnUsuariosAdmin2.Visible = true;
+                    btnRolesAdmin.Visible = false;
+                    btnRolesAdmin2.Visible = true;
+                    btnPermisosAdmin.Visible = false;
+                    btnPermisosAdmin2.Visible = true;
+                    btnEmpleadosAdmin.Visible = false;
+                    btnEmpleadosAdmin2.Visible = true;
+                    btnConfiguracion.Visible = true;
+                    btnConfig2.Visible = false;
+                    panelConfig.Visible = false;
+                }
             }
-            else
-            {
-                REPORTES.ReportesSalida rpts = new REPORTES.ReportesSalida();
-                AddFormulario(rpts);
-                btnBodegas.Checked = false;
-                btnCatalogo.Checked = false;
-                btnLista.Checked = false;
-                btnClientes.Checked = false;
-                btnContratos.Checked = false;
-                btnInputReports.Checked = false;
-                btnOutputReports.Checked = true;
-                btnConteo.Checked = false;
-                btnKardex.Checked = false;
-                btnUsuariosAdmin.Visible = false;
-                btnUsuariosAdmin2.Visible = true;
-                btnRolesAdmin.Visible = false;
-                btnRolesAdmin2.Visible = true;
-                btnPermisosAdmin.Visible = false;
-                btnPermisosAdmin2.Visible = true;
-                btnEmpleadosAdmin.Visible = false;
-                btnEmpleadosAdmin2.Visible = true;
-                btnConfiguracion.Visible = true;
-                btnConfig2.Visible = false;
-                panelConfig.Visible = false;
-            }
+            
         }
 
         private void btnConteo_Click_1(object sender, EventArgs e)
@@ -509,35 +536,39 @@ namespace Skoll.GUI.INICIO
 
         private void btnKardex_Click_1(object sender, EventArgs e)
         {
-            if (btnKardex.Checked == true)
+            if (oSesion.ComprobarPermisos(15))
             {
-                //evita recargar el form       
+                if (btnKardex.Checked == true)
+                {
+                    //evita recargar el form       
+                }
+                else
+                {
+                    REPORTES.ReportesKardex rptk = new REPORTES.ReportesKardex();
+                    AddFormulario(rptk);
+                    btnBodegas.Checked = false;
+                    btnCatalogo.Checked = false;
+                    btnLista.Checked = false;
+                    btnClientes.Checked = false;
+                    btnContratos.Checked = false;
+                    btnInputReports.Checked = false;
+                    btnOutputReports.Checked = false;
+                    btnConteo.Checked = false;
+                    btnKardex.Checked = true;
+                    btnUsuariosAdmin.Visible = false;
+                    btnUsuariosAdmin2.Visible = true;
+                    btnRolesAdmin.Visible = false;
+                    btnRolesAdmin2.Visible = true;
+                    btnPermisosAdmin.Visible = false;
+                    btnPermisosAdmin2.Visible = true;
+                    btnEmpleadosAdmin.Visible = false;
+                    btnEmpleadosAdmin2.Visible = true;
+                    btnConfiguracion.Visible = true;
+                    btnConfig2.Visible = false;
+                    panelConfig.Visible = false;
+                }
             }
-            else
-            {
-                REPORTES.ReportesKardex rptk = new REPORTES.ReportesKardex();
-                AddFormulario(rptk);
-                btnBodegas.Checked = false;
-                btnCatalogo.Checked = false;
-                btnLista.Checked = false;
-                btnClientes.Checked = false;
-                btnContratos.Checked = false;
-                btnInputReports.Checked = false;
-                btnOutputReports.Checked = false;
-                btnConteo.Checked = false;
-                btnKardex.Checked = true;
-                btnUsuariosAdmin.Visible = false;
-                btnUsuariosAdmin2.Visible = true;
-                btnRolesAdmin.Visible = false;
-                btnRolesAdmin2.Visible = true;
-                btnPermisosAdmin.Visible = false;
-                btnPermisosAdmin2.Visible = true;
-                btnEmpleadosAdmin.Visible = false;
-                btnEmpleadosAdmin2.Visible = true;
-                btnConfiguracion.Visible = true;
-                btnConfig2.Visible = false;
-                panelConfig.Visible = false;
-            }
+            
         }
 
         private void btnMaximizar_Click_1(object sender, EventArgs e)
@@ -567,7 +598,15 @@ namespace Skoll.GUI.INICIO
 
         private void Principal_Load(object sender, EventArgs e)
         {
-            SesionManager.CLS.Sesion oSesion = SesionManager.CLS.Sesion.Instancia;
+            oSesion.CargarPermisos();
+            if (oSesion.ComprobarPermisosMenuGeneral(17))
+            {
+                panelGestionGeneral.Visible = true;
+            }
+            else
+            {
+                panelGestionGeneral.Visible = false;
+            }
             lblUsuario.Text = oSesion.Usuario;
         }
 

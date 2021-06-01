@@ -29,13 +29,18 @@ namespace Skoll.GUI.INICIO
             {
                 SesionManager.CLS.Sesion SesionInicial = SesionManager.CLS.Sesion.Instancia;
                 _Validado = SesionInicial.IniciarSesion(txbUsuario.Text, txbClave.Text);
-                if (_Validado)
+                // INICIAR SESION
+                SesionInicial.CargarPermisos();
+                if (SesionInicial.ComprobarPermisos(1))
                 {
-                    Close();
-                }
-                else
-                {
-                    lblMensaje.Text = "USUARIO / CLAVE ERRONEOS, VUELVA A INTENTARLO";
+                    if (_Validado)
+                    {
+                        Close();
+                    }
+                    else
+                    {
+                        lblMensaje.Text = "USUARIO / CLAVE ERRONEOS, VUELVA A INTENTARLO";
+                    }
                 }
             }
             catch

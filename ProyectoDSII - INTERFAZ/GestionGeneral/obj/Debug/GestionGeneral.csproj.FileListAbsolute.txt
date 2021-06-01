@@ -70,3 +70,28 @@ C:\Users\MELKEE\Downloads\ProyectoDSII con BD\ProyectoDSII - INTERFAZ\GestionGen
 C:\Users\MELKEE\Downloads\ProyectoDSII con BD\ProyectoDSII - INTERFAZ\GestionGeneral\obj\Debug\GestionGeneral.csproj.GenerateResource.Cache
 C:\Users\MELKEE\Downloads\ProyectoDSII con BD\ProyectoDSII - INTERFAZ\GestionGeneral\obj\Debug\GestionGeneral.dll
 C:\Users\MELKEE\Downloads\ProyectoDSII con BD\ProyectoDSII - INTERFAZ\GestionGeneral\obj\Debug\GestionGeneral.pdb
+D:\Universidad\ProyectoDSII\ProyectoADSII\ProyectoDSII - INTERFAZ\GestionGeneral\bin\Debug\GestionGeneral.dll
+D:\Universidad\ProyectoDSII\ProyectoADSII\ProyectoDSII - INTERFAZ\GestionGeneral\bin\Debug\GestionGeneral.pdb
+D:\Universidad\ProyectoDSII\ProyectoADSII\ProyectoDSII - INTERFAZ\GestionGeneral\bin\Debug\CacheManager.dll
+D:\Universidad\ProyectoDSII\ProyectoADSII\ProyectoDSII - INTERFAZ\GestionGeneral\bin\Debug\DataManager.dll
+D:\Universidad\ProyectoDSII\ProyectoADSII\ProyectoDSII - INTERFAZ\GestionGeneral\bin\Debug\MySql.Data.dll
+D:\Universidad\ProyectoDSII\ProyectoADSII\ProyectoDSII - INTERFAZ\GestionGeneral\bin\Debug\CacheManager.pdb
+D:\Universidad\ProyectoDSII\ProyectoADSII\ProyectoDSII - INTERFAZ\GestionGeneral\bin\Debug\DataManager.pdb
+D:\Universidad\ProyectoDSII\ProyectoADSII\ProyectoDSII - INTERFAZ\GestionGeneral\obj\Debug\GestionGeneral.csprojResolveAssemblyReference.cache
+D:\Universidad\ProyectoDSII\ProyectoADSII\ProyectoDSII - INTERFAZ\GestionGeneral\obj\Debug\GestionGeneral.GUI.EMPLEADOS.AgregarEmpleado.resources
+D:\Universidad\ProyectoDSII\ProyectoADSII\ProyectoDSII - INTERFAZ\GestionGeneral\obj\Debug\GestionGeneral.GUI.EMPLEADOS.DetallesEmpleado.resources
+D:\Universidad\ProyectoDSII\ProyectoADSII\ProyectoDSII - INTERFAZ\GestionGeneral\obj\Debug\GestionGeneral.GUI.EMPLEADOS.EditarEmpleado.resources
+D:\Universidad\ProyectoDSII\ProyectoADSII\ProyectoDSII - INTERFAZ\GestionGeneral\obj\Debug\GestionGeneral.GUI.EMPLEADOS.Empleados.resources
+D:\Universidad\ProyectoDSII\ProyectoADSII\ProyectoDSII - INTERFAZ\GestionGeneral\obj\Debug\GestionGeneral.GUI.PERMISOS.Permisos.resources
+D:\Universidad\ProyectoDSII\ProyectoADSII\ProyectoDSII - INTERFAZ\GestionGeneral\obj\Debug\GestionGeneral.GUI.ROLES.AgregarRol.resources
+D:\Universidad\ProyectoDSII\ProyectoADSII\ProyectoDSII - INTERFAZ\GestionGeneral\obj\Debug\GestionGeneral.GUI.ROLES.EditarRol.resources
+D:\Universidad\ProyectoDSII\ProyectoADSII\ProyectoDSII - INTERFAZ\GestionGeneral\obj\Debug\GestionGeneral.GUI.ROLES.Roles.resources
+D:\Universidad\ProyectoDSII\ProyectoADSII\ProyectoDSII - INTERFAZ\GestionGeneral\obj\Debug\GestionGeneral.GUI.USUARIOS.AgregarUsuario.resources
+D:\Universidad\ProyectoDSII\ProyectoADSII\ProyectoDSII - INTERFAZ\GestionGeneral\obj\Debug\GestionGeneral.GUI.USUARIOS.EditarEmpleado.resources
+D:\Universidad\ProyectoDSII\ProyectoADSII\ProyectoDSII - INTERFAZ\GestionGeneral\obj\Debug\GestionGeneral.GUI.USUARIOS.SeleccionarEmpleado.resources
+D:\Universidad\ProyectoDSII\ProyectoADSII\ProyectoDSII - INTERFAZ\GestionGeneral\obj\Debug\GestionGeneral.GUI.USUARIOS.Usuarios.resources
+D:\Universidad\ProyectoDSII\ProyectoADSII\ProyectoDSII - INTERFAZ\GestionGeneral\obj\Debug\GestionGeneral.csproj.GenerateResource.Cache
+D:\Universidad\ProyectoDSII\ProyectoADSII\ProyectoDSII - INTERFAZ\GestionGeneral\obj\Debug\GestionGeneral.dll
+D:\Universidad\ProyectoDSII\ProyectoADSII\ProyectoDSII - INTERFAZ\GestionGeneral\obj\Debug\GestionGeneral.pdb
+D:\Universidad\ProyectoDSII\ProyectoADSII\ProyectoDSII - INTERFAZ\GestionGeneral\bin\Debug\SesionManager.dll
+D:\Universidad\ProyectoDSII\ProyectoADSII\ProyectoDSII - INTERFAZ\GestionGeneral\bin\Debug\SesionManager.pdb
