@@ -36,6 +36,7 @@ namespace SesionManager.CLS
             }
         }
 
+        // ATRIBUTOS
         public string Usuario
         {
             get
@@ -73,6 +74,7 @@ namespace SesionManager.CLS
             _Usuario = "N/A";
         }
 
+        // METODOS
         public Boolean IniciarSesion(String pUsuario, String pClave)
         {
             Boolean Autorizado = false;
