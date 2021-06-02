@@ -32,7 +32,6 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(EditarEmpleado));
             this.panelAgregarContrato = new Guna.UI2.WinForms.Guna2Panel();
             this.lblIDUsuario = new System.Windows.Forms.Label();
-            this.btnSeleccionarEmpleado = new Guna.UI2.WinForms.Guna2Button();
             this.panelSeleccionarRol = new Guna.UI2.WinForms.Guna2Panel();
             this.cbbSeleccionarRol = new System.Windows.Forms.ComboBox();
             this.label1 = new System.Windows.Forms.Label();
@@ -48,6 +47,7 @@
             this.txbClave = new Guna.UI2.WinForms.Guna2TextBox();
             this.label4 = new System.Windows.Forms.Label();
             this.Notificador = new System.Windows.Forms.ErrorProvider(this.components);
+            this.lblIDEmpleado = new System.Windows.Forms.Label();
             this.panelAgregarContrato.SuspendLayout();
             this.panelSeleccionarRol.SuspendLayout();
             this.panelTituloAddPdCtg.SuspendLayout();
@@ -61,8 +61,8 @@
             this.panelAgregarContrato.BorderColor = System.Drawing.Color.Silver;
             this.panelAgregarContrato.BorderRadius = 4;
             this.panelAgregarContrato.BorderThickness = 1;
+            this.panelAgregarContrato.Controls.Add(this.lblIDEmpleado);
             this.panelAgregarContrato.Controls.Add(this.lblIDUsuario);
-            this.panelAgregarContrato.Controls.Add(this.btnSeleccionarEmpleado);
             this.panelAgregarContrato.Controls.Add(this.panelSeleccionarRol);
             this.panelAgregarContrato.Controls.Add(this.label1);
             this.panelAgregarContrato.Controls.Add(this.txbUsuario);
@@ -91,24 +91,6 @@
             this.lblIDUsuario.TabIndex = 83;
             this.lblIDUsuario.Text = "IDUsuario";
             this.lblIDUsuario.Visible = false;
-            // 
-            // btnSeleccionarEmpleado
-            // 
-            this.btnSeleccionarEmpleado.BorderRadius = 3;
-            this.btnSeleccionarEmpleado.CheckedState.Parent = this.btnSeleccionarEmpleado;
-            this.btnSeleccionarEmpleado.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnSeleccionarEmpleado.CustomImages.Parent = this.btnSeleccionarEmpleado;
-            this.btnSeleccionarEmpleado.FillColor = System.Drawing.Color.Teal;
-            this.btnSeleccionarEmpleado.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnSeleccionarEmpleado.ForeColor = System.Drawing.Color.White;
-            this.btnSeleccionarEmpleado.HoverState.Parent = this.btnSeleccionarEmpleado;
-            this.btnSeleccionarEmpleado.Location = new System.Drawing.Point(331, 129);
-            this.btnSeleccionarEmpleado.Name = "btnSeleccionarEmpleado";
-            this.btnSeleccionarEmpleado.ShadowDecoration.Parent = this.btnSeleccionarEmpleado;
-            this.btnSeleccionarEmpleado.Size = new System.Drawing.Size(35, 35);
-            this.btnSeleccionarEmpleado.TabIndex = 82;
-            this.btnSeleccionarEmpleado.Text = "•••";
-            this.btnSeleccionarEmpleado.Click += new System.EventHandler(this.btnSeleccionarEmpleado_Click);
             // 
             // panelSeleccionarRol
             // 
@@ -246,7 +228,7 @@
             this.txbEmpleado.PlaceholderText = "";
             this.txbEmpleado.SelectedText = "";
             this.txbEmpleado.ShadowDecoration.Parent = this.txbEmpleado;
-            this.txbEmpleado.Size = new System.Drawing.Size(179, 35);
+            this.txbEmpleado.Size = new System.Drawing.Size(221, 35);
             this.txbEmpleado.TabIndex = 59;
             this.txbEmpleado.TabStop = false;
             // 
@@ -357,6 +339,17 @@
             // 
             this.Notificador.ContainerControl = this;
             // 
+            // lblIDEmpleado
+            // 
+            this.lblIDEmpleado.AutoSize = true;
+            this.lblIDEmpleado.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(237)))), ((int)(((byte)(242)))));
+            this.lblIDEmpleado.Location = new System.Drawing.Point(130, 101);
+            this.lblIDEmpleado.Name = "lblIDEmpleado";
+            this.lblIDEmpleado.Size = new System.Drawing.Size(54, 13);
+            this.lblIDEmpleado.TabIndex = 84;
+            this.lblIDEmpleado.Text = "IDUsuario";
+            this.lblIDEmpleado.Visible = false;
+            // 
             // EditarEmpleado
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -392,12 +385,12 @@
         private System.Windows.Forms.PictureBox btnCloseEditUser;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Label label4;
-        private Guna.UI2.WinForms.Guna2Button btnSeleccionarEmpleado;
         private System.Windows.Forms.ErrorProvider Notificador;
         public System.Windows.Forms.ComboBox cbbSeleccionarRol;
         public Guna.UI2.WinForms.Guna2TextBox txbUsuario;
         public Guna.UI2.WinForms.Guna2TextBox txbEmpleado;
         public Guna.UI2.WinForms.Guna2TextBox txbClave;
         public System.Windows.Forms.Label lblIDUsuario;
+        public System.Windows.Forms.Label lblIDEmpleado;
     }
 }

@@ -58,11 +58,12 @@ namespace GestionGeneral.GUI.USUARIOS
             EditarEmpleado ee = new EditarEmpleado();
 
             tItem = CacheManager.CLS.Cache.SELECCIONAR_USUARIO(var);
-            ee.txbEmpleado.Text = var;
+            ee.txbEmpleado.Text = tItem.Rows[0]["Nombres"].ToString();
             ee.txbUsuario.Text = tItem.Rows[0]["Usuario"].ToString();
             ee.txbClave.Text = tItem.Rows[0]["Clave"].ToString();
             ee.cbbSeleccionarRol.Text = tItem.Rows[0]["ID_Rol"].ToString();
             ee.lblIDUsuario.Text = tItem.Rows[0]["ID_Usuario"].ToString();
+            ee.lblIDEmpleado.Text = var;
             ee.ShowDialog();
             Cargar();
         }
@@ -79,9 +80,9 @@ namespace GestionGeneral.GUI.USUARIOS
 
         private void btnEliminarUsuario_Click(object sender, EventArgs e)
         {
-            CLS.Empleados oEmp = new CLS.Empleados();
+            CLS.Usuarios oEmp = new CLS.Usuarios();
 
-            oEmp.IDEmpleado = dtgUsuarios.CurrentRow.Cells[0].Value.ToString();
+            oEmp.IDUsuario = dtgUsuarios.CurrentRow.Cells[1].Value.ToString();
             oEmp.Eliminar();
             Cargar();
         }

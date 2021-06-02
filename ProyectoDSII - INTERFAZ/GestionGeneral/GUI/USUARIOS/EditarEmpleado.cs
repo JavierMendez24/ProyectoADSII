@@ -34,7 +34,7 @@ namespace GestionGeneral.GUI.USUARIOS
         {
             CLS.Usuarios oUsu = new CLS.Usuarios();
             oUsu.IDUsuario = lblIDUsuario.Text;
-            oUsu.IDEmpleado = txbEmpleado.Text;
+            oUsu.IDEmpleado = lblIDEmpleado.Text;
             oUsu.Usuario = txbUsuario.Text;
             oUsu.Clave = txbClave.Text;
             oUsu.IDRol = cbbSeleccionarRol.SelectedValue.ToString();
@@ -94,11 +94,6 @@ namespace GestionGeneral.GUI.USUARIOS
                 Editar();
             }
         }
-
-        private void btnSeleccionarEmpleado_Click(object sender, EventArgs e)
-        {
-            SeleccionarEmpleado se = new SeleccionarEmpleado(this);
-            se.ShowDialog();
-        }
+        
     }
 }
