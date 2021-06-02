@@ -133,8 +133,9 @@ namespace CacheManager.CLS
         {
             DataTable Resultados = new DataTable();
             DataManager.CLS.OperacionBD Consultor = new DataManager.CLS.OperacionBD();
-            String Consulta = @"SELECT ID_Empleado, ID_Usuario, Usuario, Clave, ID_Rol FROM usuarios 
-                                WHERE ID_Usuario = "+pIDUsuario+";";
+            String Consulta = @"SELECT a.ID_Empleado, b.Nombres, a.ID_Usuario, a.Usuario, a.Clave, a.ID_Rol 
+                                FROM usuarios a, empleados b 
+                                WHERE a.ID_Usuario = "+pIDUsuario+" AND a.ID_Empleado = b.ID_Empleado;";
 
             try
             {
