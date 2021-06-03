@@ -30,3 +30,11 @@ D:\Universidad\ProyectoDSII\ProyectoADSII\ProyectoDSII - INTERFAZ\CacheManager\b
 D:\Universidad\ProyectoDSII\ProyectoADSII\ProyectoDSII - INTERFAZ\CacheManager\obj\Debug\CacheManager.csprojResolveAssemblyReference.cache
 D:\Universidad\ProyectoDSII\ProyectoADSII\ProyectoDSII - INTERFAZ\CacheManager\obj\Debug\CacheManager.dll
 D:\Universidad\ProyectoDSII\ProyectoADSII\ProyectoDSII - INTERFAZ\CacheManager\obj\Debug\CacheManager.pdb
+C:\SKOLL-DSII\ProyectoADSII\ProyectoDSII - INTERFAZ\CacheManager\bin\Debug\CacheManager.dll
+C:\SKOLL-DSII\ProyectoADSII\ProyectoDSII - INTERFAZ\CacheManager\bin\Debug\CacheManager.pdb
+C:\SKOLL-DSII\ProyectoADSII\ProyectoDSII - INTERFAZ\CacheManager\bin\Debug\DataManager.dll
+C:\SKOLL-DSII\ProyectoADSII\ProyectoDSII - INTERFAZ\CacheManager\bin\Debug\MySql.Data.dll
+C:\SKOLL-DSII\ProyectoADSII\ProyectoDSII - INTERFAZ\CacheManager\bin\Debug\DataManager.pdb
+C:\SKOLL-DSII\ProyectoADSII\ProyectoDSII - INTERFAZ\CacheManager\obj\Debug\CacheManager.csprojResolveAssemblyReference.cache
+C:\SKOLL-DSII\ProyectoADSII\ProyectoDSII - INTERFAZ\CacheManager\obj\Debug\CacheManager.dll
+C:\SKOLL-DSII\ProyectoADSII\ProyectoDSII - INTERFAZ\CacheManager\obj\Debug\CacheManager.pdb

@@ -21,11 +21,5 @@ namespace Skoll.GUI.PRODUCTOS
         {
             Close();
         }
-
-        private void btnSeleccionarClienteCtg_Click(object sender, EventArgs e)
-        {
-            SeleccionarClienteCatalogo scct = new SeleccionarClienteCatalogo();
-            scct.ShowDialog();
-        }
     }
 }

@@ -229,5 +229,43 @@ namespace CacheManager.CLS
             }
             return Resultados;
         }
+
+        public static DataTable SELECCIONAR_CLIENTE_PERSONA(String pIDCliente)
+        {
+            DataTable Resultados = new DataTable();
+            DataManager.CLS.OperacionBD Consultor = new DataManager.CLS.OperacionBD();
+            String Consulta = @"SELECT ID_Cliente, DUI, NIT, Nombres_Cliente, Apellidos_Cliente, Telefono, Direccion, Correo FROM clientes 
+                                WHERE ID_Cliente = " + pIDCliente + ";";
+
+            try
+            {
+                Resultados = Consultor.Consultar(Consulta);
+            }
+            catch
+            {
+                Resultados = new DataTable();
+            }
+
+            return Resultados;
+        }
+
+        public static DataTable SELECCIONAR_CLIENTE_EMPRESA(String pIDCliente)
+        {
+            DataTable Resultados = new DataTable();
+            DataManager.CLS.OperacionBD Consultor = new DataManager.CLS.OperacionBD();
+            String Consulta = @"SELECT ID_Cliente, Nombre_Empresa, NIT, Telefono, Direccion, Correo FROM clientes 
+                                WHERE ID_Cliente = " + pIDCliente + ";";
+
+            try
+            {
+                Resultados = Consultor.Consultar(Consulta);
+            }
+            catch
+            {
+                Resultados = new DataTable();
+            }
+
+            return Resultados;
+        }
     }
 }

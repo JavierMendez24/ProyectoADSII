@@ -31,7 +31,6 @@ namespace Skoll.GUI.INICIO
                 BODEGAS.Bodegas bdg = new BODEGAS.Bodegas();
                 AddFormulario(bdg);
                 btnBodegas.Checked = true;
-            
         }
 
         private void AddFormulario(Form f)

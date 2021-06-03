@@ -16,7 +16,7 @@ namespace Skoll
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            //Application.Run(new GUI.INICIO.Splash());
+            //Application.Run(new GUI.INICIO.Principal());
             Application.Run(new CLS.AppManager());
         }
     }

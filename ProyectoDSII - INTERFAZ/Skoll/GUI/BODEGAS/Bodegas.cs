@@ -139,9 +139,9 @@ namespace Skoll.GUI.BODEGAS
 
         private void btnZE2_Click(object sender, EventArgs e)
         {
-            //MessageBox.Show("Ésta zona aún no ha sido asignada", "Información", MessageBoxButtons.OK, MessageBoxIcon.Information);
-            InformacionBodega ib = new InformacionBodega();
-            ib.ShowDialog();
+            MessageBox.Show("Ésta zona aún no ha sido asignada", "Información", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            /*InformacionBodega ib = new InformacionBodega();
+            ib.ShowDialog();*/
         }
 
         private void btnZE3_Click(object sender, EventArgs e)

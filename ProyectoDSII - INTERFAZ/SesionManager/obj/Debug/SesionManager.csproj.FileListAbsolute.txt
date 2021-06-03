@@ -18,3 +18,13 @@ D:\Universidad\ProyectoDSII\ProyectoADSII\ProyectoDSII - INTERFAZ\SesionManager\
 D:\Universidad\ProyectoDSII\ProyectoADSII\ProyectoDSII - INTERFAZ\SesionManager\obj\Debug\SesionManager.csprojResolveAssemblyReference.cache
 D:\Universidad\ProyectoDSII\ProyectoADSII\ProyectoDSII - INTERFAZ\SesionManager\obj\Debug\SesionManager.dll
 D:\Universidad\ProyectoDSII\ProyectoADSII\ProyectoDSII - INTERFAZ\SesionManager\obj\Debug\SesionManager.pdb
+C:\SKOLL-DSII\ProyectoADSII\ProyectoDSII - INTERFAZ\SesionManager\bin\Debug\SesionManager.dll
+C:\SKOLL-DSII\ProyectoADSII\ProyectoDSII - INTERFAZ\SesionManager\bin\Debug\SesionManager.pdb
+C:\SKOLL-DSII\ProyectoADSII\ProyectoDSII - INTERFAZ\SesionManager\bin\Debug\CacheManager.dll
+C:\SKOLL-DSII\ProyectoADSII\ProyectoDSII - INTERFAZ\SesionManager\bin\Debug\DataManager.dll
+C:\SKOLL-DSII\ProyectoADSII\ProyectoDSII - INTERFAZ\SesionManager\bin\Debug\MySql.Data.dll
+C:\SKOLL-DSII\ProyectoADSII\ProyectoDSII - INTERFAZ\SesionManager\bin\Debug\CacheManager.pdb
+C:\SKOLL-DSII\ProyectoADSII\ProyectoDSII - INTERFAZ\SesionManager\bin\Debug\DataManager.pdb
+C:\SKOLL-DSII\ProyectoADSII\ProyectoDSII - INTERFAZ\SesionManager\obj\Debug\SesionManager.csprojResolveAssemblyReference.cache
+C:\SKOLL-DSII\ProyectoADSII\ProyectoDSII - INTERFAZ\SesionManager\obj\Debug\SesionManager.dll
+C:\SKOLL-DSII\ProyectoADSII\ProyectoDSII - INTERFAZ\SesionManager\obj\Debug\SesionManager.pdb

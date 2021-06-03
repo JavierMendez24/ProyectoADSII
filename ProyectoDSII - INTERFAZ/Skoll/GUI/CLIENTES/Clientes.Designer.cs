@@ -65,6 +65,7 @@
             this.TELEFONO = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.txbBuscarClientes = new Guna.UI2.WinForms.Guna2TextBox();
             this.lblCatalogo = new System.Windows.Forms.Label();
+            this.lblTipoCliente = new System.Windows.Forms.Label();
             this.panelMain.SuspendLayout();
             this.panelDtgClientesPersonas.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dtgClientesPersonas)).BeginInit();
@@ -76,6 +77,7 @@
             // panelMain
             // 
             this.panelMain.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(237)))), ((int)(((byte)(242)))));
+            this.panelMain.Controls.Add(this.lblTipoCliente);
             this.panelMain.Controls.Add(this.btnVerEmpresas);
             this.panelMain.Controls.Add(this.btnVerPersonas);
             this.panelMain.Controls.Add(this.panelDtgClientesPersonas);
@@ -522,6 +524,16 @@
             this.lblCatalogo.TabIndex = 2;
             this.lblCatalogo.Text = "LISTA DE CLIENTES";
             // 
+            // lblTipoCliente
+            // 
+            this.lblTipoCliente.AutoSize = true;
+            this.lblTipoCliente.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(237)))), ((int)(((byte)(242)))));
+            this.lblTipoCliente.Location = new System.Drawing.Point(793, 579);
+            this.lblTipoCliente.Name = "lblTipoCliente";
+            this.lblTipoCliente.Size = new System.Drawing.Size(35, 13);
+            this.lblTipoCliente.TabIndex = 20;
+            this.lblTipoCliente.Text = "label1";
+            // 
             // Clientes
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -570,5 +582,6 @@
         public System.Windows.Forms.DataGridView dtgClientesPersonas;
         public System.Windows.Forms.Panel panelDtgClientesEmpresas;
         public System.Windows.Forms.DataGridView dtgClientesEmpresas;
+        private System.Windows.Forms.Label lblTipoCliente;
     }
 }

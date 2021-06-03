@@ -39,7 +39,6 @@
             this.btnCancelarAddPdC = new Guna.UI2.WinForms.Guna2Button();
             this.guna2Button4 = new Guna.UI2.WinForms.Guna2Button();
             this.btnSeleccionarProductosdelCatalogo = new Guna.UI2.WinForms.Guna2Button();
-            this.btnSeleccionarClienteAddPd = new Guna.UI2.WinForms.Guna2Button();
             this.guna2TextBox4 = new Guna.UI2.WinForms.Guna2TextBox();
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
@@ -48,14 +47,15 @@
             this.label4 = new System.Windows.Forms.Label();
             this.panelDtgCatalogos = new System.Windows.Forms.Panel();
             this.dtgAddProductosBodega = new System.Windows.Forms.DataGridView();
-            this.panelTituloAddPdZnBd = new Guna.UI2.WinForms.Guna2Panel();
-            this.lblAgregaraCatalogo = new System.Windows.Forms.Label();
-            this.btnCerrarAgregarPdaB = new System.Windows.Forms.PictureBox();
             this.idProducto = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.nombreProducto = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.costo = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.cantidad = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.fechaVencimiento = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.panelTituloAddPdZnBd = new Guna.UI2.WinForms.Guna2Panel();
+            this.lblAgregaraCatalogo = new System.Windows.Forms.Label();
+            this.btnCerrarAgregarPdaB = new System.Windows.Forms.PictureBox();
+            this.btnSeleccionarClienteAddPd = new Guna.UI2.WinForms.Guna2Button();
             this.panelSPPB.SuspendLayout();
             this.paneltxbznctg.SuspendLayout();
             this.panelDtgCatalogos.SuspendLayout();
@@ -147,24 +147,6 @@
             this.btnSeleccionarProductosdelCatalogo.TabIndex = 61;
             this.btnSeleccionarProductosdelCatalogo.Text = "Seleccionar";
             this.btnSeleccionarProductosdelCatalogo.Click += new System.EventHandler(this.btnSeleccionarProductosdelCatalogo_Click);
-            // 
-            // btnSeleccionarClienteAddPd
-            // 
-            this.btnSeleccionarClienteAddPd.BorderRadius = 3;
-            this.btnSeleccionarClienteAddPd.CheckedState.Parent = this.btnSeleccionarClienteAddPd;
-            this.btnSeleccionarClienteAddPd.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnSeleccionarClienteAddPd.CustomImages.Parent = this.btnSeleccionarClienteAddPd;
-            this.btnSeleccionarClienteAddPd.FillColor = System.Drawing.Color.Teal;
-            this.btnSeleccionarClienteAddPd.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnSeleccionarClienteAddPd.ForeColor = System.Drawing.Color.White;
-            this.btnSeleccionarClienteAddPd.HoverState.Parent = this.btnSeleccionarClienteAddPd;
-            this.btnSeleccionarClienteAddPd.Location = new System.Drawing.Point(595, 101);
-            this.btnSeleccionarClienteAddPd.Name = "btnSeleccionarClienteAddPd";
-            this.btnSeleccionarClienteAddPd.ShadowDecoration.Parent = this.btnSeleccionarClienteAddPd;
-            this.btnSeleccionarClienteAddPd.Size = new System.Drawing.Size(35, 35);
-            this.btnSeleccionarClienteAddPd.TabIndex = 59;
-            this.btnSeleccionarClienteAddPd.Text = "•••";
-            this.btnSeleccionarClienteAddPd.Click += new System.EventHandler(this.btnSeleccionarClienteAddPd_Click);
             // 
             // guna2TextBox4
             // 
@@ -321,45 +303,6 @@
             this.dtgAddProductosBodega.Size = new System.Drawing.Size(829, 316);
             this.dtgAddProductosBodega.TabIndex = 5;
             // 
-            // panelTituloAddPdZnBd
-            // 
-            this.panelTituloAddPdZnBd.BackColor = System.Drawing.Color.White;
-            this.panelTituloAddPdZnBd.BorderColor = System.Drawing.Color.Silver;
-            this.panelTituloAddPdZnBd.BorderRadius = 4;
-            this.panelTituloAddPdZnBd.BorderThickness = 2;
-            this.panelTituloAddPdZnBd.Controls.Add(this.lblAgregaraCatalogo);
-            this.panelTituloAddPdZnBd.Controls.Add(this.btnCerrarAgregarPdaB);
-            this.panelTituloAddPdZnBd.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panelTituloAddPdZnBd.Location = new System.Drawing.Point(0, 0);
-            this.panelTituloAddPdZnBd.Name = "panelTituloAddPdZnBd";
-            this.panelTituloAddPdZnBd.ShadowDecoration.Parent = this.panelTituloAddPdZnBd;
-            this.panelTituloAddPdZnBd.Size = new System.Drawing.Size(880, 85);
-            this.panelTituloAddPdZnBd.TabIndex = 53;
-            // 
-            // lblAgregaraCatalogo
-            // 
-            this.lblAgregaraCatalogo.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.lblAgregaraCatalogo.AutoSize = true;
-            this.lblAgregaraCatalogo.Font = new System.Drawing.Font("Microsoft YaHei UI", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblAgregaraCatalogo.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(40)))), ((int)(((byte)(52)))));
-            this.lblAgregaraCatalogo.Location = new System.Drawing.Point(308, 40);
-            this.lblAgregaraCatalogo.Name = "lblAgregaraCatalogo";
-            this.lblAgregaraCatalogo.Size = new System.Drawing.Size(266, 19);
-            this.lblAgregaraCatalogo.TabIndex = 20;
-            this.lblAgregaraCatalogo.Text = "AGREGAR PRODUCTOS A BODEGA";
-            // 
-            // btnCerrarAgregarPdaB
-            // 
-            this.btnCerrarAgregarPdaB.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnCerrarAgregarPdaB.Image = ((System.Drawing.Image)(resources.GetObject("btnCerrarAgregarPdaB.Image")));
-            this.btnCerrarAgregarPdaB.Location = new System.Drawing.Point(851, 8);
-            this.btnCerrarAgregarPdaB.Name = "btnCerrarAgregarPdaB";
-            this.btnCerrarAgregarPdaB.Size = new System.Drawing.Size(21, 21);
-            this.btnCerrarAgregarPdaB.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.btnCerrarAgregarPdaB.TabIndex = 19;
-            this.btnCerrarAgregarPdaB.TabStop = false;
-            this.btnCerrarAgregarPdaB.Click += new System.EventHandler(this.btnCerrarAgregarPdaB_Click);
-            // 
             // idProducto
             // 
             this.idProducto.DataPropertyName = "ID_Catalogo";
@@ -401,6 +344,63 @@
             this.fechaVencimiento.Name = "fechaVencimiento";
             this.fechaVencimiento.Width = 140;
             // 
+            // panelTituloAddPdZnBd
+            // 
+            this.panelTituloAddPdZnBd.BackColor = System.Drawing.Color.White;
+            this.panelTituloAddPdZnBd.BorderColor = System.Drawing.Color.Silver;
+            this.panelTituloAddPdZnBd.BorderRadius = 4;
+            this.panelTituloAddPdZnBd.BorderThickness = 2;
+            this.panelTituloAddPdZnBd.Controls.Add(this.lblAgregaraCatalogo);
+            this.panelTituloAddPdZnBd.Controls.Add(this.btnCerrarAgregarPdaB);
+            this.panelTituloAddPdZnBd.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panelTituloAddPdZnBd.Location = new System.Drawing.Point(0, 0);
+            this.panelTituloAddPdZnBd.Name = "panelTituloAddPdZnBd";
+            this.panelTituloAddPdZnBd.ShadowDecoration.Parent = this.panelTituloAddPdZnBd;
+            this.panelTituloAddPdZnBd.Size = new System.Drawing.Size(880, 85);
+            this.panelTituloAddPdZnBd.TabIndex = 53;
+            // 
+            // lblAgregaraCatalogo
+            // 
+            this.lblAgregaraCatalogo.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.lblAgregaraCatalogo.AutoSize = true;
+            this.lblAgregaraCatalogo.Font = new System.Drawing.Font("Microsoft YaHei UI", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblAgregaraCatalogo.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(40)))), ((int)(((byte)(52)))));
+            this.lblAgregaraCatalogo.Location = new System.Drawing.Point(308, 40);
+            this.lblAgregaraCatalogo.Name = "lblAgregaraCatalogo";
+            this.lblAgregaraCatalogo.Size = new System.Drawing.Size(266, 19);
+            this.lblAgregaraCatalogo.TabIndex = 20;
+            this.lblAgregaraCatalogo.Text = "AGREGAR PRODUCTOS A BODEGA";
+            // 
+            // btnCerrarAgregarPdaB
+            // 
+            this.btnCerrarAgregarPdaB.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnCerrarAgregarPdaB.Image = ((System.Drawing.Image)(resources.GetObject("btnCerrarAgregarPdaB.Image")));
+            this.btnCerrarAgregarPdaB.Location = new System.Drawing.Point(851, 8);
+            this.btnCerrarAgregarPdaB.Name = "btnCerrarAgregarPdaB";
+            this.btnCerrarAgregarPdaB.Size = new System.Drawing.Size(21, 21);
+            this.btnCerrarAgregarPdaB.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.btnCerrarAgregarPdaB.TabIndex = 19;
+            this.btnCerrarAgregarPdaB.TabStop = false;
+            this.btnCerrarAgregarPdaB.Click += new System.EventHandler(this.btnCerrarAgregarPdaB_Click);
+            // 
+            // btnSeleccionarClienteAddPd
+            // 
+            this.btnSeleccionarClienteAddPd.BorderRadius = 3;
+            this.btnSeleccionarClienteAddPd.CheckedState.Parent = this.btnSeleccionarClienteAddPd;
+            this.btnSeleccionarClienteAddPd.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnSeleccionarClienteAddPd.CustomImages.Parent = this.btnSeleccionarClienteAddPd;
+            this.btnSeleccionarClienteAddPd.FillColor = System.Drawing.Color.Teal;
+            this.btnSeleccionarClienteAddPd.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSeleccionarClienteAddPd.ForeColor = System.Drawing.Color.White;
+            this.btnSeleccionarClienteAddPd.HoverState.Parent = this.btnSeleccionarClienteAddPd;
+            this.btnSeleccionarClienteAddPd.Location = new System.Drawing.Point(595, 101);
+            this.btnSeleccionarClienteAddPd.Name = "btnSeleccionarClienteAddPd";
+            this.btnSeleccionarClienteAddPd.ShadowDecoration.Parent = this.btnSeleccionarClienteAddPd;
+            this.btnSeleccionarClienteAddPd.Size = new System.Drawing.Size(35, 35);
+            this.btnSeleccionarClienteAddPd.TabIndex = 59;
+            this.btnSeleccionarClienteAddPd.Text = "•••";
+            this.btnSeleccionarClienteAddPd.Click += new System.EventHandler(this.btnSeleccionarClienteAddPd_Click);
+            // 
             // AgregarProductosaBodega
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -430,7 +430,6 @@
         private Guna.UI2.WinForms.Guna2Button btnCancelarAddPdC;
         private Guna.UI2.WinForms.Guna2Button guna2Button4;
         private Guna.UI2.WinForms.Guna2Button btnSeleccionarProductosdelCatalogo;
-        private Guna.UI2.WinForms.Guna2Button btnSeleccionarClienteAddPd;
         private Guna.UI2.WinForms.Guna2TextBox guna2TextBox4;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;
@@ -447,5 +446,6 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn costo;
         private System.Windows.Forms.DataGridViewTextBoxColumn cantidad;
         private System.Windows.Forms.DataGridViewTextBoxColumn fechaVencimiento;
+        private Guna.UI2.WinForms.Guna2Button btnSeleccionarClienteAddPd;
     }
 }

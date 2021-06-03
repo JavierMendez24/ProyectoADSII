@@ -177,11 +177,11 @@ namespace Skoll.CLS
 
         }
 
-        /*
         public Boolean Editar()
         {
             Boolean Resultado = false;
-            String Sentencia = @"UPDATE Roles SET Rol ='" + this._Rol + "' WHERE IDRol =" + this.IDRol + ";";
+            String Sentencia = @"UPDATE clientes SET DUI = '" + this._DUI + "', NIT='" + this._NIT + "', Tipo_Cliente='" + this._TipoCliente + "', Nombre_Empresa='" + this._RazonSocial + "', Nombres_Cliente='" + this._Nombres + "', Apellidos_Cliente='" + this._Apellidos + "', Telefono='" + this._Telefono + "', Direccion='" + this._Direccion + "', Correo='" + this._Correo +
+                                "' WHERE ID_Cliente =" + this._IDCliente + "; ";
 
             try
             {
@@ -206,7 +206,7 @@ namespace Skoll.CLS
         public Boolean Eliminar()
         {
             Boolean Resultado = false;
-            String Sentencia = @"DELETE FROM Roles WHERE IDRol =" + this.IDRol + ";";
+            String Sentencia = @"DELETE FROM clientes WHERE ID_Cliente =" + this._IDCliente + "; ";
 
             try
             {
@@ -227,6 +227,6 @@ namespace Skoll.CLS
             return Resultado;
 
         }
-        */
+
     }
 }
