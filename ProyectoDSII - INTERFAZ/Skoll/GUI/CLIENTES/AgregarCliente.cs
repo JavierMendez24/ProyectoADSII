@@ -44,6 +44,7 @@ namespace Skoll.GUI.CLIENTES
                 oEntidad.Guardar();
                 Close();
             }
+            MessageBox.Show("Registro Agregado Correctamente", "Confirmacion", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
 
         private Boolean Comprobar()
@@ -170,7 +171,6 @@ namespace Skoll.GUI.CLIENTES
             if (Comprobar())
             {
                 Agregar();
-                MessageBox.Show("Registro Agregado Correctamente", "Confirmacion", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
         }
 
