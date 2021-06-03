@@ -89,6 +89,7 @@ namespace Skoll.GUI.CLIENTES
         {
             if (oSesion.ComprobarPermisos(3))
             {
+                // commit
                 try
                 {
                     AgregarCliente ac = new AgregarCliente();
