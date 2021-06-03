@@ -70,6 +70,7 @@ namespace Skoll.GUI.CLIENTES
             if (Comprobar())
             {
                 Editar();
+                MessageBox.Show("Registro Editado Correctamente", "Confirmacion", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
         }
     }

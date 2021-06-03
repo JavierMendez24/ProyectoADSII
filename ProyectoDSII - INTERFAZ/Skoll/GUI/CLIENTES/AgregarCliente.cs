@@ -170,6 +170,7 @@ namespace Skoll.GUI.CLIENTES
             if (Comprobar())
             {
                 Agregar();
+                MessageBox.Show("Registro Agregado Correctamente", "Confirmacion", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
         }
 

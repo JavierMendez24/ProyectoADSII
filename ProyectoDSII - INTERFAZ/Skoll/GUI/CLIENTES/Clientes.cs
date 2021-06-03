@@ -94,7 +94,6 @@ namespace Skoll.GUI.CLIENTES
                     AgregarCliente ac = new AgregarCliente();
                     ac.ShowDialog();
                     Cargar();
-                    MessageBox.Show("Registro Agregado Correctamente", "Confirmacion", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 }
                 catch
                 {
@@ -138,7 +137,6 @@ namespace Skoll.GUI.CLIENTES
                                         ece.txbCorreo.Text = tClienteE.Rows[0]["Correo"].ToString();
                                         ece.ShowDialog();
                                         Cargar();
-                                        MessageBox.Show("Registro Editado Correctamente", "Confirmacion", MessageBoxButtons.OK, MessageBoxIcon.Information);
                                     }
 
                                     catch
@@ -187,7 +185,6 @@ namespace Skoll.GUI.CLIENTES
 
                                 ecp.ShowDialog();
                                 Cargar();
-                                MessageBox.Show("Registro Editado Correctamente", "Confirmacion", MessageBoxButtons.OK, MessageBoxIcon.Information);
                             }
                             catch
                             {
