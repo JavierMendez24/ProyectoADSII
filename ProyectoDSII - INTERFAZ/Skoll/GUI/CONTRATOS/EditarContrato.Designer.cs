@@ -36,7 +36,7 @@
             this.dtpFin = new Guna.UI2.WinForms.Guna2DateTimePicker();
             this.dtpInicio = new Guna.UI2.WinForms.Guna2DateTimePicker();
             this.richTextBox1 = new System.Windows.Forms.RichTextBox();
-            this.guna2Button1 = new Guna.UI2.WinForms.Guna2Button();
+            this.btnSeleccionarZona = new Guna.UI2.WinForms.Guna2Button();
             this.guna2TextBox10 = new Guna.UI2.WinForms.Guna2TextBox();
             this.label10 = new System.Windows.Forms.Label();
             this.panelTituloAddPdCtg = new Guna.UI2.WinForms.Guna2Panel();
@@ -63,7 +63,7 @@
             this.panelEditarContrato.Controls.Add(this.dtpFin);
             this.panelEditarContrato.Controls.Add(this.dtpInicio);
             this.panelEditarContrato.Controls.Add(this.richTextBox1);
-            this.panelEditarContrato.Controls.Add(this.guna2Button1);
+            this.panelEditarContrato.Controls.Add(this.btnSeleccionarZona);
             this.panelEditarContrato.Controls.Add(this.guna2TextBox10);
             this.panelEditarContrato.Controls.Add(this.label10);
             this.panelEditarContrato.Controls.Add(this.panelTituloAddPdCtg);
@@ -99,6 +99,7 @@
             this.btnCancelarAddPdC.Text = "CANCELAR";
             this.btnCancelarAddPdC.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             this.btnCancelarAddPdC.TextOffset = new System.Drawing.Point(4, 0);
+            this.btnCancelarAddPdC.Click += new System.EventHandler(this.btnCancelarAddPdC_Click);
             // 
             // guna2Button4
             // 
@@ -185,22 +186,23 @@
             this.richTextBox1.TabIndex = 62;
             this.richTextBox1.Text = "Costo Mensual de Arrendamineto:";
             // 
-            // guna2Button1
+            // btnSeleccionarZona
             // 
-            this.guna2Button1.BorderRadius = 3;
-            this.guna2Button1.CheckedState.Parent = this.guna2Button1;
-            this.guna2Button1.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.guna2Button1.CustomImages.Parent = this.guna2Button1;
-            this.guna2Button1.FillColor = System.Drawing.Color.Teal;
-            this.guna2Button1.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2Button1.ForeColor = System.Drawing.Color.White;
-            this.guna2Button1.HoverState.Parent = this.guna2Button1;
-            this.guna2Button1.Location = new System.Drawing.Point(376, 183);
-            this.guna2Button1.Name = "guna2Button1";
-            this.guna2Button1.ShadowDecoration.Parent = this.guna2Button1;
-            this.guna2Button1.Size = new System.Drawing.Size(35, 35);
-            this.guna2Button1.TabIndex = 61;
-            this.guna2Button1.Text = "•••";
+            this.btnSeleccionarZona.BorderRadius = 3;
+            this.btnSeleccionarZona.CheckedState.Parent = this.btnSeleccionarZona;
+            this.btnSeleccionarZona.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnSeleccionarZona.CustomImages.Parent = this.btnSeleccionarZona;
+            this.btnSeleccionarZona.FillColor = System.Drawing.Color.Teal;
+            this.btnSeleccionarZona.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSeleccionarZona.ForeColor = System.Drawing.Color.White;
+            this.btnSeleccionarZona.HoverState.Parent = this.btnSeleccionarZona;
+            this.btnSeleccionarZona.Location = new System.Drawing.Point(376, 183);
+            this.btnSeleccionarZona.Name = "btnSeleccionarZona";
+            this.btnSeleccionarZona.ShadowDecoration.Parent = this.btnSeleccionarZona;
+            this.btnSeleccionarZona.Size = new System.Drawing.Size(35, 35);
+            this.btnSeleccionarZona.TabIndex = 61;
+            this.btnSeleccionarZona.Text = "•••";
+            this.btnSeleccionarZona.Click += new System.EventHandler(this.btnSeleccionarZona_Click);
             // 
             // guna2TextBox10
             // 
@@ -393,7 +395,7 @@
         private Guna.UI2.WinForms.Guna2DateTimePicker dtpFin;
         private Guna.UI2.WinForms.Guna2DateTimePicker dtpInicio;
         private System.Windows.Forms.RichTextBox richTextBox1;
-        private Guna.UI2.WinForms.Guna2Button guna2Button1;
+        private Guna.UI2.WinForms.Guna2Button btnSeleccionarZona;
         private Guna.UI2.WinForms.Guna2TextBox guna2TextBox10;
         private System.Windows.Forms.Label label10;
         private Guna.UI2.WinForms.Guna2Panel panelTituloAddPdCtg;

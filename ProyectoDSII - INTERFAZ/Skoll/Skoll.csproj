@@ -130,6 +130,12 @@
     <Compile Include="GUI\CONTRATOS\SeleccionarClienteContrato.Designer.cs">
       <DependentUpon>SeleccionarClienteContrato.cs</DependentUpon>
     </Compile>
+    <Compile Include="GUI\CONTRATOS\SeleccionarZonaContrato.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\CONTRATOS\SeleccionarZonaContrato.Designer.cs">
+      <DependentUpon>SeleccionarZonaContrato.cs</DependentUpon>
+    </Compile>
     <Compile Include="GUI\CONTRATOS\SeleccionarZonasContrato.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -290,6 +296,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="GUI\CONTRATOS\SeleccionarClienteContrato.resx">
       <DependentUpon>SeleccionarClienteContrato.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\CONTRATOS\SeleccionarZonaContrato.resx">
+      <DependentUpon>SeleccionarZonaContrato.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="GUI\CONTRATOS\SeleccionarZonasContrato.resx">
       <DependentUpon>SeleccionarZonasContrato.cs</DependentUpon>

@@ -101,6 +101,7 @@
             this.btnCancelarAddPdC.Text = "CANCELAR";
             this.btnCancelarAddPdC.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             this.btnCancelarAddPdC.TextOffset = new System.Drawing.Point(4, 0);
+            this.btnCancelarAddPdC.Click += new System.EventHandler(this.btnCancelarAddPdC_Click);
             // 
             // guna2Button4
             // 

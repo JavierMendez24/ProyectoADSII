@@ -10,21 +10,19 @@ using System.Windows.Forms;
 
 namespace Skoll.GUI.CONTRATOS
 {
-    public partial class SeleccionarClienteContrato : Form
+    public partial class SeleccionarZonaContrato : Form
     {
-        public SeleccionarClienteContrato()
+        public SeleccionarZonaContrato()
         {
             InitializeComponent();
-            foreach (DataGridViewRow fila in dtgClienteCatalogo.Rows)
-                fila.Height = 28;
         }
 
-        private void btnSeleccionarClienteCtt_Click(object sender, EventArgs e)
+        private void btnCerrar_Click(object sender, EventArgs e)
         {
             Close();
         }
 
-        private void btnCancelarSeleccionarClt_Click(object sender, EventArgs e)
+        private void btnCancelar_Click(object sender, EventArgs e)
         {
             Close();
         }

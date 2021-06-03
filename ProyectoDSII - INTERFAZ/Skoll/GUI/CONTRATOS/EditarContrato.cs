@@ -27,5 +27,16 @@ namespace Skoll.GUI.CONTRATOS
             dtpInicio.CustomFormat = "yyyy/MM/dd";
             dtpFin.CustomFormat = "yyyy/MM/dd";
         }
+
+        private void btnSeleccionarZona_Click(object sender, EventArgs e)
+        {
+            SeleccionarZonaContrato szc = new SeleccionarZonaContrato();
+            szc.ShowDialog();
+        }
+
+        private void btnCancelarAddPdC_Click(object sender, EventArgs e)
+        {
+            Close();
+        }
     }
 }

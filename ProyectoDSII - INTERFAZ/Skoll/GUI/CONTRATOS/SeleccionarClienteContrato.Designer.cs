@@ -42,7 +42,7 @@
             this.guna2VSeparator1 = new Guna.UI2.WinForms.Guna2VSeparator();
             this.pbSearch = new System.Windows.Forms.PictureBox();
             this.label2 = new System.Windows.Forms.Label();
-            this.btnCancelarAddPdC = new Guna.UI2.WinForms.Guna2Button();
+            this.btnCancelarSeleccionarClt = new Guna.UI2.WinForms.Guna2Button();
             this.guna2Button4 = new Guna.UI2.WinForms.Guna2Button();
             this.panelDtgCatalogos = new System.Windows.Forms.Panel();
             this.dtgClienteCatalogo = new System.Windows.Forms.DataGridView();
@@ -51,9 +51,9 @@
             this.apellidos = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.telefono = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.estado = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.txbBuscarPDC = new Guna.UI2.WinForms.Guna2TextBox();
+            this.txbBuscarClientes = new Guna.UI2.WinForms.Guna2TextBox();
             this.panelTituloAddPdZnBd = new Guna.UI2.WinForms.Guna2Panel();
-            this.btnSeleccionarClienteCtt = new System.Windows.Forms.PictureBox();
+            this.btnSeleccionarCliente = new System.Windows.Forms.PictureBox();
             this.lblAgregaraCatalogo = new System.Windows.Forms.Label();
             this.btnCerrarAgregarPdC2 = new System.Windows.Forms.PictureBox();
             this.panelSCCtt.SuspendLayout();
@@ -62,7 +62,7 @@
             this.panelDtgCatalogos.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dtgClienteCatalogo)).BeginInit();
             this.panelTituloAddPdZnBd.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.btnSeleccionarClienteCtt)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnSeleccionarCliente)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnCerrarAgregarPdC2)).BeginInit();
             this.SuspendLayout();
             // 
@@ -85,10 +85,10 @@
             this.panelSCC.Controls.Add(this.guna2VSeparator1);
             this.panelSCC.Controls.Add(this.pbSearch);
             this.panelSCC.Controls.Add(this.label2);
-            this.panelSCC.Controls.Add(this.btnCancelarAddPdC);
+            this.panelSCC.Controls.Add(this.btnCancelarSeleccionarClt);
             this.panelSCC.Controls.Add(this.guna2Button4);
             this.panelSCC.Controls.Add(this.panelDtgCatalogos);
-            this.panelSCC.Controls.Add(this.txbBuscarPDC);
+            this.panelSCC.Controls.Add(this.txbBuscarClientes);
             this.panelSCC.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panelSCC.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(237)))), ((int)(((byte)(242)))));
             this.panelSCC.Location = new System.Drawing.Point(0, 39);
@@ -129,27 +129,28 @@
             this.label2.TabIndex = 33;
             this.label2.Text = "Ingrese el Nombre del Cliente:";
             // 
-            // btnCancelarAddPdC
+            // btnCancelarSeleccionarClt
             // 
-            this.btnCancelarAddPdC.BorderRadius = 5;
-            this.btnCancelarAddPdC.CheckedState.Parent = this.btnCancelarAddPdC;
-            this.btnCancelarAddPdC.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnCancelarAddPdC.CustomImages.Parent = this.btnCancelarAddPdC;
-            this.btnCancelarAddPdC.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(218)))), ((int)(((byte)(79)))), ((int)(((byte)(83)))));
-            this.btnCancelarAddPdC.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnCancelarAddPdC.ForeColor = System.Drawing.Color.White;
-            this.btnCancelarAddPdC.HoverState.Parent = this.btnCancelarAddPdC;
-            this.btnCancelarAddPdC.Image = ((System.Drawing.Image)(resources.GetObject("btnCancelarAddPdC.Image")));
-            this.btnCancelarAddPdC.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.btnCancelarAddPdC.ImageSize = new System.Drawing.Size(19, 19);
-            this.btnCancelarAddPdC.Location = new System.Drawing.Point(594, 375);
-            this.btnCancelarAddPdC.Name = "btnCancelarAddPdC";
-            this.btnCancelarAddPdC.ShadowDecoration.Parent = this.btnCancelarAddPdC;
-            this.btnCancelarAddPdC.Size = new System.Drawing.Size(110, 40);
-            this.btnCancelarAddPdC.TabIndex = 46;
-            this.btnCancelarAddPdC.Text = "CANCELAR";
-            this.btnCancelarAddPdC.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
-            this.btnCancelarAddPdC.TextOffset = new System.Drawing.Point(4, 0);
+            this.btnCancelarSeleccionarClt.BorderRadius = 5;
+            this.btnCancelarSeleccionarClt.CheckedState.Parent = this.btnCancelarSeleccionarClt;
+            this.btnCancelarSeleccionarClt.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnCancelarSeleccionarClt.CustomImages.Parent = this.btnCancelarSeleccionarClt;
+            this.btnCancelarSeleccionarClt.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(218)))), ((int)(((byte)(79)))), ((int)(((byte)(83)))));
+            this.btnCancelarSeleccionarClt.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnCancelarSeleccionarClt.ForeColor = System.Drawing.Color.White;
+            this.btnCancelarSeleccionarClt.HoverState.Parent = this.btnCancelarSeleccionarClt;
+            this.btnCancelarSeleccionarClt.Image = ((System.Drawing.Image)(resources.GetObject("btnCancelarSeleccionarClt.Image")));
+            this.btnCancelarSeleccionarClt.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.btnCancelarSeleccionarClt.ImageSize = new System.Drawing.Size(19, 19);
+            this.btnCancelarSeleccionarClt.Location = new System.Drawing.Point(594, 375);
+            this.btnCancelarSeleccionarClt.Name = "btnCancelarSeleccionarClt";
+            this.btnCancelarSeleccionarClt.ShadowDecoration.Parent = this.btnCancelarSeleccionarClt;
+            this.btnCancelarSeleccionarClt.Size = new System.Drawing.Size(110, 40);
+            this.btnCancelarSeleccionarClt.TabIndex = 46;
+            this.btnCancelarSeleccionarClt.Text = "CANCELAR";
+            this.btnCancelarSeleccionarClt.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.btnCancelarSeleccionarClt.TextOffset = new System.Drawing.Point(4, 0);
+            this.btnCancelarSeleccionarClt.Click += new System.EventHandler(this.btnCancelarSeleccionarClt_Click);
             // 
             // guna2Button4
             // 
@@ -273,32 +274,32 @@
             this.estado.HeaderText = "ESTADO";
             this.estado.Name = "estado";
             // 
-            // txbBuscarPDC
+            // txbBuscarClientes
             // 
-            this.txbBuscarPDC.BorderColor = System.Drawing.Color.Silver;
-            this.txbBuscarPDC.BorderRadius = 8;
-            this.txbBuscarPDC.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.txbBuscarPDC.DefaultText = "Buscar...";
-            this.txbBuscarPDC.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.txbBuscarPDC.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.txbBuscarPDC.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.txbBuscarPDC.DisabledState.Parent = this.txbBuscarPDC;
-            this.txbBuscarPDC.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.txbBuscarPDC.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txbBuscarPDC.FocusedState.Parent = this.txbBuscarPDC;
-            this.txbBuscarPDC.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txbBuscarPDC.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txbBuscarPDC.HoverState.Parent = this.txbBuscarPDC;
-            this.txbBuscarPDC.Location = new System.Drawing.Point(441, 31);
-            this.txbBuscarPDC.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.txbBuscarPDC.Name = "txbBuscarPDC";
-            this.txbBuscarPDC.PasswordChar = '\0';
-            this.txbBuscarPDC.PlaceholderText = "";
-            this.txbBuscarPDC.SelectedText = "";
-            this.txbBuscarPDC.SelectionStart = 9;
-            this.txbBuscarPDC.ShadowDecoration.Parent = this.txbBuscarPDC;
-            this.txbBuscarPDC.Size = new System.Drawing.Size(263, 35);
-            this.txbBuscarPDC.TabIndex = 5;
+            this.txbBuscarClientes.BorderColor = System.Drawing.Color.Silver;
+            this.txbBuscarClientes.BorderRadius = 8;
+            this.txbBuscarClientes.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.txbBuscarClientes.DefaultText = "Buscar...";
+            this.txbBuscarClientes.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.txbBuscarClientes.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.txbBuscarClientes.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.txbBuscarClientes.DisabledState.Parent = this.txbBuscarClientes;
+            this.txbBuscarClientes.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.txbBuscarClientes.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.txbBuscarClientes.FocusedState.Parent = this.txbBuscarClientes;
+            this.txbBuscarClientes.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txbBuscarClientes.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.txbBuscarClientes.HoverState.Parent = this.txbBuscarClientes;
+            this.txbBuscarClientes.Location = new System.Drawing.Point(441, 31);
+            this.txbBuscarClientes.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.txbBuscarClientes.Name = "txbBuscarClientes";
+            this.txbBuscarClientes.PasswordChar = '\0';
+            this.txbBuscarClientes.PlaceholderText = "";
+            this.txbBuscarClientes.SelectedText = "";
+            this.txbBuscarClientes.SelectionStart = 9;
+            this.txbBuscarClientes.ShadowDecoration.Parent = this.txbBuscarClientes;
+            this.txbBuscarClientes.Size = new System.Drawing.Size(263, 35);
+            this.txbBuscarClientes.TabIndex = 5;
             // 
             // panelTituloAddPdZnBd
             // 
@@ -306,7 +307,7 @@
             this.panelTituloAddPdZnBd.BorderColor = System.Drawing.Color.Silver;
             this.panelTituloAddPdZnBd.BorderRadius = 4;
             this.panelTituloAddPdZnBd.BorderThickness = 1;
-            this.panelTituloAddPdZnBd.Controls.Add(this.btnSeleccionarClienteCtt);
+            this.panelTituloAddPdZnBd.Controls.Add(this.btnSeleccionarCliente);
             this.panelTituloAddPdZnBd.Controls.Add(this.lblAgregaraCatalogo);
             this.panelTituloAddPdZnBd.Controls.Add(this.btnCerrarAgregarPdC2);
             this.panelTituloAddPdZnBd.Dock = System.Windows.Forms.DockStyle.Top;
@@ -316,17 +317,17 @@
             this.panelTituloAddPdZnBd.Size = new System.Drawing.Size(730, 39);
             this.panelTituloAddPdZnBd.TabIndex = 59;
             // 
-            // btnSeleccionarClienteCtt
+            // btnSeleccionarCliente
             // 
-            this.btnSeleccionarClienteCtt.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnSeleccionarClienteCtt.Image = ((System.Drawing.Image)(resources.GetObject("btnSeleccionarClienteCtt.Image")));
-            this.btnSeleccionarClienteCtt.Location = new System.Drawing.Point(703, 6);
-            this.btnSeleccionarClienteCtt.Name = "btnSeleccionarClienteCtt";
-            this.btnSeleccionarClienteCtt.Size = new System.Drawing.Size(21, 21);
-            this.btnSeleccionarClienteCtt.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.btnSeleccionarClienteCtt.TabIndex = 21;
-            this.btnSeleccionarClienteCtt.TabStop = false;
-            this.btnSeleccionarClienteCtt.Click += new System.EventHandler(this.btnSeleccionarClienteCtt_Click);
+            this.btnSeleccionarCliente.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnSeleccionarCliente.Image = ((System.Drawing.Image)(resources.GetObject("btnSeleccionarCliente.Image")));
+            this.btnSeleccionarCliente.Location = new System.Drawing.Point(703, 6);
+            this.btnSeleccionarCliente.Name = "btnSeleccionarCliente";
+            this.btnSeleccionarCliente.Size = new System.Drawing.Size(21, 21);
+            this.btnSeleccionarCliente.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.btnSeleccionarCliente.TabIndex = 21;
+            this.btnSeleccionarCliente.TabStop = false;
+            this.btnSeleccionarCliente.Click += new System.EventHandler(this.btnSeleccionarClienteCtt_Click);
             // 
             // lblAgregaraCatalogo
             // 
@@ -370,7 +371,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.dtgClienteCatalogo)).EndInit();
             this.panelTituloAddPdZnBd.ResumeLayout(false);
             this.panelTituloAddPdZnBd.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.btnSeleccionarClienteCtt)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnSeleccionarCliente)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnCerrarAgregarPdC2)).EndInit();
             this.ResumeLayout(false);
 
@@ -383,13 +384,13 @@
         private Guna.UI2.WinForms.Guna2VSeparator guna2VSeparator1;
         private System.Windows.Forms.PictureBox pbSearch;
         private System.Windows.Forms.Label label2;
-        private Guna.UI2.WinForms.Guna2Button btnCancelarAddPdC;
+        private Guna.UI2.WinForms.Guna2Button btnCancelarSeleccionarClt;
         private Guna.UI2.WinForms.Guna2Button guna2Button4;
         private System.Windows.Forms.Panel panelDtgCatalogos;
         private System.Windows.Forms.DataGridView dtgClienteCatalogo;
-        private Guna.UI2.WinForms.Guna2TextBox txbBuscarPDC;
+        private Guna.UI2.WinForms.Guna2TextBox txbBuscarClientes;
         private Guna.UI2.WinForms.Guna2Panel panelTituloAddPdZnBd;
-        private System.Windows.Forms.PictureBox btnSeleccionarClienteCtt;
+        private System.Windows.Forms.PictureBox btnSeleccionarCliente;
         private System.Windows.Forms.Label lblAgregaraCatalogo;
         private System.Windows.Forms.PictureBox btnCerrarAgregarPdC2;
         private System.Windows.Forms.DataGridViewTextBoxColumn idCliente;

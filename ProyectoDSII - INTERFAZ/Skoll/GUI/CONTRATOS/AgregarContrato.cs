@@ -30,7 +30,7 @@ namespace Skoll.GUI.CONTRATOS
 
         private void btnSeleccionarZonasContrato_Click(object sender, EventArgs e)
         {
-            SeleccionarZonasContrato szctt = new SeleccionarZonasContrato();
+            SeleccionarZonaContrato szctt = new SeleccionarZonaContrato();
             szctt.ShowDialog();
         }
 
@@ -38,6 +38,11 @@ namespace Skoll.GUI.CONTRATOS
         {
             dtpInicio.CustomFormat = "yyyy/MM/dd";
             dtpFin.CustomFormat = "yyyy/MM/dd";
+        }
+
+        private void btnCancelarAddPdC_Click(object sender, EventArgs e)
+        {
+            Close();
         }
     }
 }
