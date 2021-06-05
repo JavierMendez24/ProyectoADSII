@@ -52,6 +52,8 @@
   <ItemGroup>
     <Compile Include="CLS\AppManager.cs" />
     <Compile Include="CLS\Clientes.cs" />
+    <Compile Include="CLS\Contratos.cs" />
+    <Compile Include="CLS\DetalleContrato.cs" />
     <Compile Include="GUI\BODEGAS\Bodegas.cs">
       <SubType>Form</SubType>
     </Compile>

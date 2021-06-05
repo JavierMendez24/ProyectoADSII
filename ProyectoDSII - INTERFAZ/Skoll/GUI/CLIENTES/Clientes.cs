@@ -54,6 +54,7 @@ namespace Skoll.GUI.CLIENTES
             dtgClientesPersonas.AutoGenerateColumns = false;
             dtgClientesPersonas.DataSource = _DATOSP;
         }
+
         public Clientes()
         {
             InitializeComponent();
@@ -89,7 +90,6 @@ namespace Skoll.GUI.CLIENTES
         {
             if (oSesion.ComprobarPermisos(3))
             {
-                // prueba
                 try
                 {
                     AgregarCliente ac = new AgregarCliente();

@@ -288,3 +288,4 @@ C:\SKOLL-DSII\ProyectoADSII\ProyectoDSII - INTERFAZ\Skoll\obj\Debug\Skoll.GUI.RE
 C:\SKOLL-DSII\ProyectoADSII\ProyectoDSII - INTERFAZ\Skoll\obj\Debug\Skoll.Properties.Resources.resources
 C:\SKOLL-DSII\ProyectoADSII\ProyectoDSII - INTERFAZ\Skoll\obj\Debug\Skoll.csproj.GenerateResource.Cache
 C:\SKOLL-DSII\ProyectoADSII\ProyectoDSII - INTERFAZ\Skoll\obj\Debug\Skoll.GUI.CONTRATOS.SeleccionarZonaContrato.resources
+D:\Universidad\ProyectoDSII\ProyectoADSII\ProyectoDSII - INTERFAZ\Skoll\obj\Debug\Skoll.GUI.CONTRATOS.SeleccionarZonaContrato.resources

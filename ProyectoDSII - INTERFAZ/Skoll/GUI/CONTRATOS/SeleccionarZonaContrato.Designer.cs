@@ -29,12 +29,12 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(SeleccionarZonaContrato));
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle7 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle11 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle12 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle8 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle9 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle10 = new System.Windows.Forms.DataGridViewCellStyle();
             this.panelSCC = new Guna.UI2.WinForms.Guna2Panel();
             this.guna2VSeparator1 = new Guna.UI2.WinForms.Guna2VSeparator();
             this.pbSearch = new System.Windows.Forms.PictureBox();
@@ -42,11 +42,12 @@
             this.btnCancelar = new Guna.UI2.WinForms.Guna2Button();
             this.btnAceptar = new Guna.UI2.WinForms.Guna2Button();
             this.panelDtgCatalogos = new System.Windows.Forms.Panel();
-            this.dtgClienteCatalogo = new System.Windows.Forms.DataGridView();
+            this.dtgZonasCatalogo = new System.Windows.Forms.DataGridView();
+            this.Seleccion = new System.Windows.Forms.DataGridViewCheckBoxColumn();
             this.ID_Zona = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.nombre = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.apellidos = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Seleccion = new System.Windows.Forms.DataGridViewCheckBoxColumn();
+            this.IDDetalleContrato = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.txbBuscarZona = new Guna.UI2.WinForms.Guna2TextBox();
             this.panelTituloAddPdZnBd = new Guna.UI2.WinForms.Guna2Panel();
             this.btnCerrar = new System.Windows.Forms.PictureBox();
@@ -55,7 +56,7 @@
             this.panelSCC.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pbSearch)).BeginInit();
             this.panelDtgCatalogos.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dtgClienteCatalogo)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dtgZonasCatalogo)).BeginInit();
             this.panelTituloAddPdZnBd.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.btnCerrar)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnCerrarAgregarPdC2)).BeginInit();
@@ -107,11 +108,11 @@
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(40)))), ((int)(((byte)(52)))));
-            this.label2.Location = new System.Drawing.Point(204, 37);
+            this.label2.Location = new System.Drawing.Point(19, 38);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(226, 21);
+            this.label2.Size = new System.Drawing.Size(197, 21);
             this.label2.TabIndex = 33;
-            this.label2.Text = "Ingrese el Nombre de la Zona";
+            this.label2.Text = "Zonas asignadas al cliente";
             // 
             // btnCancelar
             // 
@@ -156,78 +157,92 @@
             this.btnAceptar.TabIndex = 45;
             this.btnAceptar.Text = "ACEPTAR";
             this.btnAceptar.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.btnAceptar.Click += new System.EventHandler(this.btnAceptar_Click);
             // 
             // panelDtgCatalogos
             // 
             this.panelDtgCatalogos.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.panelDtgCatalogos.Controls.Add(this.dtgClienteCatalogo);
+            this.panelDtgCatalogos.Controls.Add(this.dtgZonasCatalogo);
             this.panelDtgCatalogos.Location = new System.Drawing.Point(23, 83);
             this.panelDtgCatalogos.Name = "panelDtgCatalogos";
             this.panelDtgCatalogos.Size = new System.Drawing.Size(681, 274);
             this.panelDtgCatalogos.TabIndex = 9;
             // 
-            // dtgClienteCatalogo
+            // dtgZonasCatalogo
             // 
-            this.dtgClienteCatalogo.AllowUserToAddRows = false;
-            this.dtgClienteCatalogo.AllowUserToDeleteRows = false;
-            this.dtgClienteCatalogo.AllowUserToResizeColumns = false;
-            this.dtgClienteCatalogo.AllowUserToResizeRows = false;
-            this.dtgClienteCatalogo.BackgroundColor = System.Drawing.Color.White;
-            this.dtgClienteCatalogo.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.dtgClienteCatalogo.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.Sunken;
-            this.dtgClienteCatalogo.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Sunken;
-            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(67)))), ((int)(((byte)(100)))));
-            dataGridViewCellStyle1.Font = new System.Drawing.Font("Segoe UI Semibold", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle1.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.Color.Turquoise;
-            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dtgClienteCatalogo.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
-            this.dtgClienteCatalogo.ColumnHeadersHeight = 35;
-            this.dtgClienteCatalogo.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.DisableResizing;
-            this.dtgClienteCatalogo.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.dtgZonasCatalogo.AllowUserToAddRows = false;
+            this.dtgZonasCatalogo.AllowUserToDeleteRows = false;
+            this.dtgZonasCatalogo.AllowUserToResizeColumns = false;
+            this.dtgZonasCatalogo.AllowUserToResizeRows = false;
+            this.dtgZonasCatalogo.BackgroundColor = System.Drawing.Color.White;
+            this.dtgZonasCatalogo.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.dtgZonasCatalogo.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.Sunken;
+            this.dtgZonasCatalogo.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Sunken;
+            dataGridViewCellStyle7.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(67)))), ((int)(((byte)(100)))));
+            dataGridViewCellStyle7.Font = new System.Drawing.Font("Segoe UI Semibold", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle7.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle7.SelectionBackColor = System.Drawing.Color.Turquoise;
+            dataGridViewCellStyle7.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle7.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dtgZonasCatalogo.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle7;
+            this.dtgZonasCatalogo.ColumnHeadersHeight = 35;
+            this.dtgZonasCatalogo.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.DisableResizing;
+            this.dtgZonasCatalogo.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.Seleccion,
             this.ID_Zona,
             this.nombre,
             this.apellidos,
-            this.Seleccion});
-            dataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle5.BackColor = System.Drawing.Color.White;
-            dataGridViewCellStyle5.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(237)))), ((int)(((byte)(242)))));
-            dataGridViewCellStyle5.Padding = new System.Windows.Forms.Padding(5, 0, 0, 0);
-            dataGridViewCellStyle5.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(186)))), ((int)(((byte)(245)))), ((int)(((byte)(237)))));
-            dataGridViewCellStyle5.SelectionForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle5.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.dtgClienteCatalogo.DefaultCellStyle = dataGridViewCellStyle5;
-            this.dtgClienteCatalogo.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.dtgClienteCatalogo.EnableHeadersVisualStyles = false;
-            this.dtgClienteCatalogo.GridColor = System.Drawing.Color.White;
-            this.dtgClienteCatalogo.Location = new System.Drawing.Point(0, 0);
-            this.dtgClienteCatalogo.Name = "dtgClienteCatalogo";
-            this.dtgClienteCatalogo.ReadOnly = true;
-            this.dtgClienteCatalogo.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Sunken;
-            dataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle6.BackColor = System.Drawing.Color.White;
-            dataGridViewCellStyle6.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle6.ForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle6.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(186)))), ((int)(((byte)(245)))), ((int)(((byte)(237)))));
-            dataGridViewCellStyle6.SelectionForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle6.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dtgClienteCatalogo.RowHeadersDefaultCellStyle = dataGridViewCellStyle6;
-            this.dtgClienteCatalogo.RowHeadersVisible = false;
-            this.dtgClienteCatalogo.RowTemplate.Height = 28;
-            this.dtgClienteCatalogo.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dtgClienteCatalogo.Size = new System.Drawing.Size(681, 274);
-            this.dtgClienteCatalogo.TabIndex = 5;
+            this.IDDetalleContrato});
+            dataGridViewCellStyle11.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle11.BackColor = System.Drawing.Color.White;
+            dataGridViewCellStyle11.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle11.ForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle11.Padding = new System.Windows.Forms.Padding(5, 0, 0, 0);
+            dataGridViewCellStyle11.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(186)))), ((int)(((byte)(245)))), ((int)(((byte)(237)))));
+            dataGridViewCellStyle11.SelectionForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle11.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.dtgZonasCatalogo.DefaultCellStyle = dataGridViewCellStyle11;
+            this.dtgZonasCatalogo.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.dtgZonasCatalogo.EnableHeadersVisualStyles = false;
+            this.dtgZonasCatalogo.GridColor = System.Drawing.Color.White;
+            this.dtgZonasCatalogo.Location = new System.Drawing.Point(0, 0);
+            this.dtgZonasCatalogo.Name = "dtgZonasCatalogo";
+            this.dtgZonasCatalogo.ReadOnly = true;
+            this.dtgZonasCatalogo.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Sunken;
+            dataGridViewCellStyle12.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle12.BackColor = System.Drawing.Color.White;
+            dataGridViewCellStyle12.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle12.ForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle12.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(186)))), ((int)(((byte)(245)))), ((int)(((byte)(237)))));
+            dataGridViewCellStyle12.SelectionForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle12.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dtgZonasCatalogo.RowHeadersDefaultCellStyle = dataGridViewCellStyle12;
+            this.dtgZonasCatalogo.RowHeadersVisible = false;
+            this.dtgZonasCatalogo.RowTemplate.Height = 28;
+            this.dtgZonasCatalogo.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
+            this.dtgZonasCatalogo.Size = new System.Drawing.Size(681, 274);
+            this.dtgZonasCatalogo.TabIndex = 5;
+            this.dtgZonasCatalogo.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dtgZonasCatalogo_CellContentClick);
+            // 
+            // Seleccion
+            // 
+            this.Seleccion.DataPropertyName = "Seleccion";
+            this.Seleccion.FalseValue = "0";
+            this.Seleccion.HeaderText = "SELECCIÓN";
+            this.Seleccion.IndeterminateValue = "0";
+            this.Seleccion.Name = "Seleccion";
+            this.Seleccion.ReadOnly = true;
+            this.Seleccion.TrueValue = "1";
+            this.Seleccion.Width = 130;
             // 
             // ID_Zona
             // 
             this.ID_Zona.DataPropertyName = "ID_Zona";
-            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            this.ID_Zona.DefaultCellStyle = dataGridViewCellStyle2;
+            dataGridViewCellStyle8.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            this.ID_Zona.DefaultCellStyle = dataGridViewCellStyle8;
             this.ID_Zona.HeaderText = "ID ZONA";
             this.ID_Zona.Name = "ID_Zona";
             this.ID_Zona.ReadOnly = true;
@@ -237,8 +252,8 @@
             // 
             this.nombre.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
             this.nombre.DataPropertyName = "Nombre_Zona";
-            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            this.nombre.DefaultCellStyle = dataGridViewCellStyle3;
+            dataGridViewCellStyle9.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            this.nombre.DefaultCellStyle = dataGridViewCellStyle9;
             this.nombre.HeaderText = "ZONA";
             this.nombre.Name = "nombre";
             this.nombre.ReadOnly = true;
@@ -246,19 +261,20 @@
             // apellidos
             // 
             this.apellidos.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.apellidos.DataPropertyName = "ID_Bodega";
-            dataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            this.apellidos.DefaultCellStyle = dataGridViewCellStyle4;
+            this.apellidos.DataPropertyName = "Nombre_Bodega";
+            dataGridViewCellStyle10.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            this.apellidos.DefaultCellStyle = dataGridViewCellStyle10;
             this.apellidos.HeaderText = "BODEGA";
             this.apellidos.Name = "apellidos";
             this.apellidos.ReadOnly = true;
             // 
-            // Seleccion
+            // IDDetalleContrato
             // 
-            this.Seleccion.HeaderText = "SELECCIÓN";
-            this.Seleccion.Name = "Seleccion";
-            this.Seleccion.ReadOnly = true;
-            this.Seleccion.Width = 130;
+            this.IDDetalleContrato.DataPropertyName = "ID_Detalle_Contrato";
+            this.IDDetalleContrato.HeaderText = "IDDetalleContrato";
+            this.IDDetalleContrato.Name = "IDDetalleContrato";
+            this.IDDetalleContrato.ReadOnly = true;
+            this.IDDetalleContrato.Visible = false;
             // 
             // txbBuscarZona
             // 
@@ -349,11 +365,12 @@
             this.Name = "SeleccionarZonaContrato";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "SeleccionarZonaContrato";
+            this.Load += new System.EventHandler(this.SeleccionarZonaContrato_Load);
             this.panelSCC.ResumeLayout(false);
             this.panelSCC.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pbSearch)).EndInit();
             this.panelDtgCatalogos.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.dtgClienteCatalogo)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dtgZonasCatalogo)).EndInit();
             this.panelTituloAddPdZnBd.ResumeLayout(false);
             this.panelTituloAddPdZnBd.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.btnCerrar)).EndInit();
@@ -371,15 +388,16 @@
         private Guna.UI2.WinForms.Guna2Button btnCancelar;
         private Guna.UI2.WinForms.Guna2Button btnAceptar;
         private System.Windows.Forms.Panel panelDtgCatalogos;
-        private System.Windows.Forms.DataGridView dtgClienteCatalogo;
+        private System.Windows.Forms.DataGridView dtgZonasCatalogo;
         private Guna.UI2.WinForms.Guna2TextBox txbBuscarZona;
         private Guna.UI2.WinForms.Guna2Panel panelTituloAddPdZnBd;
         private System.Windows.Forms.PictureBox btnCerrar;
         private System.Windows.Forms.Label lblAgregaraCatalogo;
         private System.Windows.Forms.PictureBox btnCerrarAgregarPdC2;
+        private System.Windows.Forms.DataGridViewCheckBoxColumn Seleccion;
         private System.Windows.Forms.DataGridViewTextBoxColumn ID_Zona;
         private System.Windows.Forms.DataGridViewTextBoxColumn nombre;
         private System.Windows.Forms.DataGridViewTextBoxColumn apellidos;
-        private System.Windows.Forms.DataGridViewCheckBoxColumn Seleccion;
+        private System.Windows.Forms.DataGridViewTextBoxColumn IDDetalleContrato;
     }
 }

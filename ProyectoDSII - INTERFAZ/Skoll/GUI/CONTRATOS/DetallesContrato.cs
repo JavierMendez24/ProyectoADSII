@@ -21,5 +21,10 @@ namespace Skoll.GUI.CONTRATOS
         {
             Close();
         }
+
+        private void btnCancelar_Click(object sender, EventArgs e)
+        {
+            Close();
+        }
     }
 }

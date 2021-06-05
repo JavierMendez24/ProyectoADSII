@@ -164,6 +164,8 @@
             // 
             // dtgContratosPersonas
             // 
+            this.dtgContratosPersonas.AllowUserToAddRows = false;
+            this.dtgContratosPersonas.AllowUserToDeleteRows = false;
             this.dtgContratosPersonas.AllowUserToResizeColumns = false;
             this.dtgContratosPersonas.AllowUserToResizeRows = false;
             this.dtgContratosPersonas.BackgroundColor = System.Drawing.Color.White;
@@ -201,6 +203,7 @@
             this.dtgContratosPersonas.GridColor = System.Drawing.Color.White;
             this.dtgContratosPersonas.Location = new System.Drawing.Point(0, 0);
             this.dtgContratosPersonas.Name = "dtgContratosPersonas";
+            this.dtgContratosPersonas.ReadOnly = true;
             this.dtgContratosPersonas.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Sunken;
             dataGridViewCellStyle7.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
             dataGridViewCellStyle7.BackColor = System.Drawing.Color.White;
@@ -219,46 +222,58 @@
             // 
             // idContrato
             // 
+            this.idContrato.DataPropertyName = "ID_Contrato";
             dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
             this.idContrato.DefaultCellStyle = dataGridViewCellStyle2;
             this.idContrato.HeaderText = "ID CONTRATO";
             this.idContrato.Name = "idContrato";
+            this.idContrato.ReadOnly = true;
             this.idContrato.Width = 135;
             // 
             // cliente
             // 
             this.cliente.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.cliente.DataPropertyName = "Nombres_cliente";
             this.cliente.HeaderText = "CLIENTE PER";
             this.cliente.Name = "cliente";
+            this.cliente.ReadOnly = true;
             // 
             // nzonas
             // 
+            this.nzonas.DataPropertyName = "Numero_Zonas";
             dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
             this.nzonas.DefaultCellStyle = dataGridViewCellStyle3;
             this.nzonas.HeaderText = "N° ZONAS";
             this.nzonas.Name = "nzonas";
+            this.nzonas.ReadOnly = true;
             this.nzonas.Width = 110;
             // 
             // costototal
             // 
+            this.costototal.DataPropertyName = "Costo_Arrendamiento";
             this.costototal.HeaderText = "COSTO TOTAL DE ARRENDAMIENTO";
             this.costototal.Name = "costototal";
+            this.costototal.ReadOnly = true;
             this.costototal.Width = 135;
             // 
             // duracion
             // 
+            this.duracion.DataPropertyName = "Inicio_Arrendamiento";
             dataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
             this.duracion.DefaultCellStyle = dataGridViewCellStyle4;
             this.duracion.HeaderText = "DURACIÓN";
             this.duracion.Name = "duracion";
+            this.duracion.ReadOnly = true;
             this.duracion.Width = 110;
             // 
             // estadoc
             // 
+            this.estadoc.DataPropertyName = "Estado";
             dataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
             this.estadoc.DefaultCellStyle = dataGridViewCellStyle5;
             this.estadoc.HeaderText = "ESTADO";
             this.estadoc.Name = "estadoc";
+            this.estadoc.ReadOnly = true;
             this.estadoc.Width = 125;
             // 
             // btnDetallesContrato
@@ -388,6 +403,8 @@
             // 
             // dtgContratosEmpresas
             // 
+            this.dtgContratosEmpresas.AllowUserToAddRows = false;
+            this.dtgContratosEmpresas.AllowUserToDeleteRows = false;
             this.dtgContratosEmpresas.AllowUserToResizeColumns = false;
             this.dtgContratosEmpresas.AllowUserToResizeRows = false;
             this.dtgContratosEmpresas.BackgroundColor = System.Drawing.Color.White;
@@ -425,6 +442,7 @@
             this.dtgContratosEmpresas.GridColor = System.Drawing.Color.White;
             this.dtgContratosEmpresas.Location = new System.Drawing.Point(0, 0);
             this.dtgContratosEmpresas.Name = "dtgContratosEmpresas";
+            this.dtgContratosEmpresas.ReadOnly = true;
             this.dtgContratosEmpresas.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Sunken;
             dataGridViewCellStyle14.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
             dataGridViewCellStyle14.BackColor = System.Drawing.Color.White;
@@ -443,46 +461,58 @@
             // 
             // dataGridViewTextBoxColumn1
             // 
+            this.dataGridViewTextBoxColumn1.DataPropertyName = "ID_Contrato";
             dataGridViewCellStyle9.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
             this.dataGridViewTextBoxColumn1.DefaultCellStyle = dataGridViewCellStyle9;
             this.dataGridViewTextBoxColumn1.HeaderText = "ID CONTRATO";
             this.dataGridViewTextBoxColumn1.Name = "dataGridViewTextBoxColumn1";
+            this.dataGridViewTextBoxColumn1.ReadOnly = true;
             this.dataGridViewTextBoxColumn1.Width = 135;
             // 
             // dataGridViewTextBoxColumn2
             // 
             this.dataGridViewTextBoxColumn2.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.dataGridViewTextBoxColumn2.DataPropertyName = "Nombre_Empresa";
             this.dataGridViewTextBoxColumn2.HeaderText = "CLIENTE EMP";
             this.dataGridViewTextBoxColumn2.Name = "dataGridViewTextBoxColumn2";
+            this.dataGridViewTextBoxColumn2.ReadOnly = true;
             // 
             // dataGridViewTextBoxColumn3
             // 
+            this.dataGridViewTextBoxColumn3.DataPropertyName = "Numero_Zonas";
             dataGridViewCellStyle10.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
             this.dataGridViewTextBoxColumn3.DefaultCellStyle = dataGridViewCellStyle10;
             this.dataGridViewTextBoxColumn3.HeaderText = "N° ZONAS";
             this.dataGridViewTextBoxColumn3.Name = "dataGridViewTextBoxColumn3";
+            this.dataGridViewTextBoxColumn3.ReadOnly = true;
             this.dataGridViewTextBoxColumn3.Width = 110;
             // 
             // dataGridViewTextBoxColumn4
             // 
+            this.dataGridViewTextBoxColumn4.DataPropertyName = "Costo_Arrendamiento";
             this.dataGridViewTextBoxColumn4.HeaderText = "COSTO TOTAL DE ARRENDAMIENTO";
             this.dataGridViewTextBoxColumn4.Name = "dataGridViewTextBoxColumn4";
+            this.dataGridViewTextBoxColumn4.ReadOnly = true;
             this.dataGridViewTextBoxColumn4.Width = 135;
             // 
             // dataGridViewTextBoxColumn5
             // 
+            this.dataGridViewTextBoxColumn5.DataPropertyName = "Inicio_Arrendamiento";
             dataGridViewCellStyle11.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
             this.dataGridViewTextBoxColumn5.DefaultCellStyle = dataGridViewCellStyle11;
             this.dataGridViewTextBoxColumn5.HeaderText = "DURACIÓN";
             this.dataGridViewTextBoxColumn5.Name = "dataGridViewTextBoxColumn5";
+            this.dataGridViewTextBoxColumn5.ReadOnly = true;
             this.dataGridViewTextBoxColumn5.Width = 110;
             // 
             // dataGridViewTextBoxColumn6
             // 
+            this.dataGridViewTextBoxColumn6.DataPropertyName = "Estado";
             dataGridViewCellStyle12.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
             this.dataGridViewTextBoxColumn6.DefaultCellStyle = dataGridViewCellStyle12;
             this.dataGridViewTextBoxColumn6.HeaderText = "ESTADO";
             this.dataGridViewTextBoxColumn6.Name = "dataGridViewTextBoxColumn6";
+            this.dataGridViewTextBoxColumn6.ReadOnly = true;
             this.dataGridViewTextBoxColumn6.Width = 125;
             // 
             // txbBuscarPDC
@@ -513,6 +543,7 @@
             this.txbBuscarPDC.ShadowDecoration.Parent = this.txbBuscarPDC;
             this.txbBuscarPDC.Size = new System.Drawing.Size(318, 35);
             this.txbBuscarPDC.TabIndex = 4;
+            this.txbBuscarPDC.TextChanged += new System.EventHandler(this.txbBuscarPDC_TextChanged);
             // 
             // lblCatalogo
             // 
@@ -536,6 +567,7 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Contratos";
             this.Text = "Contratos";
+            this.Load += new System.EventHandler(this.Contratos_Load);
             this.panelMain.ResumeLayout(false);
             this.panelMain.PerformLayout();
             this.panelDtgContratosPersonas.ResumeLayout(false);
@@ -563,6 +595,7 @@
         private System.Windows.Forms.DataGridView dtgContratosEmpresas;
         private Guna.UI2.WinForms.Guna2TextBox txbBuscarPDC;
         private System.Windows.Forms.Label lblCatalogo;
+        private Guna.UI2.WinForms.Guna2Button btnVerPersonas;
         private System.Windows.Forms.DataGridViewTextBoxColumn idContrato;
         private System.Windows.Forms.DataGridViewTextBoxColumn cliente;
         private System.Windows.Forms.DataGridViewTextBoxColumn nzonas;
@@ -575,6 +608,5 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn4;
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn5;
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn6;
-        private Guna.UI2.WinForms.Guna2Button btnVerPersonas;
     }
 }
