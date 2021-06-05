@@ -51,6 +51,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="CLS\AppManager.cs" />
+    <Compile Include="CLS\Catalogo.cs" />
     <Compile Include="CLS\Clientes.cs" />
     <Compile Include="CLS\Contratos.cs" />
     <Compile Include="CLS\DetalleContrato.cs" />

@@ -511,5 +511,43 @@ namespace CacheManager.CLS
 
             return Resultados;
         }
+
+
+        public static DataTable PRODUCTOS_CATALOGO()
+        {
+            DataTable Resultados = new DataTable();
+            DataManager.CLS.OperacionBD Consultor = new DataManager.CLS.OperacionBD();
+            String Consulta = @"select ID_Catalogo, Marca, Nombre_Producto, Categoria, Descripcion from Catalogo order by ID_Catalogo;";
+
+            try
+            {
+                Resultados = Consultor.Consultar(Consulta);
+            }
+            catch
+            {
+                Resultados = new DataTable();
+            }
+
+            return Resultados;
+        }
+
+        public static DataTable SELECCIONAR_PRODUCTO_CATALOGO(String pID_Catalogo)
+        {
+            DataTable Resultados = new DataTable();
+            DataManager.CLS.OperacionBD Consultor = new DataManager.CLS.OperacionBD();
+            String Consulta = @"SELECT ID_Catalogo, Nombre_Producto, Marca, Categoria, Descripcion FROM catalogo 
+                                WHERE ID_Catalogo = " + pID_Catalogo + ";";
+
+            try
+            {
+                Resultados = Consultor.Consultar(Consulta);
+            }
+            catch
+            {
+                Resultados = new DataTable();
+            }
+
+            return Resultados;
+        }
     }
 }

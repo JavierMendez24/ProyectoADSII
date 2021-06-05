@@ -30,12 +30,12 @@
         {
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Catalogo));
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle7 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle11 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle12 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle8 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle9 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle10 = new System.Windows.Forms.DataGridViewCellStyle();
             this.panelMain = new System.Windows.Forms.Panel();
             this.btnAñadirProductosaCatalogo = new Guna.UI2.WinForms.Guna2Button();
             this.btnEditarProductosdeCatalogo = new Guna.UI2.WinForms.Guna2Button();
@@ -44,7 +44,7 @@
             this.pbSearch = new System.Windows.Forms.PictureBox();
             this.panelDtgCatalogos = new System.Windows.Forms.Panel();
             this.dtgCatalogo = new System.Windows.Forms.DataGridView();
-            this.txbBuscarPDC = new Guna.UI2.WinForms.Guna2TextBox();
+            this.txbBuscarProductosdeCatalogo = new Guna.UI2.WinForms.Guna2TextBox();
             this.lblCatalogo = new System.Windows.Forms.Label();
             this.RadiusCbb = new Guna.UI2.WinForms.Guna2Elipse(this.components);
             this.idProducto = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -67,7 +67,7 @@
             this.panelMain.Controls.Add(this.guna2VSeparator1);
             this.panelMain.Controls.Add(this.pbSearch);
             this.panelMain.Controls.Add(this.panelDtgCatalogos);
-            this.panelMain.Controls.Add(this.txbBuscarPDC);
+            this.panelMain.Controls.Add(this.txbBuscarProductosdeCatalogo);
             this.panelMain.Controls.Add(this.lblCatalogo);
             this.panelMain.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panelMain.Location = new System.Drawing.Point(0, 0);
@@ -145,6 +145,7 @@
             this.btnEliminarProductosdelCatalogo.Text = "ELIMINAR";
             this.btnEliminarProductosdelCatalogo.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             this.btnEliminarProductosdelCatalogo.TextOffset = new System.Drawing.Point(3, 0);
+            this.btnEliminarProductosdelCatalogo.Click += new System.EventHandler(this.btnEliminarProductosdelCatalogo_Click);
             // 
             // guna2VSeparator1
             // 
@@ -179,20 +180,22 @@
             // 
             // dtgCatalogo
             // 
+            this.dtgCatalogo.AllowUserToAddRows = false;
+            this.dtgCatalogo.AllowUserToDeleteRows = false;
             this.dtgCatalogo.AllowUserToResizeColumns = false;
             this.dtgCatalogo.AllowUserToResizeRows = false;
             this.dtgCatalogo.BackgroundColor = System.Drawing.Color.White;
             this.dtgCatalogo.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.dtgCatalogo.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.Sunken;
             this.dtgCatalogo.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Sunken;
-            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(67)))), ((int)(((byte)(100)))));
-            dataGridViewCellStyle1.Font = new System.Drawing.Font("Segoe UI Semibold", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle1.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.Color.Turquoise;
-            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dtgCatalogo.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
+            dataGridViewCellStyle7.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(67)))), ((int)(((byte)(100)))));
+            dataGridViewCellStyle7.Font = new System.Drawing.Font("Segoe UI Semibold", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle7.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle7.SelectionBackColor = System.Drawing.Color.Turquoise;
+            dataGridViewCellStyle7.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle7.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dtgCatalogo.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle7;
             this.dtgCatalogo.ColumnHeadersHeight = 35;
             this.dtgCatalogo.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.DisableResizing;
             this.dtgCatalogo.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
@@ -201,62 +204,63 @@
             this.marca,
             this.categoria,
             this.DESCRIPCION});
-            dataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle5.BackColor = System.Drawing.Color.White;
-            dataGridViewCellStyle5.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle5.ForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle5.Padding = new System.Windows.Forms.Padding(5, 0, 0, 0);
-            dataGridViewCellStyle5.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(186)))), ((int)(((byte)(245)))), ((int)(((byte)(237)))));
-            dataGridViewCellStyle5.SelectionForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle5.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.dtgCatalogo.DefaultCellStyle = dataGridViewCellStyle5;
+            dataGridViewCellStyle11.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle11.BackColor = System.Drawing.Color.White;
+            dataGridViewCellStyle11.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle11.ForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle11.Padding = new System.Windows.Forms.Padding(5, 0, 0, 0);
+            dataGridViewCellStyle11.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(186)))), ((int)(((byte)(245)))), ((int)(((byte)(237)))));
+            dataGridViewCellStyle11.SelectionForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle11.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.dtgCatalogo.DefaultCellStyle = dataGridViewCellStyle11;
             this.dtgCatalogo.Dock = System.Windows.Forms.DockStyle.Fill;
             this.dtgCatalogo.EnableHeadersVisualStyles = false;
             this.dtgCatalogo.GridColor = System.Drawing.Color.White;
             this.dtgCatalogo.Location = new System.Drawing.Point(0, 0);
             this.dtgCatalogo.Name = "dtgCatalogo";
+            this.dtgCatalogo.ReadOnly = true;
             this.dtgCatalogo.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Sunken;
-            dataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle6.BackColor = System.Drawing.Color.White;
-            dataGridViewCellStyle6.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle6.ForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle6.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(186)))), ((int)(((byte)(245)))), ((int)(((byte)(237)))));
-            dataGridViewCellStyle6.SelectionForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle6.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dtgCatalogo.RowHeadersDefaultCellStyle = dataGridViewCellStyle6;
+            dataGridViewCellStyle12.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle12.BackColor = System.Drawing.Color.White;
+            dataGridViewCellStyle12.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle12.ForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle12.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(186)))), ((int)(((byte)(245)))), ((int)(((byte)(237)))));
+            dataGridViewCellStyle12.SelectionForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle12.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dtgCatalogo.RowHeadersDefaultCellStyle = dataGridViewCellStyle12;
             this.dtgCatalogo.RowHeadersVisible = false;
             this.dtgCatalogo.RowTemplate.Height = 28;
             this.dtgCatalogo.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.dtgCatalogo.Size = new System.Drawing.Size(819, 443);
             this.dtgCatalogo.TabIndex = 5;
             // 
-            // txbBuscarPDC
+            // txbBuscarProductosdeCatalogo
             // 
-            this.txbBuscarPDC.BorderColor = System.Drawing.Color.Silver;
-            this.txbBuscarPDC.BorderRadius = 8;
-            this.txbBuscarPDC.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.txbBuscarPDC.DefaultText = "";
-            this.txbBuscarPDC.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.txbBuscarPDC.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.txbBuscarPDC.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.txbBuscarPDC.DisabledState.Parent = this.txbBuscarPDC;
-            this.txbBuscarPDC.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.txbBuscarPDC.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txbBuscarPDC.FocusedState.Parent = this.txbBuscarPDC;
-            this.txbBuscarPDC.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txbBuscarPDC.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(40)))), ((int)(((byte)(52)))));
-            this.txbBuscarPDC.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txbBuscarPDC.HoverState.Parent = this.txbBuscarPDC;
-            this.txbBuscarPDC.Location = new System.Drawing.Point(543, 79);
-            this.txbBuscarPDC.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.txbBuscarPDC.Name = "txbBuscarPDC";
-            this.txbBuscarPDC.PasswordChar = '\0';
-            this.txbBuscarPDC.PlaceholderForeColor = System.Drawing.Color.Black;
-            this.txbBuscarPDC.PlaceholderText = "Ingrese el nombre del producto";
-            this.txbBuscarPDC.SelectedText = "";
-            this.txbBuscarPDC.ShadowDecoration.Parent = this.txbBuscarPDC;
-            this.txbBuscarPDC.Size = new System.Drawing.Size(313, 35);
-            this.txbBuscarPDC.TabIndex = 4;
+            this.txbBuscarProductosdeCatalogo.BorderColor = System.Drawing.Color.Silver;
+            this.txbBuscarProductosdeCatalogo.BorderRadius = 8;
+            this.txbBuscarProductosdeCatalogo.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.txbBuscarProductosdeCatalogo.DefaultText = "";
+            this.txbBuscarProductosdeCatalogo.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.txbBuscarProductosdeCatalogo.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.txbBuscarProductosdeCatalogo.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.txbBuscarProductosdeCatalogo.DisabledState.Parent = this.txbBuscarProductosdeCatalogo;
+            this.txbBuscarProductosdeCatalogo.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.txbBuscarProductosdeCatalogo.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.txbBuscarProductosdeCatalogo.FocusedState.Parent = this.txbBuscarProductosdeCatalogo;
+            this.txbBuscarProductosdeCatalogo.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txbBuscarProductosdeCatalogo.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(40)))), ((int)(((byte)(52)))));
+            this.txbBuscarProductosdeCatalogo.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.txbBuscarProductosdeCatalogo.HoverState.Parent = this.txbBuscarProductosdeCatalogo;
+            this.txbBuscarProductosdeCatalogo.Location = new System.Drawing.Point(543, 79);
+            this.txbBuscarProductosdeCatalogo.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.txbBuscarProductosdeCatalogo.Name = "txbBuscarProductosdeCatalogo";
+            this.txbBuscarProductosdeCatalogo.PasswordChar = '\0';
+            this.txbBuscarProductosdeCatalogo.PlaceholderForeColor = System.Drawing.Color.Black;
+            this.txbBuscarProductosdeCatalogo.PlaceholderText = "Ingrese el nombre del producto";
+            this.txbBuscarProductosdeCatalogo.SelectedText = "";
+            this.txbBuscarProductosdeCatalogo.ShadowDecoration.Parent = this.txbBuscarProductosdeCatalogo;
+            this.txbBuscarProductosdeCatalogo.Size = new System.Drawing.Size(313, 35);
+            this.txbBuscarProductosdeCatalogo.TabIndex = 4;
             // 
             // lblCatalogo
             // 
@@ -276,32 +280,40 @@
             // 
             // idProducto
             // 
-            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            this.idProducto.DefaultCellStyle = dataGridViewCellStyle2;
+            this.idProducto.DataPropertyName = "ID_Catalogo";
+            dataGridViewCellStyle8.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            this.idProducto.DefaultCellStyle = dataGridViewCellStyle8;
             this.idProducto.HeaderText = "ID PRODUCTO";
             this.idProducto.Name = "idProducto";
+            this.idProducto.ReadOnly = true;
             this.idProducto.Width = 120;
             // 
             // nombreProducto
             // 
             this.nombreProducto.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.nombreProducto.DataPropertyName = "Nombre_Producto";
             this.nombreProducto.HeaderText = "NOMBRE DEL PRODUCTO";
             this.nombreProducto.Name = "nombreProducto";
+            this.nombreProducto.ReadOnly = true;
             // 
             // marca
             // 
-            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            this.marca.DefaultCellStyle = dataGridViewCellStyle3;
+            this.marca.DataPropertyName = "Marca";
+            dataGridViewCellStyle9.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            this.marca.DefaultCellStyle = dataGridViewCellStyle9;
             this.marca.HeaderText = "MARCA";
             this.marca.Name = "marca";
+            this.marca.ReadOnly = true;
             this.marca.Width = 150;
             // 
             // categoria
             // 
-            dataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            this.categoria.DefaultCellStyle = dataGridViewCellStyle4;
+            this.categoria.DataPropertyName = "Categoria";
+            dataGridViewCellStyle10.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            this.categoria.DefaultCellStyle = dataGridViewCellStyle10;
             this.categoria.HeaderText = "CATEGORÍA";
             this.categoria.Name = "categoria";
+            this.categoria.ReadOnly = true;
             this.categoria.Width = 160;
             // 
             // DESCRIPCION
@@ -310,6 +322,7 @@
             this.DESCRIPCION.DataPropertyName = "Descripcion";
             this.DESCRIPCION.HeaderText = "DESCRIPCIÓN";
             this.DESCRIPCION.Name = "DESCRIPCION";
+            this.DESCRIPCION.ReadOnly = true;
             // 
             // Catalogo
             // 
@@ -321,6 +334,7 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Catalogo";
             this.Text = "Catalogo";
+            this.Load += new System.EventHandler(this.Catalogo_Load);
             this.panelMain.ResumeLayout(false);
             this.panelMain.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pbSearch)).EndInit();
@@ -339,8 +353,7 @@
         private Guna.UI2.WinForms.Guna2VSeparator guna2VSeparator1;
         private System.Windows.Forms.PictureBox pbSearch;
         private System.Windows.Forms.Panel panelDtgCatalogos;
-        private System.Windows.Forms.DataGridView dtgCatalogo;
-        private Guna.UI2.WinForms.Guna2TextBox txbBuscarPDC;
+        private Guna.UI2.WinForms.Guna2TextBox txbBuscarProductosdeCatalogo;
         private System.Windows.Forms.Label lblCatalogo;
         private Guna.UI2.WinForms.Guna2Elipse RadiusCbb;
         private System.Windows.Forms.DataGridViewTextBoxColumn idProducto;
@@ -348,5 +361,6 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn marca;
         private System.Windows.Forms.DataGridViewTextBoxColumn categoria;
         private System.Windows.Forms.DataGridViewTextBoxColumn DESCRIPCION;
+        public System.Windows.Forms.DataGridView dtgCatalogo;
     }
 }

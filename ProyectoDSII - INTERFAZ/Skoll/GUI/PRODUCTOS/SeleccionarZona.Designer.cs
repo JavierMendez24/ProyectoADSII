@@ -122,7 +122,6 @@
             this.checkBox34 = new System.Windows.Forms.CheckBox();
             this.panel3 = new System.Windows.Forms.Panel();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
-            this.checkBox3 = new System.Windows.Forms.CheckBox();
             this.panel35 = new System.Windows.Forms.Panel();
             this.pictureBox20 = new System.Windows.Forms.PictureBox();
             this.checkBox35 = new System.Windows.Forms.CheckBox();
@@ -134,16 +133,17 @@
             this.checkBox36 = new System.Windows.Forms.CheckBox();
             this.panel2 = new System.Windows.Forms.Panel();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.checkBox2 = new System.Windows.Forms.CheckBox();
+            this.cbx2 = new System.Windows.Forms.CheckBox();
             this.panel1 = new System.Windows.Forms.Panel();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.checkBox1 = new System.Windows.Forms.CheckBox();
+            this.cbx1 = new System.Windows.Forms.CheckBox();
             this.btnCancelarAddZn = new Guna.UI2.WinForms.Guna2Button();
             this.btnAceptarZona = new Guna.UI2.WinForms.Guna2Button();
             this.panelTituloAddPdZnBd = new Guna.UI2.WinForms.Guna2Panel();
             this.btnCerrarSeleccionarZonas = new System.Windows.Forms.PictureBox();
             this.lblAgregaraCatalogo = new System.Windows.Forms.Label();
             this.btnCerrarAgregarPdC2 = new System.Windows.Forms.PictureBox();
+            this.cbx3 = new System.Windows.Forms.CheckBox();
             this.panelSCC.SuspendLayout();
             this.panel19.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox26)).BeginInit();
@@ -1326,8 +1326,8 @@
             // panel3
             // 
             this.panel3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.panel3.Controls.Add(this.cbx3);
             this.panel3.Controls.Add(this.pictureBox3);
-            this.panel3.Controls.Add(this.checkBox3);
             this.panel3.Location = new System.Drawing.Point(278, 36);
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(104, 44);
@@ -1342,21 +1342,6 @@
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox3.TabIndex = 50;
             this.pictureBox3.TabStop = false;
-            // 
-            // checkBox3
-            // 
-            this.checkBox3.AutoSize = true;
-            this.checkBox3.BackColor = System.Drawing.Color.Transparent;
-            this.checkBox3.CheckAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.checkBox3.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.checkBox3.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox3.ForeColor = System.Drawing.Color.Black;
-            this.checkBox3.Location = new System.Drawing.Point(50, 9);
-            this.checkBox3.Name = "checkBox3";
-            this.checkBox3.Size = new System.Drawing.Size(49, 25);
-            this.checkBox3.TabIndex = 47;
-            this.checkBox3.Text = "A3";
-            this.checkBox3.UseVisualStyleBackColor = false;
             // 
             // panel35
             // 
@@ -1467,7 +1452,7 @@
             // 
             this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
             this.panel2.Controls.Add(this.pictureBox2);
-            this.panel2.Controls.Add(this.checkBox2);
+            this.panel2.Controls.Add(this.cbx2);
             this.panel2.Location = new System.Drawing.Point(154, 36);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(104, 44);
@@ -1483,26 +1468,27 @@
             this.pictureBox2.TabIndex = 49;
             this.pictureBox2.TabStop = false;
             // 
-            // checkBox2
+            // cbx2
             // 
-            this.checkBox2.AutoSize = true;
-            this.checkBox2.BackColor = System.Drawing.Color.Transparent;
-            this.checkBox2.CheckAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.checkBox2.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.checkBox2.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox2.ForeColor = System.Drawing.Color.Black;
-            this.checkBox2.Location = new System.Drawing.Point(50, 9);
-            this.checkBox2.Name = "checkBox2";
-            this.checkBox2.Size = new System.Drawing.Size(49, 25);
-            this.checkBox2.TabIndex = 47;
-            this.checkBox2.Text = "A2";
-            this.checkBox2.UseVisualStyleBackColor = false;
+            this.cbx2.AutoSize = true;
+            this.cbx2.BackColor = System.Drawing.Color.Transparent;
+            this.cbx2.CheckAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.cbx2.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.cbx2.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cbx2.ForeColor = System.Drawing.Color.Black;
+            this.cbx2.Location = new System.Drawing.Point(50, 9);
+            this.cbx2.Name = "cbx2";
+            this.cbx2.Size = new System.Drawing.Size(49, 25);
+            this.cbx2.TabIndex = 47;
+            this.cbx2.Text = "A2";
+            this.cbx2.UseVisualStyleBackColor = false;
+            this.cbx2.CheckedChanged += new System.EventHandler(this.cbx2_CheckedChanged);
             // 
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
             this.panel1.Controls.Add(this.pictureBox1);
-            this.panel1.Controls.Add(this.checkBox1);
+            this.panel1.Controls.Add(this.cbx1);
             this.panel1.Location = new System.Drawing.Point(30, 36);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(104, 44);
@@ -1518,20 +1504,21 @@
             this.pictureBox1.TabIndex = 48;
             this.pictureBox1.TabStop = false;
             // 
-            // checkBox1
+            // cbx1
             // 
-            this.checkBox1.AutoSize = true;
-            this.checkBox1.BackColor = System.Drawing.Color.Transparent;
-            this.checkBox1.CheckAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.checkBox1.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.checkBox1.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox1.ForeColor = System.Drawing.Color.Black;
-            this.checkBox1.Location = new System.Drawing.Point(50, 9);
-            this.checkBox1.Name = "checkBox1";
-            this.checkBox1.Size = new System.Drawing.Size(46, 25);
-            this.checkBox1.TabIndex = 47;
-            this.checkBox1.Text = "A1";
-            this.checkBox1.UseVisualStyleBackColor = false;
+            this.cbx1.AutoSize = true;
+            this.cbx1.BackColor = System.Drawing.Color.Transparent;
+            this.cbx1.CheckAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.cbx1.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.cbx1.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cbx1.ForeColor = System.Drawing.Color.Black;
+            this.cbx1.Location = new System.Drawing.Point(50, 9);
+            this.cbx1.Name = "cbx1";
+            this.cbx1.Size = new System.Drawing.Size(46, 25);
+            this.cbx1.TabIndex = 47;
+            this.cbx1.Text = "A1";
+            this.cbx1.UseVisualStyleBackColor = false;
+            this.cbx1.CheckedChanged += new System.EventHandler(this.cbx1_CheckedChanged);
             // 
             // btnCancelarAddZn
             // 
@@ -1627,6 +1614,22 @@
             this.btnCerrarAgregarPdC2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.btnCerrarAgregarPdC2.TabIndex = 19;
             this.btnCerrarAgregarPdC2.TabStop = false;
+            // 
+            // cbx3
+            // 
+            this.cbx3.AutoSize = true;
+            this.cbx3.BackColor = System.Drawing.Color.Transparent;
+            this.cbx3.CheckAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.cbx3.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.cbx3.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cbx3.ForeColor = System.Drawing.Color.Black;
+            this.cbx3.Location = new System.Drawing.Point(50, 9);
+            this.cbx3.Name = "cbx3";
+            this.cbx3.Size = new System.Drawing.Size(49, 25);
+            this.cbx3.TabIndex = 51;
+            this.cbx3.Text = "A3";
+            this.cbx3.UseVisualStyleBackColor = false;
+            this.cbx3.CheckedChanged += new System.EventHandler(this.cbx3_CheckedChanged);
             // 
             // Seleccionar_Zona
             // 
@@ -1851,7 +1854,6 @@
         private System.Windows.Forms.CheckBox checkBox34;
         private System.Windows.Forms.Panel panel3;
         private System.Windows.Forms.PictureBox pictureBox3;
-        private System.Windows.Forms.CheckBox checkBox3;
         private System.Windows.Forms.Panel panel35;
         private System.Windows.Forms.PictureBox pictureBox20;
         private System.Windows.Forms.CheckBox checkBox35;
@@ -1863,15 +1865,16 @@
         private System.Windows.Forms.CheckBox checkBox36;
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.PictureBox pictureBox2;
-        private System.Windows.Forms.CheckBox checkBox2;
+        private System.Windows.Forms.CheckBox cbx2;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.CheckBox checkBox1;
+        private System.Windows.Forms.CheckBox cbx1;
         private Guna.UI2.WinForms.Guna2Button btnCancelarAddZn;
         private Guna.UI2.WinForms.Guna2Button btnAceptarZona;
         private Guna.UI2.WinForms.Guna2Panel panelTituloAddPdZnBd;
         private System.Windows.Forms.PictureBox btnCerrarSeleccionarZonas;
         private System.Windows.Forms.Label lblAgregaraCatalogo;
         private System.Windows.Forms.PictureBox btnCerrarAgregarPdC2;
+        private System.Windows.Forms.CheckBox cbx3;
     }
 }
