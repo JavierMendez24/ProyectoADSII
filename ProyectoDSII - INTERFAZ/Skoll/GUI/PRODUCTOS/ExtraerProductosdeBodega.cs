@@ -21,7 +21,7 @@ namespace Skoll.GUI.PRODUCTOS
 
         private void btnSeleccionarClienteDltPd_Click(object sender, EventArgs e)
         {
-            SeleccionarClienteLista scl = new SeleccionarClienteLista();
+            SeleccionarClienteLista scl = new SeleccionarClienteLista(this);
             scl.ShowDialog();
         }
 

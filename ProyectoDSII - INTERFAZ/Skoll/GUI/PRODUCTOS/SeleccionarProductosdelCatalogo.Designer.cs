@@ -41,15 +41,14 @@
             this.guna2VSeparator1 = new Guna.UI2.WinForms.Guna2VSeparator();
             this.pbSearch = new System.Windows.Forms.PictureBox();
             this.label2 = new System.Windows.Forms.Label();
-            this.btnCancelarAddPdC = new Guna.UI2.WinForms.Guna2Button();
-            this.guna2Button4 = new Guna.UI2.WinForms.Guna2Button();
+            this.btnCancelar = new Guna.UI2.WinForms.Guna2Button();
+            this.btnAceptar = new Guna.UI2.WinForms.Guna2Button();
             this.panelDtgCatalogos = new System.Windows.Forms.Panel();
             this.dtgCatalogo = new System.Windows.Forms.DataGridView();
             this.idProducto = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.nombreProducto = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.marca = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.categoria = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.seleccionar = new System.Windows.Forms.DataGridViewCheckBoxColumn();
             this.txbBuscarPDC = new Guna.UI2.WinForms.Guna2TextBox();
             this.panelTituloAddPdZnBd = new Guna.UI2.WinForms.Guna2Panel();
             this.btnCerrarSPC = new System.Windows.Forms.PictureBox();
@@ -85,8 +84,8 @@
             this.guna2Panel1.Controls.Add(this.guna2VSeparator1);
             this.guna2Panel1.Controls.Add(this.pbSearch);
             this.guna2Panel1.Controls.Add(this.label2);
-            this.guna2Panel1.Controls.Add(this.btnCancelarAddPdC);
-            this.guna2Panel1.Controls.Add(this.guna2Button4);
+            this.guna2Panel1.Controls.Add(this.btnCancelar);
+            this.guna2Panel1.Controls.Add(this.btnAceptar);
             this.guna2Panel1.Controls.Add(this.panelDtgCatalogos);
             this.guna2Panel1.Controls.Add(this.txbBuscarPDC);
             this.guna2Panel1.Dock = System.Windows.Forms.DockStyle.Fill;
@@ -129,48 +128,50 @@
             this.label2.TabIndex = 33;
             this.label2.Text = "Ingrese el Nombre del Producto:";
             // 
-            // btnCancelarAddPdC
+            // btnCancelar
             // 
-            this.btnCancelarAddPdC.BorderRadius = 5;
-            this.btnCancelarAddPdC.CheckedState.Parent = this.btnCancelarAddPdC;
-            this.btnCancelarAddPdC.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnCancelarAddPdC.CustomImages.Parent = this.btnCancelarAddPdC;
-            this.btnCancelarAddPdC.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(218)))), ((int)(((byte)(79)))), ((int)(((byte)(83)))));
-            this.btnCancelarAddPdC.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnCancelarAddPdC.ForeColor = System.Drawing.Color.White;
-            this.btnCancelarAddPdC.HoverState.Parent = this.btnCancelarAddPdC;
-            this.btnCancelarAddPdC.Image = ((System.Drawing.Image)(resources.GetObject("btnCancelarAddPdC.Image")));
-            this.btnCancelarAddPdC.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.btnCancelarAddPdC.ImageSize = new System.Drawing.Size(19, 19);
-            this.btnCancelarAddPdC.Location = new System.Drawing.Point(594, 375);
-            this.btnCancelarAddPdC.Name = "btnCancelarAddPdC";
-            this.btnCancelarAddPdC.ShadowDecoration.Parent = this.btnCancelarAddPdC;
-            this.btnCancelarAddPdC.Size = new System.Drawing.Size(110, 40);
-            this.btnCancelarAddPdC.TabIndex = 46;
-            this.btnCancelarAddPdC.Text = "CANCELAR";
-            this.btnCancelarAddPdC.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
-            this.btnCancelarAddPdC.TextOffset = new System.Drawing.Point(4, 0);
+            this.btnCancelar.BorderRadius = 5;
+            this.btnCancelar.CheckedState.Parent = this.btnCancelar;
+            this.btnCancelar.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnCancelar.CustomImages.Parent = this.btnCancelar;
+            this.btnCancelar.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(218)))), ((int)(((byte)(79)))), ((int)(((byte)(83)))));
+            this.btnCancelar.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnCancelar.ForeColor = System.Drawing.Color.White;
+            this.btnCancelar.HoverState.Parent = this.btnCancelar;
+            this.btnCancelar.Image = ((System.Drawing.Image)(resources.GetObject("btnCancelar.Image")));
+            this.btnCancelar.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.btnCancelar.ImageSize = new System.Drawing.Size(19, 19);
+            this.btnCancelar.Location = new System.Drawing.Point(594, 375);
+            this.btnCancelar.Name = "btnCancelar";
+            this.btnCancelar.ShadowDecoration.Parent = this.btnCancelar;
+            this.btnCancelar.Size = new System.Drawing.Size(110, 40);
+            this.btnCancelar.TabIndex = 46;
+            this.btnCancelar.Text = "CANCELAR";
+            this.btnCancelar.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.btnCancelar.TextOffset = new System.Drawing.Point(4, 0);
+            this.btnCancelar.Click += new System.EventHandler(this.btnCancelar_Click);
             // 
-            // guna2Button4
+            // btnAceptar
             // 
-            this.guna2Button4.BorderRadius = 5;
-            this.guna2Button4.CheckedState.Parent = this.guna2Button4;
-            this.guna2Button4.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.guna2Button4.CustomImages.Parent = this.guna2Button4;
-            this.guna2Button4.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(182)))), ((int)(((byte)(146)))));
-            this.guna2Button4.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2Button4.ForeColor = System.Drawing.Color.White;
-            this.guna2Button4.HoverState.Parent = this.guna2Button4;
-            this.guna2Button4.Image = ((System.Drawing.Image)(resources.GetObject("guna2Button4.Image")));
-            this.guna2Button4.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.guna2Button4.ImageSize = new System.Drawing.Size(19, 19);
-            this.guna2Button4.Location = new System.Drawing.Point(471, 375);
-            this.guna2Button4.Name = "guna2Button4";
-            this.guna2Button4.ShadowDecoration.Parent = this.guna2Button4;
-            this.guna2Button4.Size = new System.Drawing.Size(110, 40);
-            this.guna2Button4.TabIndex = 45;
-            this.guna2Button4.Text = "ACEPTAR";
-            this.guna2Button4.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.btnAceptar.BorderRadius = 5;
+            this.btnAceptar.CheckedState.Parent = this.btnAceptar;
+            this.btnAceptar.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnAceptar.CustomImages.Parent = this.btnAceptar;
+            this.btnAceptar.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(182)))), ((int)(((byte)(146)))));
+            this.btnAceptar.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAceptar.ForeColor = System.Drawing.Color.White;
+            this.btnAceptar.HoverState.Parent = this.btnAceptar;
+            this.btnAceptar.Image = ((System.Drawing.Image)(resources.GetObject("btnAceptar.Image")));
+            this.btnAceptar.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.btnAceptar.ImageSize = new System.Drawing.Size(19, 19);
+            this.btnAceptar.Location = new System.Drawing.Point(471, 375);
+            this.btnAceptar.Name = "btnAceptar";
+            this.btnAceptar.ShadowDecoration.Parent = this.btnAceptar;
+            this.btnAceptar.Size = new System.Drawing.Size(110, 40);
+            this.btnAceptar.TabIndex = 45;
+            this.btnAceptar.Text = "ACEPTAR";
+            this.btnAceptar.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.btnAceptar.Click += new System.EventHandler(this.btnAceptar_Click);
             // 
             // panelDtgCatalogos
             // 
@@ -185,6 +186,8 @@
             // 
             // dtgCatalogo
             // 
+            this.dtgCatalogo.AllowUserToAddRows = false;
+            this.dtgCatalogo.AllowUserToDeleteRows = false;
             this.dtgCatalogo.AllowUserToResizeColumns = false;
             this.dtgCatalogo.AllowUserToResizeRows = false;
             this.dtgCatalogo.BackgroundColor = System.Drawing.Color.White;
@@ -205,8 +208,7 @@
             this.idProducto,
             this.nombreProducto,
             this.marca,
-            this.categoria,
-            this.seleccionar});
+            this.categoria});
             dataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
             dataGridViewCellStyle6.BackColor = System.Drawing.Color.White;
             dataGridViewCellStyle6.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -221,6 +223,7 @@
             this.dtgCatalogo.GridColor = System.Drawing.Color.White;
             this.dtgCatalogo.Location = new System.Drawing.Point(0, 0);
             this.dtgCatalogo.Name = "dtgCatalogo";
+            this.dtgCatalogo.ReadOnly = true;
             this.dtgCatalogo.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Sunken;
             dataGridViewCellStyle7.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
             dataGridViewCellStyle7.BackColor = System.Drawing.Color.White;
@@ -238,43 +241,43 @@
             // 
             // idProducto
             // 
+            this.idProducto.DataPropertyName = "ID_Catalogo";
             dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
             this.idProducto.DefaultCellStyle = dataGridViewCellStyle2;
             this.idProducto.HeaderText = "ID PRODUCTO";
             this.idProducto.Name = "idProducto";
+            this.idProducto.ReadOnly = true;
             this.idProducto.Width = 120;
             // 
             // nombreProducto
             // 
             this.nombreProducto.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.nombreProducto.DataPropertyName = "Nombre_Producto";
             dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
             this.nombreProducto.DefaultCellStyle = dataGridViewCellStyle3;
             this.nombreProducto.HeaderText = "NOMBRE ";
             this.nombreProducto.Name = "nombreProducto";
+            this.nombreProducto.ReadOnly = true;
             // 
             // marca
             // 
+            this.marca.DataPropertyName = "Marca";
             dataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
             this.marca.DefaultCellStyle = dataGridViewCellStyle4;
             this.marca.HeaderText = "MARCA";
             this.marca.Name = "marca";
+            this.marca.ReadOnly = true;
             this.marca.Width = 130;
             // 
             // categoria
             // 
+            this.categoria.DataPropertyName = "Categoria";
             dataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
             this.categoria.DefaultCellStyle = dataGridViewCellStyle5;
             this.categoria.HeaderText = "CATEGORÍA";
             this.categoria.Name = "categoria";
+            this.categoria.ReadOnly = true;
             this.categoria.Width = 120;
-            // 
-            // seleccionar
-            // 
-            this.seleccionar.HeaderText = "SELECCIONAR";
-            this.seleccionar.Name = "seleccionar";
-            this.seleccionar.Resizable = System.Windows.Forms.DataGridViewTriState.True;
-            this.seleccionar.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic;
-            this.seleccionar.Width = 110;
             // 
             // txbBuscarPDC
             // 
@@ -363,6 +366,7 @@
             this.Name = "SeleccionarProductosdelCatalogo";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "SeleccionarProductosdelCatalogo";
+            this.Load += new System.EventHandler(this.SeleccionarProductosdelCatalogo_Load);
             this.panelSPDC.ResumeLayout(false);
             this.guna2Panel1.ResumeLayout(false);
             this.guna2Panel1.PerformLayout();
@@ -384,19 +388,18 @@
         private Guna.UI2.WinForms.Guna2VSeparator guna2VSeparator1;
         private System.Windows.Forms.PictureBox pbSearch;
         private System.Windows.Forms.Label label2;
-        private Guna.UI2.WinForms.Guna2Button btnCancelarAddPdC;
-        private Guna.UI2.WinForms.Guna2Button guna2Button4;
+        private Guna.UI2.WinForms.Guna2Button btnCancelar;
+        private Guna.UI2.WinForms.Guna2Button btnAceptar;
         private System.Windows.Forms.Panel panelDtgCatalogos;
         private System.Windows.Forms.DataGridView dtgCatalogo;
-        private System.Windows.Forms.DataGridViewTextBoxColumn idProducto;
-        private System.Windows.Forms.DataGridViewTextBoxColumn nombreProducto;
-        private System.Windows.Forms.DataGridViewTextBoxColumn marca;
-        private System.Windows.Forms.DataGridViewTextBoxColumn categoria;
-        private System.Windows.Forms.DataGridViewCheckBoxColumn seleccionar;
         private Guna.UI2.WinForms.Guna2TextBox txbBuscarPDC;
         private Guna.UI2.WinForms.Guna2Panel panelTituloAddPdZnBd;
         private System.Windows.Forms.PictureBox btnCerrarSPC;
         private System.Windows.Forms.Label lblAgregaraCatalogo;
         private System.Windows.Forms.PictureBox btnCerrarAgregarPdC2;
+        private System.Windows.Forms.DataGridViewTextBoxColumn idProducto;
+        private System.Windows.Forms.DataGridViewTextBoxColumn nombreProducto;
+        private System.Windows.Forms.DataGridViewTextBoxColumn marca;
+        private System.Windows.Forms.DataGridViewTextBoxColumn categoria;
     }
 }

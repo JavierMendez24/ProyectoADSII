@@ -55,6 +55,9 @@
     <Compile Include="CLS\Clientes.cs" />
     <Compile Include="CLS\Contratos.cs" />
     <Compile Include="CLS\DetalleContrato.cs" />
+    <Compile Include="CLS\Movimientos.cs" />
+    <Compile Include="CLS\Productos.cs" />
+    <Compile Include="CLS\TransferenciaDatos.cs" />
     <Compile Include="GUI\BODEGAS\Bodegas.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -397,6 +400,10 @@
     <ProjectReference Include="..\GestionGeneral\GestionGeneral.csproj">
       <Project>{94bf2764-4064-4dd0-a448-f1a8f052145c}</Project>
       <Name>GestionGeneral</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Informes\Informes.csproj">
+      <Project>{afda066a-aca9-496a-8784-cdeb627cb555}</Project>
+      <Name>Informes</Name>
     </ProjectReference>
     <ProjectReference Include="..\SesionManager\SesionManager.csproj">
       <Project>{e45fb91e-ed1a-4d63-8d28-53dd51ebcd92}</Project>

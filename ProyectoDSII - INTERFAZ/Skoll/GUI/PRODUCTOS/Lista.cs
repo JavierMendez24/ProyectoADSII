@@ -14,6 +14,28 @@ namespace Skoll.GUI.PRODUCTOS
     {
         SesionManager.CLS.Sesion oSesion = SesionManager.CLS.Sesion.Instancia;
 
+        BindingSource _DATOSP = new BindingSource();
+
+        private void Cargar()
+        {
+            _DATOSP.DataSource = CacheManager.CLS.Cache.PRODUCTOS_LISTA_BODEGA();
+            FiltrarLocalmente();
+        }
+
+        private void FiltrarLocalmente()
+        {
+            if (txbNombreZona.TextLength > 0)
+            {
+                _DATOSP.Filter = "Nombre_Producto LIKE '%" + txbNombreZona.Text + "%'";
+            }
+            else
+            {
+                _DATOSP.RemoveFilter();
+            }
+            dtgProductosaBodega.AutoGenerateColumns = false;
+            dtgProductosaBodega.DataSource = _DATOSP;
+        }
+
         public Lista()
         {
             InitializeComponent();
@@ -25,8 +47,17 @@ namespace Skoll.GUI.PRODUCTOS
         {
             if (oSesion.ComprobarPermisos(9))
             {
-                AgregarProductosaBodega apab = new AgregarProductosaBodega();
-                apab.ShowDialog();
+                try
+                {
+                    AgregarProductosaBodega apab = new AgregarProductosaBodega();
+                    apab.ShowDialog();
+                    Cargar();
+                }
+                catch
+                {
+                    MessageBox.Show("No se pudo Agregar el Registro", "Aviso", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                }
+                
             }
             
         }
@@ -45,6 +76,11 @@ namespace Skoll.GUI.PRODUCTOS
         {
             Seleccionar_Zona sz = new Seleccionar_Zona();
             sz.ShowDialog();
+        }
+
+        private void Lista_Load(object sender, EventArgs e)
+        {
+            Cargar();
         }
     }
 }

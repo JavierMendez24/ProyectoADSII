@@ -30,22 +30,25 @@
         {
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Lista));
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle19 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle26 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle27 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle20 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle21 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle22 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle23 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle24 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle25 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle8 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle9 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle7 = new System.Windows.Forms.DataGridViewCellStyle();
             this.panelMain = new System.Windows.Forms.Panel();
+            this.btnSeleccionarZona = new Guna.UI2.WinForms.Guna2Button();
             this.txbNombreZona = new Guna.UI2.WinForms.Guna2TextBox();
             this.btnExtraerdeBodega = new Guna.UI2.WinForms.Guna2Button();
             this.btnAgregaraBodega = new Guna.UI2.WinForms.Guna2Button();
             this.label1 = new System.Windows.Forms.Label();
             this.panelDtgCatalogos = new System.Windows.Forms.Panel();
             this.dtgProductosaBodega = new System.Windows.Forms.DataGridView();
+            this.lblAgregarProductosaBodega = new System.Windows.Forms.Label();
+            this.Radiuscbb = new Guna.UI2.WinForms.Guna2Elipse(this.components);
             this.idProducto = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.nombreProducto = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.marca = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -53,9 +56,6 @@
             this.costo = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.cantidad = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.fechaVencimiento = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.lblAgregarProductosaBodega = new System.Windows.Forms.Label();
-            this.Radiuscbb = new Guna.UI2.WinForms.Guna2Elipse(this.components);
-            this.btnSeleccionarZona = new Guna.UI2.WinForms.Guna2Button();
             this.panelMain.SuspendLayout();
             this.panelDtgCatalogos.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dtgProductosaBodega)).BeginInit();
@@ -76,6 +76,24 @@
             this.panelMain.Name = "panelMain";
             this.panelMain.Size = new System.Drawing.Size(900, 595);
             this.panelMain.TabIndex = 6;
+            // 
+            // btnSeleccionarZona
+            // 
+            this.btnSeleccionarZona.BorderRadius = 3;
+            this.btnSeleccionarZona.CheckedState.Parent = this.btnSeleccionarZona;
+            this.btnSeleccionarZona.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnSeleccionarZona.CustomImages.Parent = this.btnSeleccionarZona;
+            this.btnSeleccionarZona.FillColor = System.Drawing.Color.Teal;
+            this.btnSeleccionarZona.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSeleccionarZona.ForeColor = System.Drawing.Color.White;
+            this.btnSeleccionarZona.HoverState.Parent = this.btnSeleccionarZona;
+            this.btnSeleccionarZona.Location = new System.Drawing.Point(297, 79);
+            this.btnSeleccionarZona.Name = "btnSeleccionarZona";
+            this.btnSeleccionarZona.ShadowDecoration.Parent = this.btnSeleccionarZona;
+            this.btnSeleccionarZona.Size = new System.Drawing.Size(35, 35);
+            this.btnSeleccionarZona.TabIndex = 61;
+            this.btnSeleccionarZona.Text = "•••";
+            this.btnSeleccionarZona.Click += new System.EventHandler(this.btnSeleccionarZona_Click);
             // 
             // txbNombreZona
             // 
@@ -178,20 +196,22 @@
             // 
             // dtgProductosaBodega
             // 
+            this.dtgProductosaBodega.AllowUserToAddRows = false;
+            this.dtgProductosaBodega.AllowUserToDeleteRows = false;
             this.dtgProductosaBodega.AllowUserToResizeColumns = false;
             this.dtgProductosaBodega.AllowUserToResizeRows = false;
             this.dtgProductosaBodega.BackgroundColor = System.Drawing.Color.White;
             this.dtgProductosaBodega.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.dtgProductosaBodega.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.Sunken;
             this.dtgProductosaBodega.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Sunken;
-            dataGridViewCellStyle19.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle19.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(67)))), ((int)(((byte)(100)))));
-            dataGridViewCellStyle19.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle19.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle19.SelectionBackColor = System.Drawing.Color.Turquoise;
-            dataGridViewCellStyle19.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle19.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dtgProductosaBodega.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle19;
+            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(67)))), ((int)(((byte)(100)))));
+            dataGridViewCellStyle1.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle1.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.Color.Turquoise;
+            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dtgProductosaBodega.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
             this.dtgProductosaBodega.ColumnHeadersHeight = 38;
             this.dtgProductosaBodega.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.DisableResizing;
             this.dtgProductosaBodega.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
@@ -202,87 +222,35 @@
             this.costo,
             this.cantidad,
             this.fechaVencimiento});
-            dataGridViewCellStyle26.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle26.BackColor = System.Drawing.Color.White;
-            dataGridViewCellStyle26.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle26.ForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle26.Padding = new System.Windows.Forms.Padding(5, 0, 0, 0);
-            dataGridViewCellStyle26.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(186)))), ((int)(((byte)(245)))), ((int)(((byte)(237)))));
-            dataGridViewCellStyle26.SelectionForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle26.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.dtgProductosaBodega.DefaultCellStyle = dataGridViewCellStyle26;
+            dataGridViewCellStyle8.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle8.BackColor = System.Drawing.Color.White;
+            dataGridViewCellStyle8.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle8.ForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle8.Padding = new System.Windows.Forms.Padding(5, 0, 0, 0);
+            dataGridViewCellStyle8.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(186)))), ((int)(((byte)(245)))), ((int)(((byte)(237)))));
+            dataGridViewCellStyle8.SelectionForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle8.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.dtgProductosaBodega.DefaultCellStyle = dataGridViewCellStyle8;
             this.dtgProductosaBodega.Dock = System.Windows.Forms.DockStyle.Fill;
             this.dtgProductosaBodega.EnableHeadersVisualStyles = false;
             this.dtgProductosaBodega.GridColor = System.Drawing.Color.White;
             this.dtgProductosaBodega.Location = new System.Drawing.Point(0, 0);
             this.dtgProductosaBodega.Name = "dtgProductosaBodega";
+            this.dtgProductosaBodega.ReadOnly = true;
             this.dtgProductosaBodega.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Sunken;
-            dataGridViewCellStyle27.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle27.BackColor = System.Drawing.Color.White;
-            dataGridViewCellStyle27.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle27.ForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle27.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(186)))), ((int)(((byte)(245)))), ((int)(((byte)(237)))));
-            dataGridViewCellStyle27.SelectionForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle27.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dtgProductosaBodega.RowHeadersDefaultCellStyle = dataGridViewCellStyle27;
+            dataGridViewCellStyle9.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle9.BackColor = System.Drawing.Color.White;
+            dataGridViewCellStyle9.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle9.ForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle9.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(186)))), ((int)(((byte)(245)))), ((int)(((byte)(237)))));
+            dataGridViewCellStyle9.SelectionForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle9.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dtgProductosaBodega.RowHeadersDefaultCellStyle = dataGridViewCellStyle9;
             this.dtgProductosaBodega.RowHeadersVisible = false;
             this.dtgProductosaBodega.RowTemplate.Height = 28;
             this.dtgProductosaBodega.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.dtgProductosaBodega.Size = new System.Drawing.Size(849, 445);
             this.dtgProductosaBodega.TabIndex = 5;
-            // 
-            // idProducto
-            // 
-            this.idProducto.DataPropertyName = "ID_Catalogo";
-            dataGridViewCellStyle20.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            this.idProducto.DefaultCellStyle = dataGridViewCellStyle20;
-            this.idProducto.HeaderText = "ID CATÁLOGO";
-            this.idProducto.Name = "idProducto";
-            this.idProducto.Width = 110;
-            // 
-            // nombreProducto
-            // 
-            this.nombreProducto.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.nombreProducto.HeaderText = "NOMBRE DEL PRODUCTO";
-            this.nombreProducto.Name = "nombreProducto";
-            // 
-            // marca
-            // 
-            dataGridViewCellStyle21.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            this.marca.DefaultCellStyle = dataGridViewCellStyle21;
-            this.marca.HeaderText = "MARCA";
-            this.marca.Name = "marca";
-            this.marca.Width = 150;
-            // 
-            // categoria
-            // 
-            dataGridViewCellStyle22.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            this.categoria.DefaultCellStyle = dataGridViewCellStyle22;
-            this.categoria.HeaderText = "CATEGORÍA";
-            this.categoria.Name = "categoria";
-            this.categoria.Width = 150;
-            // 
-            // costo
-            // 
-            dataGridViewCellStyle23.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight;
-            this.costo.DefaultCellStyle = dataGridViewCellStyle23;
-            this.costo.HeaderText = "COSTO";
-            this.costo.Name = "costo";
-            // 
-            // cantidad
-            // 
-            dataGridViewCellStyle24.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            this.cantidad.DefaultCellStyle = dataGridViewCellStyle24;
-            this.cantidad.HeaderText = "CANTIDAD";
-            this.cantidad.Name = "cantidad";
-            this.cantidad.Width = 80;
-            // 
-            // fechaVencimiento
-            // 
-            dataGridViewCellStyle25.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            this.fechaVencimiento.DefaultCellStyle = dataGridViewCellStyle25;
-            this.fechaVencimiento.HeaderText = "FECHA VENCIMIENTO";
-            this.fechaVencimiento.Name = "fechaVencimiento";
             // 
             // lblAgregarProductosaBodega
             // 
@@ -300,23 +268,72 @@
             // 
             this.Radiuscbb.BorderRadius = 5;
             // 
-            // btnSeleccionarZona
+            // idProducto
             // 
-            this.btnSeleccionarZona.BorderRadius = 3;
-            this.btnSeleccionarZona.CheckedState.Parent = this.btnSeleccionarZona;
-            this.btnSeleccionarZona.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnSeleccionarZona.CustomImages.Parent = this.btnSeleccionarZona;
-            this.btnSeleccionarZona.FillColor = System.Drawing.Color.Teal;
-            this.btnSeleccionarZona.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnSeleccionarZona.ForeColor = System.Drawing.Color.White;
-            this.btnSeleccionarZona.HoverState.Parent = this.btnSeleccionarZona;
-            this.btnSeleccionarZona.Location = new System.Drawing.Point(297, 79);
-            this.btnSeleccionarZona.Name = "btnSeleccionarZona";
-            this.btnSeleccionarZona.ShadowDecoration.Parent = this.btnSeleccionarZona;
-            this.btnSeleccionarZona.Size = new System.Drawing.Size(35, 35);
-            this.btnSeleccionarZona.TabIndex = 61;
-            this.btnSeleccionarZona.Text = "•••";
-            this.btnSeleccionarZona.Click += new System.EventHandler(this.btnSeleccionarZona_Click);
+            this.idProducto.DataPropertyName = "ID_Catalogo";
+            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            this.idProducto.DefaultCellStyle = dataGridViewCellStyle2;
+            this.idProducto.HeaderText = "ID CATÁLOGO";
+            this.idProducto.Name = "idProducto";
+            this.idProducto.ReadOnly = true;
+            this.idProducto.Width = 90;
+            // 
+            // nombreProducto
+            // 
+            this.nombreProducto.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.nombreProducto.DataPropertyName = "Nombre_Producto";
+            this.nombreProducto.HeaderText = "NOMBRE DEL PRODUCTO";
+            this.nombreProducto.Name = "nombreProducto";
+            this.nombreProducto.ReadOnly = true;
+            // 
+            // marca
+            // 
+            this.marca.DataPropertyName = "Marca";
+            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            this.marca.DefaultCellStyle = dataGridViewCellStyle3;
+            this.marca.HeaderText = "MARCA";
+            this.marca.Name = "marca";
+            this.marca.ReadOnly = true;
+            this.marca.Width = 160;
+            // 
+            // categoria
+            // 
+            this.categoria.DataPropertyName = "Categoria";
+            dataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            this.categoria.DefaultCellStyle = dataGridViewCellStyle4;
+            this.categoria.HeaderText = "CATEGORÍA";
+            this.categoria.Name = "categoria";
+            this.categoria.ReadOnly = true;
+            this.categoria.Width = 130;
+            // 
+            // costo
+            // 
+            this.costo.DataPropertyName = "Costo";
+            dataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight;
+            this.costo.DefaultCellStyle = dataGridViewCellStyle5;
+            this.costo.HeaderText = "COSTO";
+            this.costo.Name = "costo";
+            this.costo.ReadOnly = true;
+            // 
+            // cantidad
+            // 
+            this.cantidad.DataPropertyName = "Cantidad";
+            dataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            this.cantidad.DefaultCellStyle = dataGridViewCellStyle6;
+            this.cantidad.HeaderText = "CANTIDAD";
+            this.cantidad.Name = "cantidad";
+            this.cantidad.ReadOnly = true;
+            this.cantidad.Width = 80;
+            // 
+            // fechaVencimiento
+            // 
+            this.fechaVencimiento.DataPropertyName = "Fecha_Vencimiento";
+            dataGridViewCellStyle7.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            this.fechaVencimiento.DefaultCellStyle = dataGridViewCellStyle7;
+            this.fechaVencimiento.HeaderText = "FECHA VENCIMIENTO";
+            this.fechaVencimiento.Name = "fechaVencimiento";
+            this.fechaVencimiento.ReadOnly = true;
+            this.fechaVencimiento.Width = 110;
             // 
             // Lista
             // 
@@ -328,6 +345,7 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Lista";
             this.Text = "Lista";
+            this.Load += new System.EventHandler(this.Lista_Load);
             this.panelMain.ResumeLayout(false);
             this.panelMain.PerformLayout();
             this.panelDtgCatalogos.ResumeLayout(false);
@@ -346,6 +364,8 @@
         private System.Windows.Forms.DataGridView dtgProductosaBodega;
         private System.Windows.Forms.Label lblAgregarProductosaBodega;
         public Guna.UI2.WinForms.Guna2Elipse Radiuscbb;
+        private Guna.UI2.WinForms.Guna2TextBox txbNombreZona;
+        private Guna.UI2.WinForms.Guna2Button btnSeleccionarZona;
         private System.Windows.Forms.DataGridViewTextBoxColumn idProducto;
         private System.Windows.Forms.DataGridViewTextBoxColumn nombreProducto;
         private System.Windows.Forms.DataGridViewTextBoxColumn marca;
@@ -353,7 +373,5 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn costo;
         private System.Windows.Forms.DataGridViewTextBoxColumn cantidad;
         private System.Windows.Forms.DataGridViewTextBoxColumn fechaVencimiento;
-        private Guna.UI2.WinForms.Guna2TextBox txbNombreZona;
-        private Guna.UI2.WinForms.Guna2Button btnSeleccionarZona;
     }
 }

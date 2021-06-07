@@ -382,7 +382,7 @@ namespace CacheManager.CLS
             return Resultados;
         }
 
-        // OBTENER LA CANTIDAD DE ZONAS SIN CONTRATO
+        // OBTENER LAS ZONAS DEL CONTRATO
         public static DataTable TODAS_LAS_ZONAS_ASIGNADAS(String pIDContrato)
         {
             DataTable Resultados = new DataTable();
@@ -512,7 +512,7 @@ namespace CacheManager.CLS
             return Resultados;
         }
 
-
+        // VER TODOS LOS PRODUCTOS EN EL CATALOGO
         public static DataTable PRODUCTOS_CATALOGO()
         {
             DataTable Resultados = new DataTable();
@@ -531,12 +531,206 @@ namespace CacheManager.CLS
             return Resultados;
         }
 
+        // SELECCION DEL PRODUCTO EN EL CATALOGO
         public static DataTable SELECCIONAR_PRODUCTO_CATALOGO(String pID_Catalogo)
         {
             DataTable Resultados = new DataTable();
             DataManager.CLS.OperacionBD Consultor = new DataManager.CLS.OperacionBD();
             String Consulta = @"SELECT ID_Catalogo, Nombre_Producto, Marca, Categoria, Descripcion FROM catalogo 
                                 WHERE ID_Catalogo = " + pID_Catalogo + ";";
+
+            try
+            {
+                Resultados = Consultor.Consultar(Consulta);
+            }
+            catch
+            {
+                Resultados = new DataTable();
+            }
+
+            return Resultados;
+        }
+
+        // VER TODOS LOS PRODUCTOS EN BODEGA
+        public static DataTable PRODUCTOS_LISTA_BODEGA()
+        {
+            DataTable Resultados = new DataTable();
+            DataManager.CLS.OperacionBD Consultor = new DataManager.CLS.OperacionBD();
+            String Consulta = @"SELECT a.ID_Producto, a.ID_Catalogo, b.Nombre_Producto, b.Marca, b.Categoria, a.Costo, a.Cantidad, a.Fecha_Vencimiento 
+                                FROM productos a, catalogo b
+                                WHERE a.ID_Catalogo = b.ID_Catalogo;";
+
+            try
+            {
+                Resultados = Consultor.Consultar(Consulta);
+            }
+            catch
+            {
+                Resultados = new DataTable();
+            }
+
+            return Resultados;
+        }
+
+        // SELECCION CONTRATO PARA LISTA DE PRODUCTOS
+        public static DataTable SELECCIONAR_CONTRATO_LISTA()
+        {
+            DataTable Resultados = new DataTable();
+            DataManager.CLS.OperacionBD Consultor = new DataManager.CLS.OperacionBD();
+            String Consulta = @"SELECT a.ID_Contrato, (SELECT CONCAT(b.Nombres_Cliente, b.Nombre_Empresa)) Cliente, a.Tipo_Contrato, a.Inicio_Arrendamiento, a.Fin_Arrendamiento, a.Estado 
+                                FROM contratos a, clientes b
+                                WHERE a.ID_Cliente = b.ID_Cliente
+                                ORDER BY a.ID_Contrato DESC;";
+
+            try
+            {
+                Resultados = Consultor.Consultar(Consulta);
+            }
+            catch
+            {
+                Resultados = new DataTable();
+            }
+
+            return Resultados;
+        }
+
+        // VER ZONAS DEL CONTRATO
+        public static DataTable TODAS_LAS_ZONAS_DEL_CONTRATO(String pIDContrato)
+        {
+            DataTable Resultados = new DataTable();
+            DataManager.CLS.OperacionBD Consultor = new DataManager.CLS.OperacionBD();
+            String Consulta = @"SELECT a.ID_Zona, a.Nombre_Zona 
+                                FROM zonas a, detalle_contrato b
+                                WHERE a.ID_Zona = b.ID_Zona AND b.ID_Contrato = "+pIDContrato+";";
+
+            try
+            {
+                Resultados = Consultor.Consultar(Consulta);
+            }
+            catch
+            {
+                Resultados = new DataTable();
+            }
+
+            return Resultados;
+        }
+
+        // SELECCIONAR EL PRODUCTO ACTUAL
+        public static DataTable SELECCIONAR_EL_PRODUCTO_ACTUAL()
+        {
+            DataTable Resultados = new DataTable();
+            DataManager.CLS.OperacionBD Consultor = new DataManager.CLS.OperacionBD();
+            String Consulta = @"SELECT ID_Producto 
+                                FROM productos 
+                                ORDER BY ID_Producto DESC 
+                                LIMIT 1;";
+
+            try
+            {
+                Resultados = Consultor.Consultar(Consulta);
+            }
+            catch
+            {
+                Resultados = new DataTable();
+            }
+
+            return Resultados;
+        }
+
+        // SELECCIONAR EL CLIENTE PARA EL REGISTRO DE ENTRADA
+        public static DataTable CLIENTE_PARA_REGISTRO_ENTRADA(String pIDContrato)
+        {
+            DataTable Resultados = new DataTable();
+            DataManager.CLS.OperacionBD Consultor = new DataManager.CLS.OperacionBD();
+            String Consulta = @"SELECT 
+                                a.ID_Contrato, 
+                                (SELECT CONCAT(b.Nombre_Empresa, b.Nombres_Cliente, ' ', b.Apellidos_Cliente)) Cliente
+                                FROM contratos a, clientes b
+                                WHERE a.ID_Cliente = b.ID_Cliente
+                                AND a.ID_Contrato = "+pIDContrato+@"
+                                ORDER BY a.ID_Contrato DESC;";
+
+            try
+            {
+                Resultados = Consultor.Consultar(Consulta);
+            }
+            catch
+            {
+                Resultados = new DataTable();
+            }
+
+            return Resultados;
+        }
+
+        // VER EL ULTIMO MOVIMIENTO
+        public static DataTable ULTIMO_MOVIMIENTO_ENTRADA()
+        {
+            DataTable Resultados = new DataTable();
+            DataManager.CLS.OperacionBD Consultor = new DataManager.CLS.OperacionBD();
+            String Consulta = @"SELECT ID_Movimiento FROM movimientos Order by ID_Movimiento desc limit 1;";
+
+            try
+            {
+                Resultados = Consultor.Consultar(Consulta);
+            }
+            catch
+            {
+                Resultados = new DataTable();
+            }
+
+            return Resultados;
+        }
+
+        // VER MOVIMIENTOS DE ENTRADA
+        public static DataTable DATOS_MOVIMIENTO_ENTRADA()
+        {
+            DataTable Resultados = new DataTable();
+            DataManager.CLS.OperacionBD Consultor = new DataManager.CLS.OperacionBD();
+            String Consulta = @"SELECT ID_Movimiento, Tipo_Movimiento, ID_Usuario, Fecha, Nombre_Cliente, Zona, Nombre_Producto, Marca, Costo, Cantidad_Anterior, Cantidad_Movimiento, Cantidad_Actual 
+                                FROM movimientos 
+                                Order by ID_Movimiento desc;";
+
+            try
+            {
+                Resultados = Consultor.Consultar(Consulta);
+            }
+            catch
+            {
+                Resultados = new DataTable();
+            }
+
+            return Resultados;
+        }
+
+        // FILTRAR RESULTADOS DE MOVIMIENTO
+        public static DataTable REPORTE_DE_ENTRADA(String pZona, String pFecha)
+        {
+            DataTable Resultados = new DataTable();
+            DataManager.CLS.OperacionBD Consultor = new DataManager.CLS.OperacionBD();
+            String Consulta = @"SELECT a.ID_Movimiento, a.Tipo_Movimiento, b.Usuario, a.Fecha, a.Nombre_Cliente, a.Zona, a.Nombre_Producto, a.Marca, a.Costo, a.Cantidad_Anterior, a.Cantidad_Movimiento, a.Cantidad_Actual 
+                                FROM movimientos a, usuarios b
+                                WHERE a.ID_Usuario = b.ID_Usuario
+                                AND a.Zona = '"+pZona+"' AND Fecha = '"+pFecha+@"'
+                                Order by ID_Movimiento desc; ";
+
+            try
+            {
+                Resultados = Consultor.Consultar(Consulta);
+            }
+            catch
+            {
+                Resultados = new DataTable();
+            }
+
+            return Resultados;
+        }
+
+        // VER TODAS LAS ZONAS
+        public static DataTable TODAS_LAS_ZONAS_REPORTE()
+        {
+            DataTable Resultados = new DataTable();
+            DataManager.CLS.OperacionBD Consultor = new DataManager.CLS.OperacionBD();
+            String Consulta = @"SELECT ID_Zona, Nombre_Zona FROM zonas;";
 
             try
             {

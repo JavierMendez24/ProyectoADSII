@@ -30,32 +30,27 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(SeleccionarClienteLista));
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle7 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle8 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
             this.panelSCL = new Guna.UI2.WinForms.Guna2Panel();
             this.panelSCA = new Guna.UI2.WinForms.Guna2Panel();
             this.guna2VSeparator1 = new Guna.UI2.WinForms.Guna2VSeparator();
             this.pbSearch = new System.Windows.Forms.PictureBox();
             this.label2 = new System.Windows.Forms.Label();
             this.btnCancelarAddPdC = new Guna.UI2.WinForms.Guna2Button();
-            this.guna2Button4 = new Guna.UI2.WinForms.Guna2Button();
+            this.btnAceptar = new Guna.UI2.WinForms.Guna2Button();
             this.panelDtgCatalogos = new System.Windows.Forms.Panel();
             this.dtgSelecCliente = new System.Windows.Forms.DataGridView();
-            this.idCliente = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.nombres = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.apellidos = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.telefono = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.estado = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.txbBuscarPDC = new Guna.UI2.WinForms.Guna2TextBox();
             this.panelTituloAddPdZnBd = new Guna.UI2.WinForms.Guna2Panel();
             this.btnCerrarSCL = new System.Windows.Forms.PictureBox();
             this.lblAgregaraCatalogo = new System.Windows.Forms.Label();
             this.btnCerrarAgregarPdC2 = new System.Windows.Forms.PictureBox();
+            this.IDContrato = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Cliente = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.TipoContrato = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.InicioArrendamiento = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.FinArrendamiento = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.panelSCL.SuspendLayout();
             this.panelSCA.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pbSearch)).BeginInit();
@@ -86,7 +81,7 @@
             this.panelSCA.Controls.Add(this.pbSearch);
             this.panelSCA.Controls.Add(this.label2);
             this.panelSCA.Controls.Add(this.btnCancelarAddPdC);
-            this.panelSCA.Controls.Add(this.guna2Button4);
+            this.panelSCA.Controls.Add(this.btnAceptar);
             this.panelSCA.Controls.Add(this.panelDtgCatalogos);
             this.panelSCA.Controls.Add(this.txbBuscarPDC);
             this.panelSCA.Dock = System.Windows.Forms.DockStyle.Fill;
@@ -150,27 +145,29 @@
             this.btnCancelarAddPdC.Text = "CANCELAR";
             this.btnCancelarAddPdC.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             this.btnCancelarAddPdC.TextOffset = new System.Drawing.Point(4, 0);
+            this.btnCancelarAddPdC.Click += new System.EventHandler(this.btnCancelarAddPdC_Click);
             // 
-            // guna2Button4
+            // btnAceptar
             // 
-            this.guna2Button4.BorderRadius = 5;
-            this.guna2Button4.CheckedState.Parent = this.guna2Button4;
-            this.guna2Button4.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.guna2Button4.CustomImages.Parent = this.guna2Button4;
-            this.guna2Button4.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(182)))), ((int)(((byte)(146)))));
-            this.guna2Button4.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2Button4.ForeColor = System.Drawing.Color.White;
-            this.guna2Button4.HoverState.Parent = this.guna2Button4;
-            this.guna2Button4.Image = ((System.Drawing.Image)(resources.GetObject("guna2Button4.Image")));
-            this.guna2Button4.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.guna2Button4.ImageSize = new System.Drawing.Size(19, 19);
-            this.guna2Button4.Location = new System.Drawing.Point(471, 375);
-            this.guna2Button4.Name = "guna2Button4";
-            this.guna2Button4.ShadowDecoration.Parent = this.guna2Button4;
-            this.guna2Button4.Size = new System.Drawing.Size(110, 40);
-            this.guna2Button4.TabIndex = 45;
-            this.guna2Button4.Text = "ACEPTAR";
-            this.guna2Button4.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.btnAceptar.BorderRadius = 5;
+            this.btnAceptar.CheckedState.Parent = this.btnAceptar;
+            this.btnAceptar.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnAceptar.CustomImages.Parent = this.btnAceptar;
+            this.btnAceptar.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(182)))), ((int)(((byte)(146)))));
+            this.btnAceptar.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAceptar.ForeColor = System.Drawing.Color.White;
+            this.btnAceptar.HoverState.Parent = this.btnAceptar;
+            this.btnAceptar.Image = ((System.Drawing.Image)(resources.GetObject("btnAceptar.Image")));
+            this.btnAceptar.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.btnAceptar.ImageSize = new System.Drawing.Size(19, 19);
+            this.btnAceptar.Location = new System.Drawing.Point(471, 375);
+            this.btnAceptar.Name = "btnAceptar";
+            this.btnAceptar.ShadowDecoration.Parent = this.btnAceptar;
+            this.btnAceptar.Size = new System.Drawing.Size(110, 40);
+            this.btnAceptar.TabIndex = 45;
+            this.btnAceptar.Text = "ACEPTAR";
+            this.btnAceptar.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.btnAceptar.Click += new System.EventHandler(this.btnAceptar_Click);
             // 
             // panelDtgCatalogos
             // 
@@ -185,6 +182,8 @@
             // 
             // dtgSelecCliente
             // 
+            this.dtgSelecCliente.AllowUserToAddRows = false;
+            this.dtgSelecCliente.AllowUserToDeleteRows = false;
             this.dtgSelecCliente.AllowUserToResizeColumns = false;
             this.dtgSelecCliente.AllowUserToResizeRows = false;
             this.dtgSelecCliente.BackgroundColor = System.Drawing.Color.White;
@@ -199,86 +198,51 @@
             dataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
             dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
             this.dtgSelecCliente.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
-            this.dtgSelecCliente.ColumnHeadersHeight = 35;
+            this.dtgSelecCliente.ColumnHeadersHeight = 45;
             this.dtgSelecCliente.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.DisableResizing;
             this.dtgSelecCliente.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.idCliente,
-            this.nombres,
-            this.apellidos,
-            this.telefono,
-            this.estado});
-            dataGridViewCellStyle7.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle7.BackColor = System.Drawing.Color.White;
-            dataGridViewCellStyle7.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle7.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(237)))), ((int)(((byte)(242)))));
-            dataGridViewCellStyle7.Padding = new System.Windows.Forms.Padding(5, 0, 0, 0);
-            dataGridViewCellStyle7.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(186)))), ((int)(((byte)(245)))), ((int)(((byte)(237)))));
-            dataGridViewCellStyle7.SelectionForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle7.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.dtgSelecCliente.DefaultCellStyle = dataGridViewCellStyle7;
+            this.IDContrato,
+            this.Cliente,
+            this.TipoContrato,
+            this.InicioArrendamiento,
+            this.FinArrendamiento});
+            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle2.BackColor = System.Drawing.Color.White;
+            dataGridViewCellStyle2.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle2.ForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle2.Padding = new System.Windows.Forms.Padding(5, 0, 0, 0);
+            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(186)))), ((int)(((byte)(245)))), ((int)(((byte)(237)))));
+            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.dtgSelecCliente.DefaultCellStyle = dataGridViewCellStyle2;
             this.dtgSelecCliente.Dock = System.Windows.Forms.DockStyle.Fill;
             this.dtgSelecCliente.EnableHeadersVisualStyles = false;
             this.dtgSelecCliente.GridColor = System.Drawing.Color.White;
             this.dtgSelecCliente.Location = new System.Drawing.Point(0, 0);
+            this.dtgSelecCliente.MultiSelect = false;
             this.dtgSelecCliente.Name = "dtgSelecCliente";
+            this.dtgSelecCliente.ReadOnly = true;
             this.dtgSelecCliente.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Sunken;
-            dataGridViewCellStyle8.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle8.BackColor = System.Drawing.Color.White;
-            dataGridViewCellStyle8.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle8.ForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle8.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(186)))), ((int)(((byte)(245)))), ((int)(((byte)(237)))));
-            dataGridViewCellStyle8.SelectionForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle8.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dtgSelecCliente.RowHeadersDefaultCellStyle = dataGridViewCellStyle8;
+            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle3.BackColor = System.Drawing.Color.White;
+            dataGridViewCellStyle3.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle3.ForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(186)))), ((int)(((byte)(245)))), ((int)(((byte)(237)))));
+            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dtgSelecCliente.RowHeadersDefaultCellStyle = dataGridViewCellStyle3;
             this.dtgSelecCliente.RowHeadersVisible = false;
             this.dtgSelecCliente.RowTemplate.Height = 28;
             this.dtgSelecCliente.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.dtgSelecCliente.Size = new System.Drawing.Size(681, 274);
             this.dtgSelecCliente.TabIndex = 5;
             // 
-            // idCliente
-            // 
-            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            this.idCliente.DefaultCellStyle = dataGridViewCellStyle2;
-            this.idCliente.HeaderText = "ID CLIENTE";
-            this.idCliente.Name = "idCliente";
-            // 
-            // nombres
-            // 
-            this.nombres.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            this.nombres.DefaultCellStyle = dataGridViewCellStyle3;
-            this.nombres.HeaderText = "NOMBRES";
-            this.nombres.Name = "nombres";
-            // 
-            // apellidos
-            // 
-            this.apellidos.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            dataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            this.apellidos.DefaultCellStyle = dataGridViewCellStyle4;
-            this.apellidos.HeaderText = "APELLIDOS";
-            this.apellidos.Name = "apellidos";
-            // 
-            // telefono
-            // 
-            dataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            this.telefono.DefaultCellStyle = dataGridViewCellStyle5;
-            this.telefono.HeaderText = "TELÉFONO";
-            this.telefono.Name = "telefono";
-            // 
-            // estado
-            // 
-            dataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            this.estado.DefaultCellStyle = dataGridViewCellStyle6;
-            this.estado.HeaderText = "ESTADO";
-            this.estado.Name = "estado";
-            // 
             // txbBuscarPDC
             // 
             this.txbBuscarPDC.BorderColor = System.Drawing.Color.Silver;
             this.txbBuscarPDC.BorderRadius = 8;
             this.txbBuscarPDC.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.txbBuscarPDC.DefaultText = "Buscar...";
+            this.txbBuscarPDC.DefaultText = "";
             this.txbBuscarPDC.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
             this.txbBuscarPDC.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
             this.txbBuscarPDC.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
@@ -291,9 +255,8 @@
             this.txbBuscarPDC.Location = new System.Drawing.Point(441, 31);
             this.txbBuscarPDC.Name = "txbBuscarPDC";
             this.txbBuscarPDC.PasswordChar = '\0';
-            this.txbBuscarPDC.PlaceholderText = "";
+            this.txbBuscarPDC.PlaceholderText = "Buscar...";
             this.txbBuscarPDC.SelectedText = "";
-            this.txbBuscarPDC.SelectionStart = 9;
             this.txbBuscarPDC.ShadowDecoration.Parent = this.txbBuscarPDC;
             this.txbBuscarPDC.Size = new System.Drawing.Size(263, 35);
             this.txbBuscarPDC.TabIndex = 5;
@@ -334,9 +297,9 @@
             this.lblAgregaraCatalogo.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(40)))), ((int)(((byte)(52)))));
             this.lblAgregaraCatalogo.Location = new System.Drawing.Point(274, 9);
             this.lblAgregaraCatalogo.Name = "lblAgregaraCatalogo";
-            this.lblAgregaraCatalogo.Size = new System.Drawing.Size(182, 19);
+            this.lblAgregaraCatalogo.Size = new System.Drawing.Size(205, 19);
             this.lblAgregaraCatalogo.TabIndex = 20;
-            this.lblAgregaraCatalogo.Text = "SELECCIONAR CLIENTE";
+            this.lblAgregaraCatalogo.Text = "SELECCIONAR CONTRATO";
             // 
             // btnCerrarAgregarPdC2
             // 
@@ -349,6 +312,45 @@
             this.btnCerrarAgregarPdC2.TabIndex = 19;
             this.btnCerrarAgregarPdC2.TabStop = false;
             // 
+            // IDContrato
+            // 
+            this.IDContrato.DataPropertyName = "ID_Contrato";
+            this.IDContrato.HeaderText = "IDContrato";
+            this.IDContrato.Name = "IDContrato";
+            this.IDContrato.ReadOnly = true;
+            // 
+            // Cliente
+            // 
+            this.Cliente.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.Cliente.DataPropertyName = "Cliente";
+            this.Cliente.HeaderText = "Cliente";
+            this.Cliente.Name = "Cliente";
+            this.Cliente.ReadOnly = true;
+            // 
+            // TipoContrato
+            // 
+            this.TipoContrato.DataPropertyName = "Tipo_Contrato";
+            this.TipoContrato.HeaderText = "Tipo de Contrato";
+            this.TipoContrato.Name = "TipoContrato";
+            this.TipoContrato.ReadOnly = true;
+            this.TipoContrato.Width = 120;
+            // 
+            // InicioArrendamiento
+            // 
+            this.InicioArrendamiento.DataPropertyName = "Inicio_Arrendamiento";
+            this.InicioArrendamiento.HeaderText = "Inicio Arrendamiento";
+            this.InicioArrendamiento.Name = "InicioArrendamiento";
+            this.InicioArrendamiento.ReadOnly = true;
+            this.InicioArrendamiento.Width = 115;
+            // 
+            // FinArrendamiento
+            // 
+            this.FinArrendamiento.DataPropertyName = "Fin_Arrendamiento";
+            this.FinArrendamiento.HeaderText = "Fin Arrendamiento";
+            this.FinArrendamiento.Name = "FinArrendamiento";
+            this.FinArrendamiento.ReadOnly = true;
+            this.FinArrendamiento.Width = 115;
+            // 
             // SeleccionarClienteLista
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -360,6 +362,7 @@
             this.Name = "SeleccionarClienteLista";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "SeleccionarClienteLista";
+            this.Load += new System.EventHandler(this.SeleccionarClienteLista_Load);
             this.panelSCL.ResumeLayout(false);
             this.panelSCA.ResumeLayout(false);
             this.panelSCA.PerformLayout();
@@ -382,18 +385,18 @@
         private System.Windows.Forms.PictureBox pbSearch;
         private System.Windows.Forms.Label label2;
         private Guna.UI2.WinForms.Guna2Button btnCancelarAddPdC;
-        private Guna.UI2.WinForms.Guna2Button guna2Button4;
+        private Guna.UI2.WinForms.Guna2Button btnAceptar;
         private System.Windows.Forms.Panel panelDtgCatalogos;
         private System.Windows.Forms.DataGridView dtgSelecCliente;
-        private System.Windows.Forms.DataGridViewTextBoxColumn idCliente;
-        private System.Windows.Forms.DataGridViewTextBoxColumn nombres;
-        private System.Windows.Forms.DataGridViewTextBoxColumn apellidos;
-        private System.Windows.Forms.DataGridViewTextBoxColumn telefono;
-        private System.Windows.Forms.DataGridViewTextBoxColumn estado;
         private Guna.UI2.WinForms.Guna2TextBox txbBuscarPDC;
         private Guna.UI2.WinForms.Guna2Panel panelTituloAddPdZnBd;
         private System.Windows.Forms.PictureBox btnCerrarSCL;
         private System.Windows.Forms.Label lblAgregaraCatalogo;
         private System.Windows.Forms.PictureBox btnCerrarAgregarPdC2;
+        private System.Windows.Forms.DataGridViewTextBoxColumn IDContrato;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Cliente;
+        private System.Windows.Forms.DataGridViewTextBoxColumn TipoContrato;
+        private System.Windows.Forms.DataGridViewTextBoxColumn InicioArrendamiento;
+        private System.Windows.Forms.DataGridViewTextBoxColumn FinArrendamiento;
     }
 }

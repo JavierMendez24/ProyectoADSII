@@ -33,7 +33,7 @@ namespace Skoll.GUI.INICIO
                 btnBodegas.Checked = true;
         }
 
-        private void AddFormulario(Form f)
+        public void AddFormulario(Form f)
         {
             if (this.panelMainContent.Controls.Count > 0)
             {
