@@ -1,0 +1,315 @@
+C:\DES-SOFTWARE-II\ProyectoDSII\Skoll\bin\Debug\Skoll.exe.config
+C:\DES-SOFTWARE-II\ProyectoDSII\Skoll\obj\Debug\Skoll.csprojResolveAssemblyReference.cache
+C:\DES-SOFTWARE-II\ProyectoDSII\Skoll\obj\Debug\Skoll.GUI.INICIO.Principal.resources
+C:\DES-SOFTWARE-II\ProyectoDSII\Skoll\obj\Debug\Skoll.Properties.Resources.resources
+C:\DES-SOFTWARE-II\ProyectoDSII\Skoll\obj\Debug\Skoll.csproj.GenerateResource.Cache
+C:\DES-SOFTWARE-II\ProyectoDSII\Skoll\bin\Debug\Skoll.exe
+C:\DES-SOFTWARE-II\ProyectoDSII\Skoll\bin\Debug\Skoll.pdb
+C:\DES-SOFTWARE-II\ProyectoDSII\Skoll\bin\Debug\Guna.UI2.dll
+C:\DES-SOFTWARE-II\ProyectoDSII\Skoll\obj\Debug\Skoll.exe
+C:\DES-SOFTWARE-II\ProyectoDSII\Skoll\obj\Debug\Skoll.pdb
+C:\DES-SOFTWARE-II\ProyectoDSII\Skoll\obj\Debug\Skoll.GUI.BODEGAS.Bodegas.resources
+C:\DES-SOFTWARE-II\ProyectoDSII\Skoll\obj\Debug\Skoll.GUI.PRODUCTOS.Catalogo.resources
+C:\DES-SOFTWARE-II\ProyectoDSII\Skoll\obj\Debug\Skoll.GUI.PRODUCTOS.Lista.resources
+C:\DES-SOFTWARE-II\ProyectoDSII\Skoll\obj\Debug\Skoll.GUI.CLIENTES.Clientes.resources
+C:\DES-SOFTWARE-II\ProyectoDSII\Skoll\obj\Debug\Skoll.GUI.CONTRATOS.Contratos.resources
+C:\DES-SOFTWARE-II\ProyectoDSII\Skoll\obj\Debug\Skoll.GUI.PRODUCTOS.AgregarProductosaCatalogo.resources
+C:\DES-SOFTWARE-II\ProyectoDSII\Skoll\obj\Debug\Skoll.GUI.PRODUCTOS.EditarProductodeCatalogo.resources
+C:\DES-SOFTWARE-II\ProyectoDSII\Skoll\obj\Debug\Skoll.GUI.PRODUCTOS.SeleccionarClienteCatalogo.resources
+C:\DES-SOFTWARE-II\ProyectoDSII\Skoll\obj\Debug\Skoll.GUI.PRODUCTOS.AgregarProductosaBodega.resources
+C:\DES-SOFTWARE-II\ProyectoDSII\Skoll\obj\Debug\Skoll.GUI.PRODUCTOS.SeleccionarClienteLista.resources
+C:\DES-SOFTWARE-II\ProyectoDSII\Skoll\obj\Debug\Skoll.GUI.PRODUCTOS.SeleccionarProductosdelCatalogo.resources
+C:\DES-SOFTWARE-II\ProyectoDSII\Skoll\obj\Debug\Skoll.GUI.PRODUCTOS.ExtraerProductosdeBodega.resources
+C:\DES-SOFTWARE-II\ProyectoDSII\Skoll\obj\Debug\Skoll.GUI.CLIENTES.AgregarCliente.resources
+C:\DES-SOFTWARE-II\ProyectoDSII\Skoll\obj\Debug\Skoll.GUI.CLIENTES.EditarClienteEmpresa.resources
+C:\DES-SOFTWARE-II\ProyectoDSII\Skoll\obj\Debug\Skoll.GUI.CLIENTES.EditarClientePersona.resources
+C:\DES-SOFTWARE-II\ProyectoDSII\Skoll\obj\Debug\Skoll.GUI.CLIENTES.DetallesClienteEmpresa.resources
+C:\DES-SOFTWARE-II\ProyectoDSII\Skoll\obj\Debug\Skoll.GUI.CLIENTES.DetallesClientePersona.resources
+C:\DES-SOFTWARE-II\ProyectoDSII\Skoll\obj\Debug\Skoll.GUI.CONTRATOS.AgregarContrato.resources
+C:\DES-SOFTWARE-II\ProyectoDSII\Skoll\obj\Debug\Skoll.GUI.CONTRATOS.EditarContrato.resources
+C:\DES-SOFTWARE-II\ProyectoDSII\Skoll\obj\Debug\Skoll.GUI.CONTRATOS.DetallesContrato.resources
+C:\DES-SOFTWARE-II\ProyectoDSII\Skoll\obj\Debug\Skoll.GUI.CONTRATOS.SeleccionarClienteContrato.resources
+C:\DES-SOFTWARE-II\ProyectoDSII\Skoll\obj\Debug\Skoll.GUI.CONTRATOS.SeleccionarZonasContrato.resources
+C:\DES-SOFTWARE-II\ProyectoDSII\Skoll\obj\Debug\Skoll.GUI.REPORTES.ReportesEntrada.resources
+C:\DES-SOFTWARE-II\ProyectoDSII\Skoll\obj\Debug\Skoll.GUI.REPORTES.ReportesSalida.resources
+C:\DES-SOFTWARE-II\ProyectoDSII\Skoll\obj\Debug\Skoll.GUI.REPORTES.ReportesInventario.resources
+C:\DES-SOFTWARE-II\ProyectoDSII\Skoll\obj\Debug\Skoll.GUI.REPORTES.ReportesKardex.resources
+C:\DES-SOFTWARE-II\ProyectoDSII\Skoll\bin\Debug\CacheManager.dll
+C:\DES-SOFTWARE-II\ProyectoDSII\Skoll\bin\Debug\DataManager.dll
+C:\DES-SOFTWARE-II\ProyectoDSII\Skoll\bin\Debug\MySql.Data.dll
+C:\DES-SOFTWARE-II\ProyectoDSII\Skoll\bin\Debug\CacheManager.pdb
+C:\DES-SOFTWARE-II\ProyectoDSII\Skoll\bin\Debug\DataManager.pdb
+C:\Users\MELKEE\Desktop\PROYECTO FINAL DESARROLLO DE SOFTWARE\ProyectoDSII\Skoll\bin\Debug\Skoll.exe.config
+C:\Users\MELKEE\Desktop\PROYECTO FINAL DESARROLLO DE SOFTWARE\ProyectoDSII\Skoll\obj\Debug\Skoll.exe
+C:\Users\MELKEE\Desktop\PROYECTO FINAL DESARROLLO DE SOFTWARE\ProyectoDSII\Skoll\obj\Debug\Skoll.pdb
+C:\Users\MELKEE\Desktop\PROYECTO FINAL DESARROLLO DE SOFTWARE\ProyectoDSII\Skoll\bin\Debug\Skoll.exe
+C:\Users\MELKEE\Desktop\PROYECTO FINAL DESARROLLO DE SOFTWARE\ProyectoDSII\Skoll\bin\Debug\Skoll.pdb
+C:\Users\MELKEE\Desktop\PROYECTO FINAL DESARROLLO DE SOFTWARE\ProyectoDSII\Skoll\bin\Debug\CacheManager.dll
+C:\Users\MELKEE\Desktop\PROYECTO FINAL DESARROLLO DE SOFTWARE\ProyectoDSII\Skoll\bin\Debug\DataManager.dll
+C:\Users\MELKEE\Desktop\PROYECTO FINAL DESARROLLO DE SOFTWARE\ProyectoDSII\Skoll\bin\Debug\MySql.Data.dll
+C:\Users\MELKEE\Desktop\PROYECTO FINAL DESARROLLO DE SOFTWARE\ProyectoDSII\Skoll\bin\Debug\CacheManager.pdb
+C:\Users\MELKEE\Desktop\PROYECTO FINAL DESARROLLO DE SOFTWARE\ProyectoDSII\Skoll\bin\Debug\DataManager.pdb
+C:\Users\MELKEE\Desktop\PROYECTO FINAL DESARROLLO DE SOFTWARE\ProyectoDSII\Skoll\obj\Debug\Skoll.csprojResolveAssemblyReference.cache
+C:\Users\MELKEE\Desktop\PROYECTO FINAL DESARROLLO DE SOFTWARE\ProyectoDSII\Skoll\obj\Debug\Skoll.GUI.BODEGAS.Bodegas.resources
+C:\Users\MELKEE\Desktop\PROYECTO FINAL DESARROLLO DE SOFTWARE\ProyectoDSII\Skoll\obj\Debug\Skoll.GUI.CLIENTES.AgregarCliente.resources
+C:\Users\MELKEE\Desktop\PROYECTO FINAL DESARROLLO DE SOFTWARE\ProyectoDSII\Skoll\obj\Debug\Skoll.GUI.CLIENTES.Clientes.resources
+C:\Users\MELKEE\Desktop\PROYECTO FINAL DESARROLLO DE SOFTWARE\ProyectoDSII\Skoll\obj\Debug\Skoll.GUI.CLIENTES.DetallesClienteEmpresa.resources
+C:\Users\MELKEE\Desktop\PROYECTO FINAL DESARROLLO DE SOFTWARE\ProyectoDSII\Skoll\obj\Debug\Skoll.GUI.CLIENTES.DetallesClientePersona.resources
+C:\Users\MELKEE\Desktop\PROYECTO FINAL DESARROLLO DE SOFTWARE\ProyectoDSII\Skoll\obj\Debug\Skoll.GUI.CLIENTES.EditarClienteEmpresa.resources
+C:\Users\MELKEE\Desktop\PROYECTO FINAL DESARROLLO DE SOFTWARE\ProyectoDSII\Skoll\obj\Debug\Skoll.GUI.CLIENTES.EditarClientePersona.resources
+C:\Users\MELKEE\Desktop\PROYECTO FINAL DESARROLLO DE SOFTWARE\ProyectoDSII\Skoll\obj\Debug\Skoll.GUI.CONTRATOS.AgregarContrato.resources
+C:\Users\MELKEE\Desktop\PROYECTO FINAL DESARROLLO DE SOFTWARE\ProyectoDSII\Skoll\obj\Debug\Skoll.GUI.CONTRATOS.Contratos.resources
+C:\Users\MELKEE\Desktop\PROYECTO FINAL DESARROLLO DE SOFTWARE\ProyectoDSII\Skoll\obj\Debug\Skoll.GUI.CONTRATOS.DetallesContrato.resources
+C:\Users\MELKEE\Desktop\PROYECTO FINAL DESARROLLO DE SOFTWARE\ProyectoDSII\Skoll\obj\Debug\Skoll.GUI.CONTRATOS.EditarContrato.resources
+C:\Users\MELKEE\Desktop\PROYECTO FINAL DESARROLLO DE SOFTWARE\ProyectoDSII\Skoll\obj\Debug\Skoll.GUI.CONTRATOS.SeleccionarClienteContrato.resources
+C:\Users\MELKEE\Desktop\PROYECTO FINAL DESARROLLO DE SOFTWARE\ProyectoDSII\Skoll\obj\Debug\Skoll.GUI.CONTRATOS.SeleccionarZonasContrato.resources
+C:\Users\MELKEE\Desktop\PROYECTO FINAL DESARROLLO DE SOFTWARE\ProyectoDSII\Skoll\obj\Debug\Skoll.GUI.INICIO.Principal.resources
+C:\Users\MELKEE\Desktop\PROYECTO FINAL DESARROLLO DE SOFTWARE\ProyectoDSII\Skoll\obj\Debug\Skoll.GUI.PRODUCTOS.AgregarProductosaBodega.resources
+C:\Users\MELKEE\Desktop\PROYECTO FINAL DESARROLLO DE SOFTWARE\ProyectoDSII\Skoll\obj\Debug\Skoll.GUI.PRODUCTOS.AgregarProductosaCatalogo.resources
+C:\Users\MELKEE\Desktop\PROYECTO FINAL DESARROLLO DE SOFTWARE\ProyectoDSII\Skoll\obj\Debug\Skoll.GUI.PRODUCTOS.Catalogo.resources
+C:\Users\MELKEE\Desktop\PROYECTO FINAL DESARROLLO DE SOFTWARE\ProyectoDSII\Skoll\obj\Debug\Skoll.GUI.PRODUCTOS.EditarProductodeCatalogo.resources
+C:\Users\MELKEE\Desktop\PROYECTO FINAL DESARROLLO DE SOFTWARE\ProyectoDSII\Skoll\obj\Debug\Skoll.GUI.PRODUCTOS.ExtraerProductosdeBodega.resources
+C:\Users\MELKEE\Desktop\PROYECTO FINAL DESARROLLO DE SOFTWARE\ProyectoDSII\Skoll\obj\Debug\Skoll.GUI.PRODUCTOS.Lista.resources
+C:\Users\MELKEE\Desktop\PROYECTO FINAL DESARROLLO DE SOFTWARE\ProyectoDSII\Skoll\obj\Debug\Skoll.GUI.PRODUCTOS.SeleccionarClienteCatalogo.resources
+C:\Users\MELKEE\Desktop\PROYECTO FINAL DESARROLLO DE SOFTWARE\ProyectoDSII\Skoll\obj\Debug\Skoll.GUI.PRODUCTOS.SeleccionarClienteLista.resources
+C:\Users\MELKEE\Desktop\PROYECTO FINAL DESARROLLO DE SOFTWARE\ProyectoDSII\Skoll\obj\Debug\Skoll.GUI.PRODUCTOS.SeleccionarProductosdelCatalogo.resources
+C:\Users\MELKEE\Desktop\PROYECTO FINAL DESARROLLO DE SOFTWARE\ProyectoDSII\Skoll\obj\Debug\Skoll.GUI.REPORTES.ReportesEntrada.resources
+C:\Users\MELKEE\Desktop\PROYECTO FINAL DESARROLLO DE SOFTWARE\ProyectoDSII\Skoll\obj\Debug\Skoll.GUI.REPORTES.ReportesInventario.resources
+C:\Users\MELKEE\Desktop\PROYECTO FINAL DESARROLLO DE SOFTWARE\ProyectoDSII\Skoll\obj\Debug\Skoll.GUI.REPORTES.ReportesKardex.resources
+C:\Users\MELKEE\Desktop\PROYECTO FINAL DESARROLLO DE SOFTWARE\ProyectoDSII\Skoll\obj\Debug\Skoll.GUI.REPORTES.ReportesSalida.resources
+C:\Users\MELKEE\Desktop\PROYECTO FINAL DESARROLLO DE SOFTWARE\ProyectoDSII\Skoll\obj\Debug\Skoll.Properties.Resources.resources
+C:\Users\MELKEE\Desktop\PROYECTO FINAL DESARROLLO DE SOFTWARE\ProyectoDSII\Skoll\obj\Debug\Skoll.csproj.GenerateResource.Cache
+C:\Users\MELKEE\Desktop\PROYECTO FINAL DESARROLLO DE SOFTWARE\ProyectoDSII\Skoll\bin\Debug\GestionGeneral.dll
+C:\Users\MELKEE\Desktop\PROYECTO FINAL DESARROLLO DE SOFTWARE\ProyectoDSII\Skoll\bin\Debug\GestionGeneral.pdb
+C:\Users\MELKEE\Desktop\PROYECTO FINAL DESARROLLO DE SOFTWARE\ProyectoDSII\Skoll\obj\Debug\Skoll.GUI.INICIO.Splash.resources
+C:\Users\MELKEE\Desktop\PROYECTO FINAL DESARROLLO DE SOFTWARE\ProyectoDSII\Skoll\obj\Debug\Skoll.GUI.INICIO.Login.resources
+C:\Users\MELKEE\Desktop\PROYECTO FINAL DESARROLLO DE SOFTWARE\ProyectoDSII\Skoll\obj\Debug\Skoll.GUI.BODEGAS.InformacionBodega.resources
+C:\Users\MELKEE\Desktop\PROYECTO FINAL DESARROLLO DE SOFTWARE\ProyectoDSII\Skoll\obj\Debug\Skoll.GUI.PRODUCTOS.Seleccionar_Zona.resources
+C:\Users\MELKEE\Desktop\PROYECTO FINAL DESARROLLO DE SOFTWARE\ProyectoDSII\Skoll\obj\Debug\Skoll.GUI.REPORTES.SeleccionarCliente.resources
+C:\Users\MELKEE\Desktop\PROYECTO FINAL DESARROLLO DE SOFTWARE\ProyectoDSII\Skoll\obj\Debug\Skoll.GUI.REPORTES.SeleccionarZona.resources
+D:\Universidad\Ciclo 7\1- DS2\Proyecto\Sistema\Sistema de Inventario\ProyectoDSII - INTERFAZ\Skoll\bin\Debug\Skoll.exe.config
+D:\Universidad\Ciclo 7\1- DS2\Proyecto\Sistema\Sistema de Inventario\ProyectoDSII - INTERFAZ\Skoll\obj\Debug\Skoll.exe
+D:\Universidad\Ciclo 7\1- DS2\Proyecto\Sistema\Sistema de Inventario\ProyectoDSII - INTERFAZ\Skoll\obj\Debug\Skoll.pdb
+D:\Universidad\Ciclo 7\1- DS2\Proyecto\Sistema\Sistema de Inventario\ProyectoDSII - INTERFAZ\Skoll\obj\Debug\Skoll.csprojResolveAssemblyReference.cache
+D:\Universidad\Ciclo 7\1- DS2\Proyecto\Sistema\Sistema de Inventario\ProyectoDSII - INTERFAZ\Skoll\obj\Debug\Skoll.GUI.BODEGAS.Bodegas.resources
+D:\Universidad\Ciclo 7\1- DS2\Proyecto\Sistema\Sistema de Inventario\ProyectoDSII - INTERFAZ\Skoll\obj\Debug\Skoll.GUI.BODEGAS.InformacionBodega.resources
+D:\Universidad\Ciclo 7\1- DS2\Proyecto\Sistema\Sistema de Inventario\ProyectoDSII - INTERFAZ\Skoll\obj\Debug\Skoll.GUI.CLIENTES.AgregarCliente.resources
+D:\Universidad\Ciclo 7\1- DS2\Proyecto\Sistema\Sistema de Inventario\ProyectoDSII - INTERFAZ\Skoll\obj\Debug\Skoll.GUI.CLIENTES.Clientes.resources
+D:\Universidad\Ciclo 7\1- DS2\Proyecto\Sistema\Sistema de Inventario\ProyectoDSII - INTERFAZ\Skoll\obj\Debug\Skoll.GUI.CLIENTES.DetallesClienteEmpresa.resources
+D:\Universidad\Ciclo 7\1- DS2\Proyecto\Sistema\Sistema de Inventario\ProyectoDSII - INTERFAZ\Skoll\obj\Debug\Skoll.GUI.CLIENTES.DetallesClientePersona.resources
+D:\Universidad\Ciclo 7\1- DS2\Proyecto\Sistema\Sistema de Inventario\ProyectoDSII - INTERFAZ\Skoll\obj\Debug\Skoll.GUI.CLIENTES.EditarClienteEmpresa.resources
+D:\Universidad\Ciclo 7\1- DS2\Proyecto\Sistema\Sistema de Inventario\ProyectoDSII - INTERFAZ\Skoll\obj\Debug\Skoll.GUI.CLIENTES.EditarClientePersona.resources
+D:\Universidad\Ciclo 7\1- DS2\Proyecto\Sistema\Sistema de Inventario\ProyectoDSII - INTERFAZ\Skoll\obj\Debug\Skoll.GUI.CONTRATOS.AgregarContrato.resources
+D:\Universidad\Ciclo 7\1- DS2\Proyecto\Sistema\Sistema de Inventario\ProyectoDSII - INTERFAZ\Skoll\obj\Debug\Skoll.GUI.CONTRATOS.Contratos.resources
+D:\Universidad\Ciclo 7\1- DS2\Proyecto\Sistema\Sistema de Inventario\ProyectoDSII - INTERFAZ\Skoll\obj\Debug\Skoll.GUI.CONTRATOS.DetallesContrato.resources
+D:\Universidad\Ciclo 7\1- DS2\Proyecto\Sistema\Sistema de Inventario\ProyectoDSII - INTERFAZ\Skoll\obj\Debug\Skoll.GUI.CONTRATOS.EditarContrato.resources
+D:\Universidad\Ciclo 7\1- DS2\Proyecto\Sistema\Sistema de Inventario\ProyectoDSII - INTERFAZ\Skoll\obj\Debug\Skoll.GUI.CONTRATOS.SeleccionarClienteContrato.resources
+D:\Universidad\Ciclo 7\1- DS2\Proyecto\Sistema\Sistema de Inventario\ProyectoDSII - INTERFAZ\Skoll\obj\Debug\Skoll.GUI.CONTRATOS.SeleccionarZonasContrato.resources
+D:\Universidad\Ciclo 7\1- DS2\Proyecto\Sistema\Sistema de Inventario\ProyectoDSII - INTERFAZ\Skoll\obj\Debug\Skoll.GUI.INICIO.Login.resources
+D:\Universidad\Ciclo 7\1- DS2\Proyecto\Sistema\Sistema de Inventario\ProyectoDSII - INTERFAZ\Skoll\obj\Debug\Skoll.GUI.INICIO.Principal.resources
+D:\Universidad\Ciclo 7\1- DS2\Proyecto\Sistema\Sistema de Inventario\ProyectoDSII - INTERFAZ\Skoll\obj\Debug\Skoll.GUI.INICIO.Splash.resources
+D:\Universidad\Ciclo 7\1- DS2\Proyecto\Sistema\Sistema de Inventario\ProyectoDSII - INTERFAZ\Skoll\obj\Debug\Skoll.GUI.PRODUCTOS.AgregarProductosaBodega.resources
+D:\Universidad\Ciclo 7\1- DS2\Proyecto\Sistema\Sistema de Inventario\ProyectoDSII - INTERFAZ\Skoll\obj\Debug\Skoll.GUI.PRODUCTOS.AgregarProductosaCatalogo.resources
+D:\Universidad\Ciclo 7\1- DS2\Proyecto\Sistema\Sistema de Inventario\ProyectoDSII - INTERFAZ\Skoll\obj\Debug\Skoll.GUI.PRODUCTOS.Catalogo.resources
+D:\Universidad\Ciclo 7\1- DS2\Proyecto\Sistema\Sistema de Inventario\ProyectoDSII - INTERFAZ\Skoll\obj\Debug\Skoll.GUI.PRODUCTOS.EditarProductodeCatalogo.resources
+D:\Universidad\Ciclo 7\1- DS2\Proyecto\Sistema\Sistema de Inventario\ProyectoDSII - INTERFAZ\Skoll\obj\Debug\Skoll.GUI.PRODUCTOS.ExtraerProductosdeBodega.resources
+D:\Universidad\Ciclo 7\1- DS2\Proyecto\Sistema\Sistema de Inventario\ProyectoDSII - INTERFAZ\Skoll\obj\Debug\Skoll.GUI.PRODUCTOS.Lista.resources
+D:\Universidad\Ciclo 7\1- DS2\Proyecto\Sistema\Sistema de Inventario\ProyectoDSII - INTERFAZ\Skoll\obj\Debug\Skoll.GUI.PRODUCTOS.Seleccionar_Zona.resources
+D:\Universidad\Ciclo 7\1- DS2\Proyecto\Sistema\Sistema de Inventario\ProyectoDSII - INTERFAZ\Skoll\obj\Debug\Skoll.GUI.PRODUCTOS.SeleccionarClienteCatalogo.resources
+D:\Universidad\Ciclo 7\1- DS2\Proyecto\Sistema\Sistema de Inventario\ProyectoDSII - INTERFAZ\Skoll\obj\Debug\Skoll.GUI.PRODUCTOS.SeleccionarClienteLista.resources
+D:\Universidad\Ciclo 7\1- DS2\Proyecto\Sistema\Sistema de Inventario\ProyectoDSII - INTERFAZ\Skoll\obj\Debug\Skoll.GUI.PRODUCTOS.SeleccionarProductosdelCatalogo.resources
+D:\Universidad\Ciclo 7\1- DS2\Proyecto\Sistema\Sistema de Inventario\ProyectoDSII - INTERFAZ\Skoll\obj\Debug\Skoll.GUI.REPORTES.ReportesEntrada.resources
+D:\Universidad\Ciclo 7\1- DS2\Proyecto\Sistema\Sistema de Inventario\ProyectoDSII - INTERFAZ\Skoll\obj\Debug\Skoll.GUI.REPORTES.ReportesInventario.resources
+D:\Universidad\Ciclo 7\1- DS2\Proyecto\Sistema\Sistema de Inventario\ProyectoDSII - INTERFAZ\Skoll\obj\Debug\Skoll.GUI.REPORTES.ReportesKardex.resources
+D:\Universidad\Ciclo 7\1- DS2\Proyecto\Sistema\Sistema de Inventario\ProyectoDSII - INTERFAZ\Skoll\obj\Debug\Skoll.GUI.REPORTES.ReportesSalida.resources
+D:\Universidad\Ciclo 7\1- DS2\Proyecto\Sistema\Sistema de Inventario\ProyectoDSII - INTERFAZ\Skoll\obj\Debug\Skoll.GUI.REPORTES.SeleccionarCliente.resources
+D:\Universidad\Ciclo 7\1- DS2\Proyecto\Sistema\Sistema de Inventario\ProyectoDSII - INTERFAZ\Skoll\obj\Debug\Skoll.GUI.REPORTES.SeleccionarZona.resources
+D:\Universidad\Ciclo 7\1- DS2\Proyecto\Sistema\Sistema de Inventario\ProyectoDSII - INTERFAZ\Skoll\obj\Debug\Skoll.Properties.Resources.resources
+D:\Universidad\Ciclo 7\1- DS2\Proyecto\Sistema\Sistema de Inventario\ProyectoDSII - INTERFAZ\Skoll\obj\Debug\Skoll.csproj.GenerateResource.Cache
+D:\Universidad\Ciclo 7\1- DS2\Proyecto\Sistema\Sistema de Inventario\ProyectoDSII - INTERFAZ\Skoll\bin\Debug\Skoll.exe
+D:\Universidad\Ciclo 7\1- DS2\Proyecto\Sistema\Sistema de Inventario\ProyectoDSII - INTERFAZ\Skoll\bin\Debug\Skoll.pdb
+D:\Universidad\Ciclo 7\1- DS2\Proyecto\Sistema\Sistema de Inventario\ProyectoDSII - INTERFAZ\Skoll\bin\Debug\CacheManager.dll
+D:\Universidad\Ciclo 7\1- DS2\Proyecto\Sistema\Sistema de Inventario\ProyectoDSII - INTERFAZ\Skoll\bin\Debug\DataManager.dll
+D:\Universidad\Ciclo 7\1- DS2\Proyecto\Sistema\Sistema de Inventario\ProyectoDSII - INTERFAZ\Skoll\bin\Debug\GestionGeneral.dll
+D:\Universidad\Ciclo 7\1- DS2\Proyecto\Sistema\Sistema de Inventario\ProyectoDSII - INTERFAZ\Skoll\bin\Debug\SesionManager.dll
+D:\Universidad\Ciclo 7\1- DS2\Proyecto\Sistema\Sistema de Inventario\ProyectoDSII - INTERFAZ\Skoll\bin\Debug\MySql.Data.dll
+D:\Universidad\Ciclo 7\1- DS2\Proyecto\Sistema\Sistema de Inventario\ProyectoDSII - INTERFAZ\Skoll\bin\Debug\CacheManager.pdb
+D:\Universidad\Ciclo 7\1- DS2\Proyecto\Sistema\Sistema de Inventario\ProyectoDSII - INTERFAZ\Skoll\bin\Debug\DataManager.pdb
+D:\Universidad\Ciclo 7\1- DS2\Proyecto\Sistema\Sistema de Inventario\ProyectoDSII - INTERFAZ\Skoll\bin\Debug\GestionGeneral.pdb
+D:\Universidad\Ciclo 7\1- DS2\Proyecto\Sistema\Sistema de Inventario\ProyectoDSII - INTERFAZ\Skoll\bin\Debug\SesionManager.pdb
+C:\Users\MELKEE\Downloads\ProyectoDSII con BD\ProyectoDSII - INTERFAZ\Skoll\bin\Debug\Skoll.exe.config
+C:\Users\MELKEE\Downloads\ProyectoDSII con BD\ProyectoDSII - INTERFAZ\Skoll\obj\Debug\Skoll.exe
+C:\Users\MELKEE\Downloads\ProyectoDSII con BD\ProyectoDSII - INTERFAZ\Skoll\obj\Debug\Skoll.pdb
+C:\Users\MELKEE\Downloads\ProyectoDSII con BD\ProyectoDSII - INTERFAZ\Skoll\bin\Debug\Skoll.exe
+C:\Users\MELKEE\Downloads\ProyectoDSII con BD\ProyectoDSII - INTERFAZ\Skoll\bin\Debug\Skoll.pdb
+C:\Users\MELKEE\Downloads\ProyectoDSII con BD\ProyectoDSII - INTERFAZ\Skoll\bin\Debug\CacheManager.dll
+C:\Users\MELKEE\Downloads\ProyectoDSII con BD\ProyectoDSII - INTERFAZ\Skoll\bin\Debug\DataManager.dll
+C:\Users\MELKEE\Downloads\ProyectoDSII con BD\ProyectoDSII - INTERFAZ\Skoll\bin\Debug\GestionGeneral.dll
+C:\Users\MELKEE\Downloads\ProyectoDSII con BD\ProyectoDSII - INTERFAZ\Skoll\bin\Debug\SesionManager.dll
+C:\Users\MELKEE\Downloads\ProyectoDSII con BD\ProyectoDSII - INTERFAZ\Skoll\bin\Debug\MySql.Data.dll
+C:\Users\MELKEE\Downloads\ProyectoDSII con BD\ProyectoDSII - INTERFAZ\Skoll\bin\Debug\CacheManager.pdb
+C:\Users\MELKEE\Downloads\ProyectoDSII con BD\ProyectoDSII - INTERFAZ\Skoll\bin\Debug\DataManager.pdb
+C:\Users\MELKEE\Downloads\ProyectoDSII con BD\ProyectoDSII - INTERFAZ\Skoll\bin\Debug\GestionGeneral.pdb
+C:\Users\MELKEE\Downloads\ProyectoDSII con BD\ProyectoDSII - INTERFAZ\Skoll\bin\Debug\SesionManager.pdb
+C:\Users\MELKEE\Downloads\ProyectoDSII con BD\ProyectoDSII - INTERFAZ\Skoll\obj\Debug\Skoll.csprojResolveAssemblyReference.cache
+C:\Users\MELKEE\Downloads\ProyectoDSII con BD\ProyectoDSII - INTERFAZ\Skoll\obj\Debug\Skoll.GUI.BODEGAS.Bodegas.resources
+C:\Users\MELKEE\Downloads\ProyectoDSII con BD\ProyectoDSII - INTERFAZ\Skoll\obj\Debug\Skoll.GUI.BODEGAS.InformacionBodega.resources
+C:\Users\MELKEE\Downloads\ProyectoDSII con BD\ProyectoDSII - INTERFAZ\Skoll\obj\Debug\Skoll.GUI.CLIENTES.AgregarCliente.resources
+C:\Users\MELKEE\Downloads\ProyectoDSII con BD\ProyectoDSII - INTERFAZ\Skoll\obj\Debug\Skoll.GUI.CLIENTES.Clientes.resources
+C:\Users\MELKEE\Downloads\ProyectoDSII con BD\ProyectoDSII - INTERFAZ\Skoll\obj\Debug\Skoll.GUI.CLIENTES.DetallesClienteEmpresa.resources
+C:\Users\MELKEE\Downloads\ProyectoDSII con BD\ProyectoDSII - INTERFAZ\Skoll\obj\Debug\Skoll.GUI.CLIENTES.DetallesClientePersona.resources
+C:\Users\MELKEE\Downloads\ProyectoDSII con BD\ProyectoDSII - INTERFAZ\Skoll\obj\Debug\Skoll.GUI.CLIENTES.EditarClienteEmpresa.resources
+C:\Users\MELKEE\Downloads\ProyectoDSII con BD\ProyectoDSII - INTERFAZ\Skoll\obj\Debug\Skoll.GUI.CLIENTES.EditarClientePersona.resources
+C:\Users\MELKEE\Downloads\ProyectoDSII con BD\ProyectoDSII - INTERFAZ\Skoll\obj\Debug\Skoll.GUI.CONTRATOS.AgregarContrato.resources
+C:\Users\MELKEE\Downloads\ProyectoDSII con BD\ProyectoDSII - INTERFAZ\Skoll\obj\Debug\Skoll.GUI.CONTRATOS.Contratos.resources
+C:\Users\MELKEE\Downloads\ProyectoDSII con BD\ProyectoDSII - INTERFAZ\Skoll\obj\Debug\Skoll.GUI.CONTRATOS.DetallesContrato.resources
+C:\Users\MELKEE\Downloads\ProyectoDSII con BD\ProyectoDSII - INTERFAZ\Skoll\obj\Debug\Skoll.GUI.CONTRATOS.EditarContrato.resources
+C:\Users\MELKEE\Downloads\ProyectoDSII con BD\ProyectoDSII - INTERFAZ\Skoll\obj\Debug\Skoll.GUI.CONTRATOS.SeleccionarClienteContrato.resources
+C:\Users\MELKEE\Downloads\ProyectoDSII con BD\ProyectoDSII - INTERFAZ\Skoll\obj\Debug\Skoll.GUI.CONTRATOS.SeleccionarZonasContrato.resources
+C:\Users\MELKEE\Downloads\ProyectoDSII con BD\ProyectoDSII - INTERFAZ\Skoll\obj\Debug\Skoll.GUI.INICIO.Login.resources
+C:\Users\MELKEE\Downloads\ProyectoDSII con BD\ProyectoDSII - INTERFAZ\Skoll\obj\Debug\Skoll.GUI.INICIO.Principal.resources
+C:\Users\MELKEE\Downloads\ProyectoDSII con BD\ProyectoDSII - INTERFAZ\Skoll\obj\Debug\Skoll.GUI.INICIO.Splash.resources
+C:\Users\MELKEE\Downloads\ProyectoDSII con BD\ProyectoDSII - INTERFAZ\Skoll\obj\Debug\Skoll.GUI.PRODUCTOS.AgregarProductosaBodega.resources
+C:\Users\MELKEE\Downloads\ProyectoDSII con BD\ProyectoDSII - INTERFAZ\Skoll\obj\Debug\Skoll.GUI.PRODUCTOS.AgregarProductosaCatalogo.resources
+C:\Users\MELKEE\Downloads\ProyectoDSII con BD\ProyectoDSII - INTERFAZ\Skoll\obj\Debug\Skoll.GUI.PRODUCTOS.Catalogo.resources
+C:\Users\MELKEE\Downloads\ProyectoDSII con BD\ProyectoDSII - INTERFAZ\Skoll\obj\Debug\Skoll.GUI.PRODUCTOS.EditarProductodeCatalogo.resources
+C:\Users\MELKEE\Downloads\ProyectoDSII con BD\ProyectoDSII - INTERFAZ\Skoll\obj\Debug\Skoll.GUI.PRODUCTOS.ExtraerProductosdeBodega.resources
+C:\Users\MELKEE\Downloads\ProyectoDSII con BD\ProyectoDSII - INTERFAZ\Skoll\obj\Debug\Skoll.GUI.PRODUCTOS.Lista.resources
+C:\Users\MELKEE\Downloads\ProyectoDSII con BD\ProyectoDSII - INTERFAZ\Skoll\obj\Debug\Skoll.GUI.PRODUCTOS.Seleccionar_Zona.resources
+C:\Users\MELKEE\Downloads\ProyectoDSII con BD\ProyectoDSII - INTERFAZ\Skoll\obj\Debug\Skoll.GUI.PRODUCTOS.SeleccionarClienteCatalogo.resources
+C:\Users\MELKEE\Downloads\ProyectoDSII con BD\ProyectoDSII - INTERFAZ\Skoll\obj\Debug\Skoll.GUI.PRODUCTOS.SeleccionarClienteLista.resources
+C:\Users\MELKEE\Downloads\ProyectoDSII con BD\ProyectoDSII - INTERFAZ\Skoll\obj\Debug\Skoll.GUI.PRODUCTOS.SeleccionarProductosdelCatalogo.resources
+C:\Users\MELKEE\Downloads\ProyectoDSII con BD\ProyectoDSII - INTERFAZ\Skoll\obj\Debug\Skoll.GUI.REPORTES.ReportesEntrada.resources
+C:\Users\MELKEE\Downloads\ProyectoDSII con BD\ProyectoDSII - INTERFAZ\Skoll\obj\Debug\Skoll.GUI.REPORTES.ReportesInventario.resources
+C:\Users\MELKEE\Downloads\ProyectoDSII con BD\ProyectoDSII - INTERFAZ\Skoll\obj\Debug\Skoll.GUI.REPORTES.ReportesKardex.resources
+C:\Users\MELKEE\Downloads\ProyectoDSII con BD\ProyectoDSII - INTERFAZ\Skoll\obj\Debug\Skoll.GUI.REPORTES.ReportesSalida.resources
+C:\Users\MELKEE\Downloads\ProyectoDSII con BD\ProyectoDSII - INTERFAZ\Skoll\obj\Debug\Skoll.GUI.REPORTES.SeleccionarCliente.resources
+C:\Users\MELKEE\Downloads\ProyectoDSII con BD\ProyectoDSII - INTERFAZ\Skoll\obj\Debug\Skoll.GUI.REPORTES.SeleccionarZona.resources
+C:\Users\MELKEE\Downloads\ProyectoDSII con BD\ProyectoDSII - INTERFAZ\Skoll\obj\Debug\Skoll.Properties.Resources.resources
+C:\Users\MELKEE\Downloads\ProyectoDSII con BD\ProyectoDSII - INTERFAZ\Skoll\obj\Debug\Skoll.csproj.GenerateResource.Cache
+D:\Universidad\ProyectoDSII\ProyectoADSII\ProyectoDSII - INTERFAZ\Skoll\bin\Debug\Skoll.exe.config
+D:\Universidad\ProyectoDSII\ProyectoADSII\ProyectoDSII - INTERFAZ\Skoll\obj\Debug\Skoll.exe
+D:\Universidad\ProyectoDSII\ProyectoADSII\ProyectoDSII - INTERFAZ\Skoll\obj\Debug\Skoll.pdb
+D:\Universidad\ProyectoDSII\ProyectoADSII\ProyectoDSII - INTERFAZ\Skoll\bin\Debug\Skoll.exe
+D:\Universidad\ProyectoDSII\ProyectoADSII\ProyectoDSII - INTERFAZ\Skoll\bin\Debug\Skoll.pdb
+D:\Universidad\ProyectoDSII\ProyectoADSII\ProyectoDSII - INTERFAZ\Skoll\bin\Debug\CacheManager.dll
+D:\Universidad\ProyectoDSII\ProyectoADSII\ProyectoDSII - INTERFAZ\Skoll\bin\Debug\DataManager.dll
+D:\Universidad\ProyectoDSII\ProyectoADSII\ProyectoDSII - INTERFAZ\Skoll\bin\Debug\GestionGeneral.dll
+D:\Universidad\ProyectoDSII\ProyectoADSII\ProyectoDSII - INTERFAZ\Skoll\bin\Debug\SesionManager.dll
+D:\Universidad\ProyectoDSII\ProyectoADSII\ProyectoDSII - INTERFAZ\Skoll\bin\Debug\MySql.Data.dll
+D:\Universidad\ProyectoDSII\ProyectoADSII\ProyectoDSII - INTERFAZ\Skoll\bin\Debug\CacheManager.pdb
+D:\Universidad\ProyectoDSII\ProyectoADSII\ProyectoDSII - INTERFAZ\Skoll\bin\Debug\DataManager.pdb
+D:\Universidad\ProyectoDSII\ProyectoADSII\ProyectoDSII - INTERFAZ\Skoll\bin\Debug\GestionGeneral.pdb
+D:\Universidad\ProyectoDSII\ProyectoADSII\ProyectoDSII - INTERFAZ\Skoll\bin\Debug\SesionManager.pdb
+D:\Universidad\ProyectoDSII\ProyectoADSII\ProyectoDSII - INTERFAZ\Skoll\obj\Debug\Skoll.csprojResolveAssemblyReference.cache
+D:\Universidad\ProyectoDSII\ProyectoADSII\ProyectoDSII - INTERFAZ\Skoll\obj\Debug\Skoll.GUI.BODEGAS.Bodegas.resources
+D:\Universidad\ProyectoDSII\ProyectoADSII\ProyectoDSII - INTERFAZ\Skoll\obj\Debug\Skoll.GUI.BODEGAS.InformacionBodega.resources
+D:\Universidad\ProyectoDSII\ProyectoADSII\ProyectoDSII - INTERFAZ\Skoll\obj\Debug\Skoll.GUI.CLIENTES.AgregarCliente.resources
+D:\Universidad\ProyectoDSII\ProyectoADSII\ProyectoDSII - INTERFAZ\Skoll\obj\Debug\Skoll.GUI.CLIENTES.Clientes.resources
+D:\Universidad\ProyectoDSII\ProyectoADSII\ProyectoDSII - INTERFAZ\Skoll\obj\Debug\Skoll.GUI.CLIENTES.DetallesClienteEmpresa.resources
+D:\Universidad\ProyectoDSII\ProyectoADSII\ProyectoDSII - INTERFAZ\Skoll\obj\Debug\Skoll.GUI.CLIENTES.DetallesClientePersona.resources
+D:\Universidad\ProyectoDSII\ProyectoADSII\ProyectoDSII - INTERFAZ\Skoll\obj\Debug\Skoll.GUI.CLIENTES.EditarClienteEmpresa.resources
+D:\Universidad\ProyectoDSII\ProyectoADSII\ProyectoDSII - INTERFAZ\Skoll\obj\Debug\Skoll.GUI.CLIENTES.EditarClientePersona.resources
+D:\Universidad\ProyectoDSII\ProyectoADSII\ProyectoDSII - INTERFAZ\Skoll\obj\Debug\Skoll.GUI.CONTRATOS.AgregarContrato.resources
+D:\Universidad\ProyectoDSII\ProyectoADSII\ProyectoDSII - INTERFAZ\Skoll\obj\Debug\Skoll.GUI.CONTRATOS.Contratos.resources
+D:\Universidad\ProyectoDSII\ProyectoADSII\ProyectoDSII - INTERFAZ\Skoll\obj\Debug\Skoll.GUI.CONTRATOS.DetallesContrato.resources
+D:\Universidad\ProyectoDSII\ProyectoADSII\ProyectoDSII - INTERFAZ\Skoll\obj\Debug\Skoll.GUI.CONTRATOS.EditarContrato.resources
+D:\Universidad\ProyectoDSII\ProyectoADSII\ProyectoDSII - INTERFAZ\Skoll\obj\Debug\Skoll.GUI.CONTRATOS.SeleccionarClienteContrato.resources
+D:\Universidad\ProyectoDSII\ProyectoADSII\ProyectoDSII - INTERFAZ\Skoll\obj\Debug\Skoll.GUI.CONTRATOS.SeleccionarZonasContrato.resources
+D:\Universidad\ProyectoDSII\ProyectoADSII\ProyectoDSII - INTERFAZ\Skoll\obj\Debug\Skoll.GUI.INICIO.Login.resources
+D:\Universidad\ProyectoDSII\ProyectoADSII\ProyectoDSII - INTERFAZ\Skoll\obj\Debug\Skoll.GUI.INICIO.Principal.resources
+D:\Universidad\ProyectoDSII\ProyectoADSII\ProyectoDSII - INTERFAZ\Skoll\obj\Debug\Skoll.GUI.INICIO.Splash.resources
+D:\Universidad\ProyectoDSII\ProyectoADSII\ProyectoDSII - INTERFAZ\Skoll\obj\Debug\Skoll.GUI.PRODUCTOS.AgregarProductosaBodega.resources
+D:\Universidad\ProyectoDSII\ProyectoADSII\ProyectoDSII - INTERFAZ\Skoll\obj\Debug\Skoll.GUI.PRODUCTOS.AgregarProductosaCatalogo.resources
+D:\Universidad\ProyectoDSII\ProyectoADSII\ProyectoDSII - INTERFAZ\Skoll\obj\Debug\Skoll.GUI.PRODUCTOS.Catalogo.resources
+D:\Universidad\ProyectoDSII\ProyectoADSII\ProyectoDSII - INTERFAZ\Skoll\obj\Debug\Skoll.GUI.PRODUCTOS.EditarProductodeCatalogo.resources
+D:\Universidad\ProyectoDSII\ProyectoADSII\ProyectoDSII - INTERFAZ\Skoll\obj\Debug\Skoll.GUI.PRODUCTOS.ExtraerProductosdeBodega.resources
+D:\Universidad\ProyectoDSII\ProyectoADSII\ProyectoDSII - INTERFAZ\Skoll\obj\Debug\Skoll.GUI.PRODUCTOS.Lista.resources
+D:\Universidad\ProyectoDSII\ProyectoADSII\ProyectoDSII - INTERFAZ\Skoll\obj\Debug\Skoll.GUI.PRODUCTOS.Seleccionar_Zona.resources
+D:\Universidad\ProyectoDSII\ProyectoADSII\ProyectoDSII - INTERFAZ\Skoll\obj\Debug\Skoll.GUI.PRODUCTOS.SeleccionarClienteCatalogo.resources
+D:\Universidad\ProyectoDSII\ProyectoADSII\ProyectoDSII - INTERFAZ\Skoll\obj\Debug\Skoll.GUI.PRODUCTOS.SeleccionarClienteLista.resources
+D:\Universidad\ProyectoDSII\ProyectoADSII\ProyectoDSII - INTERFAZ\Skoll\obj\Debug\Skoll.GUI.PRODUCTOS.SeleccionarProductosdelCatalogo.resources
+D:\Universidad\ProyectoDSII\ProyectoADSII\ProyectoDSII - INTERFAZ\Skoll\obj\Debug\Skoll.GUI.REPORTES.ReportesEntrada.resources
+D:\Universidad\ProyectoDSII\ProyectoADSII\ProyectoDSII - INTERFAZ\Skoll\obj\Debug\Skoll.GUI.REPORTES.ReportesInventario.resources
+D:\Universidad\ProyectoDSII\ProyectoADSII\ProyectoDSII - INTERFAZ\Skoll\obj\Debug\Skoll.GUI.REPORTES.ReportesKardex.resources
+D:\Universidad\ProyectoDSII\ProyectoADSII\ProyectoDSII - INTERFAZ\Skoll\obj\Debug\Skoll.GUI.REPORTES.ReportesSalida.resources
+D:\Universidad\ProyectoDSII\ProyectoADSII\ProyectoDSII - INTERFAZ\Skoll\obj\Debug\Skoll.GUI.REPORTES.SeleccionarCliente.resources
+D:\Universidad\ProyectoDSII\ProyectoADSII\ProyectoDSII - INTERFAZ\Skoll\obj\Debug\Skoll.GUI.REPORTES.SeleccionarZona.resources
+D:\Universidad\ProyectoDSII\ProyectoADSII\ProyectoDSII - INTERFAZ\Skoll\obj\Debug\Skoll.Properties.Resources.resources
+D:\Universidad\ProyectoDSII\ProyectoADSII\ProyectoDSII - INTERFAZ\Skoll\obj\Debug\Skoll.csproj.GenerateResource.Cache
+C:\SKOLL-DSII\ProyectoADSII\ProyectoDSII - INTERFAZ\Skoll\bin\Debug\Skoll.exe.config
+C:\SKOLL-DSII\ProyectoADSII\ProyectoDSII - INTERFAZ\Skoll\obj\Debug\Skoll.exe
+C:\SKOLL-DSII\ProyectoADSII\ProyectoDSII - INTERFAZ\Skoll\obj\Debug\Skoll.pdb
+C:\SKOLL-DSII\ProyectoADSII\ProyectoDSII - INTERFAZ\Skoll\bin\Debug\Skoll.exe
+C:\SKOLL-DSII\ProyectoADSII\ProyectoDSII - INTERFAZ\Skoll\bin\Debug\Skoll.pdb
+C:\SKOLL-DSII\ProyectoADSII\ProyectoDSII - INTERFAZ\Skoll\bin\Debug\CacheManager.dll
+C:\SKOLL-DSII\ProyectoADSII\ProyectoDSII - INTERFAZ\Skoll\bin\Debug\DataManager.dll
+C:\SKOLL-DSII\ProyectoADSII\ProyectoDSII - INTERFAZ\Skoll\bin\Debug\GestionGeneral.dll
+C:\SKOLL-DSII\ProyectoADSII\ProyectoDSII - INTERFAZ\Skoll\bin\Debug\SesionManager.dll
+C:\SKOLL-DSII\ProyectoADSII\ProyectoDSII - INTERFAZ\Skoll\bin\Debug\MySql.Data.dll
+C:\SKOLL-DSII\ProyectoADSII\ProyectoDSII - INTERFAZ\Skoll\bin\Debug\CacheManager.pdb
+C:\SKOLL-DSII\ProyectoADSII\ProyectoDSII - INTERFAZ\Skoll\bin\Debug\DataManager.pdb
+C:\SKOLL-DSII\ProyectoADSII\ProyectoDSII - INTERFAZ\Skoll\bin\Debug\GestionGeneral.pdb
+C:\SKOLL-DSII\ProyectoADSII\ProyectoDSII - INTERFAZ\Skoll\bin\Debug\SesionManager.pdb
+C:\SKOLL-DSII\ProyectoADSII\ProyectoDSII - INTERFAZ\Skoll\obj\Debug\Skoll.csprojResolveAssemblyReference.cache
+C:\SKOLL-DSII\ProyectoADSII\ProyectoDSII - INTERFAZ\Skoll\obj\Debug\Skoll.GUI.BODEGAS.Bodegas.resources
+C:\SKOLL-DSII\ProyectoADSII\ProyectoDSII - INTERFAZ\Skoll\obj\Debug\Skoll.GUI.BODEGAS.InformacionBodega.resources
+C:\SKOLL-DSII\ProyectoADSII\ProyectoDSII - INTERFAZ\Skoll\obj\Debug\Skoll.GUI.CLIENTES.AgregarCliente.resources
+C:\SKOLL-DSII\ProyectoADSII\ProyectoDSII - INTERFAZ\Skoll\obj\Debug\Skoll.GUI.CLIENTES.Clientes.resources
+C:\SKOLL-DSII\ProyectoADSII\ProyectoDSII - INTERFAZ\Skoll\obj\Debug\Skoll.GUI.CLIENTES.DetallesClienteEmpresa.resources
+C:\SKOLL-DSII\ProyectoADSII\ProyectoDSII - INTERFAZ\Skoll\obj\Debug\Skoll.GUI.CLIENTES.DetallesClientePersona.resources
+C:\SKOLL-DSII\ProyectoADSII\ProyectoDSII - INTERFAZ\Skoll\obj\Debug\Skoll.GUI.CLIENTES.EditarClienteEmpresa.resources
+C:\SKOLL-DSII\ProyectoADSII\ProyectoDSII - INTERFAZ\Skoll\obj\Debug\Skoll.GUI.CLIENTES.EditarClientePersona.resources
+C:\SKOLL-DSII\ProyectoADSII\ProyectoDSII - INTERFAZ\Skoll\obj\Debug\Skoll.GUI.CONTRATOS.AgregarContrato.resources
+C:\SKOLL-DSII\ProyectoADSII\ProyectoDSII - INTERFAZ\Skoll\obj\Debug\Skoll.GUI.CONTRATOS.Contratos.resources
+C:\SKOLL-DSII\ProyectoADSII\ProyectoDSII - INTERFAZ\Skoll\obj\Debug\Skoll.GUI.CONTRATOS.DetallesContrato.resources
+C:\SKOLL-DSII\ProyectoADSII\ProyectoDSII - INTERFAZ\Skoll\obj\Debug\Skoll.GUI.CONTRATOS.EditarContrato.resources
+C:\SKOLL-DSII\ProyectoADSII\ProyectoDSII - INTERFAZ\Skoll\obj\Debug\Skoll.GUI.CONTRATOS.SeleccionarClienteContrato.resources
+C:\SKOLL-DSII\ProyectoADSII\ProyectoDSII - INTERFAZ\Skoll\obj\Debug\Skoll.GUI.CONTRATOS.SeleccionarZonasContrato.resources
+C:\SKOLL-DSII\ProyectoADSII\ProyectoDSII - INTERFAZ\Skoll\obj\Debug\Skoll.GUI.INICIO.Login.resources
+C:\SKOLL-DSII\ProyectoADSII\ProyectoDSII - INTERFAZ\Skoll\obj\Debug\Skoll.GUI.INICIO.Principal.resources
+C:\SKOLL-DSII\ProyectoADSII\ProyectoDSII - INTERFAZ\Skoll\obj\Debug\Skoll.GUI.INICIO.Splash.resources
+C:\SKOLL-DSII\ProyectoADSII\ProyectoDSII - INTERFAZ\Skoll\obj\Debug\Skoll.GUI.PRODUCTOS.AgregarProductosaBodega.resources
+C:\SKOLL-DSII\ProyectoADSII\ProyectoDSII - INTERFAZ\Skoll\obj\Debug\Skoll.GUI.PRODUCTOS.AgregarProductosaCatalogo.resources
+C:\SKOLL-DSII\ProyectoADSII\ProyectoDSII - INTERFAZ\Skoll\obj\Debug\Skoll.GUI.PRODUCTOS.Catalogo.resources
+C:\SKOLL-DSII\ProyectoADSII\ProyectoDSII - INTERFAZ\Skoll\obj\Debug\Skoll.GUI.PRODUCTOS.EditarProductodeCatalogo.resources
+C:\SKOLL-DSII\ProyectoADSII\ProyectoDSII - INTERFAZ\Skoll\obj\Debug\Skoll.GUI.PRODUCTOS.ExtraerProductosdeBodega.resources
+C:\SKOLL-DSII\ProyectoADSII\ProyectoDSII - INTERFAZ\Skoll\obj\Debug\Skoll.GUI.PRODUCTOS.Lista.resources
+C:\SKOLL-DSII\ProyectoADSII\ProyectoDSII - INTERFAZ\Skoll\obj\Debug\Skoll.GUI.PRODUCTOS.Seleccionar_Zona.resources
+C:\SKOLL-DSII\ProyectoADSII\ProyectoDSII - INTERFAZ\Skoll\obj\Debug\Skoll.GUI.PRODUCTOS.SeleccionarClienteCatalogo.resources
+C:\SKOLL-DSII\ProyectoADSII\ProyectoDSII - INTERFAZ\Skoll\obj\Debug\Skoll.GUI.PRODUCTOS.SeleccionarClienteLista.resources
+C:\SKOLL-DSII\ProyectoADSII\ProyectoDSII - INTERFAZ\Skoll\obj\Debug\Skoll.GUI.PRODUCTOS.SeleccionarProductosdelCatalogo.resources
+C:\SKOLL-DSII\ProyectoADSII\ProyectoDSII - INTERFAZ\Skoll\obj\Debug\Skoll.GUI.REPORTES.ReportesEntrada.resources
+C:\SKOLL-DSII\ProyectoADSII\ProyectoDSII - INTERFAZ\Skoll\obj\Debug\Skoll.GUI.REPORTES.ReportesInventario.resources
+C:\SKOLL-DSII\ProyectoADSII\ProyectoDSII - INTERFAZ\Skoll\obj\Debug\Skoll.GUI.REPORTES.ReportesKardex.resources
+C:\SKOLL-DSII\ProyectoADSII\ProyectoDSII - INTERFAZ\Skoll\obj\Debug\Skoll.GUI.REPORTES.ReportesSalida.resources
+C:\SKOLL-DSII\ProyectoADSII\ProyectoDSII - INTERFAZ\Skoll\obj\Debug\Skoll.GUI.REPORTES.SeleccionarCliente.resources
+C:\SKOLL-DSII\ProyectoADSII\ProyectoDSII - INTERFAZ\Skoll\obj\Debug\Skoll.GUI.REPORTES.SeleccionarZona.resources
+C:\SKOLL-DSII\ProyectoADSII\ProyectoDSII - INTERFAZ\Skoll\obj\Debug\Skoll.Properties.Resources.resources
+C:\SKOLL-DSII\ProyectoADSII\ProyectoDSII - INTERFAZ\Skoll\obj\Debug\Skoll.csproj.GenerateResource.Cache
+C:\SKOLL-DSII\ProyectoADSII\ProyectoDSII - INTERFAZ\Skoll\obj\Debug\Skoll.GUI.CONTRATOS.SeleccionarZonaContrato.resources
+D:\Universidad\ProyectoDSII\ProyectoADSII\ProyectoDSII - INTERFAZ\Skoll\obj\Debug\Skoll.GUI.CONTRATOS.SeleccionarZonaContrato.resources
+D:\Universidad\ProyectoDSII\ProyectoADSII\ProyectoDSII - INTERFAZ\Skoll\bin\Debug\Informes.dll
+D:\Universidad\ProyectoDSII\ProyectoADSII\ProyectoDSII - INTERFAZ\Skoll\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
+D:\Universidad\ProyectoDSII\ProyectoADSII\ProyectoDSII - INTERFAZ\Skoll\bin\Debug\CrystalDecisions.Shared.dll
+D:\Universidad\ProyectoDSII\ProyectoADSII\ProyectoDSII - INTERFAZ\Skoll\bin\Debug\CrystalDecisions.ReportSource.dll
+D:\Universidad\ProyectoDSII\ProyectoADSII\ProyectoDSII - INTERFAZ\Skoll\bin\Debug\CrystalDecisions.Windows.Forms.dll
+D:\Universidad\ProyectoDSII\ProyectoADSII\ProyectoDSII - INTERFAZ\Skoll\bin\Debug\CrystalDecisions.ReportAppServer.DataDefModel.dll
+D:\Universidad\ProyectoDSII\ProyectoADSII\ProyectoDSII - INTERFAZ\Skoll\bin\Debug\CrystalDecisions.ReportAppServer.ClientDoc.dll
+D:\Universidad\ProyectoDSII\ProyectoADSII\ProyectoDSII - INTERFAZ\Skoll\bin\Debug\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+D:\Universidad\ProyectoDSII\ProyectoADSII\ProyectoDSII - INTERFAZ\Skoll\bin\Debug\CrystalDecisions.ReportAppServer.Controllers.dll
+D:\Universidad\ProyectoDSII\ProyectoADSII\ProyectoDSII - INTERFAZ\Skoll\bin\Debug\CrystalDecisions.ReportAppServer.CommLayer.dll
+D:\Universidad\ProyectoDSII\ProyectoADSII\ProyectoDSII - INTERFAZ\Skoll\bin\Debug\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+D:\Universidad\ProyectoDSII\ProyectoADSII\ProyectoDSII - INTERFAZ\Skoll\bin\Debug\CrystalDecisions.ReportAppServer.Prompting.dll
+D:\Universidad\ProyectoDSII\ProyectoADSII\ProyectoDSII - INTERFAZ\Skoll\bin\Debug\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+D:\Universidad\ProyectoDSII\ProyectoADSII\ProyectoDSII - INTERFAZ\Skoll\bin\Debug\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+D:\Universidad\ProyectoDSII\ProyectoADSII\ProyectoDSII - INTERFAZ\Skoll\bin\Debug\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+D:\Universidad\ProyectoDSII\ProyectoADSII\ProyectoDSII - INTERFAZ\Skoll\bin\Debug\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+D:\Universidad\ProyectoDSII\ProyectoADSII\ProyectoDSII - INTERFAZ\Skoll\bin\Debug\FlashControlV71.dll
+D:\Universidad\ProyectoDSII\ProyectoADSII\ProyectoDSII - INTERFAZ\Skoll\bin\Debug\CrystalDecisions.ReportAppServer.CommonControls.dll
+D:\Universidad\ProyectoDSII\ProyectoADSII\ProyectoDSII - INTERFAZ\Skoll\bin\Debug\stdole.dll
+D:\Universidad\ProyectoDSII\ProyectoADSII\ProyectoDSII - INTERFAZ\Skoll\bin\Debug\ShockwaveFlashObjects.dll
+D:\Universidad\ProyectoDSII\ProyectoADSII\ProyectoDSII - INTERFAZ\Skoll\bin\Debug\Informes.pdb
+C:\SKOLL-DSII\ProyectoDSII - INTERFAZ\Skoll\bin\Debug\Skoll.exe.config
+C:\SKOLL-DSII\ProyectoDSII - INTERFAZ\Skoll\obj\Debug\Skoll.exe
+C:\SKOLL-DSII\ProyectoDSII - INTERFAZ\Skoll\obj\Debug\Skoll.pdb

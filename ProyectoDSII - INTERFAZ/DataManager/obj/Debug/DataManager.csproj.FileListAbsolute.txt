@@ -1,0 +1,21 @@
+C:\DES-SOFTWARE-II\ProyectoDSII\DataManager\bin\Debug\DataManager.dll.config
+C:\DES-SOFTWARE-II\ProyectoDSII\DataManager\bin\Debug\DataManager.dll
+C:\DES-SOFTWARE-II\ProyectoDSII\DataManager\bin\Debug\DataManager.pdb
+C:\DES-SOFTWARE-II\ProyectoDSII\DataManager\bin\Debug\MySql.Data.dll
+C:\DES-SOFTWARE-II\ProyectoDSII\DataManager\obj\Debug\DataManager.csprojResolveAssemblyReference.cache
+C:\DES-SOFTWARE-II\ProyectoDSII\DataManager\obj\Debug\DataManager.dll
+C:\DES-SOFTWARE-II\ProyectoDSII\DataManager\obj\Debug\DataManager.pdb
+D:\Universidad\ProyectoDSII\ProyectoADSII\ProyectoDSII - INTERFAZ\DataManager\bin\Debug\DataManager.dll.config
+D:\Universidad\ProyectoDSII\ProyectoADSII\ProyectoDSII - INTERFAZ\DataManager\bin\Debug\DataManager.dll
+D:\Universidad\ProyectoDSII\ProyectoADSII\ProyectoDSII - INTERFAZ\DataManager\bin\Debug\DataManager.pdb
+D:\Universidad\ProyectoDSII\ProyectoADSII\ProyectoDSII - INTERFAZ\DataManager\bin\Debug\MySql.Data.dll
+D:\Universidad\ProyectoDSII\ProyectoADSII\ProyectoDSII - INTERFAZ\DataManager\obj\Debug\DataManager.csprojResolveAssemblyReference.cache
+D:\Universidad\ProyectoDSII\ProyectoADSII\ProyectoDSII - INTERFAZ\DataManager\obj\Debug\DataManager.dll
+D:\Universidad\ProyectoDSII\ProyectoADSII\ProyectoDSII - INTERFAZ\DataManager\obj\Debug\DataManager.pdb
+C:\SKOLL-DSII\ProyectoADSII\ProyectoDSII - INTERFAZ\DataManager\bin\Debug\DataManager.dll.config
+C:\SKOLL-DSII\ProyectoADSII\ProyectoDSII - INTERFAZ\DataManager\bin\Debug\DataManager.dll
+C:\SKOLL-DSII\ProyectoADSII\ProyectoDSII - INTERFAZ\DataManager\bin\Debug\DataManager.pdb
+C:\SKOLL-DSII\ProyectoADSII\ProyectoDSII - INTERFAZ\DataManager\bin\Debug\MySql.Data.dll
+C:\SKOLL-DSII\ProyectoADSII\ProyectoDSII - INTERFAZ\DataManager\obj\Debug\DataManager.csprojResolveAssemblyReference.cache
+C:\SKOLL-DSII\ProyectoADSII\ProyectoDSII - INTERFAZ\DataManager\obj\Debug\DataManager.dll
+C:\SKOLL-DSII\ProyectoADSII\ProyectoDSII - INTERFAZ\DataManager\obj\Debug\DataManager.pdb
