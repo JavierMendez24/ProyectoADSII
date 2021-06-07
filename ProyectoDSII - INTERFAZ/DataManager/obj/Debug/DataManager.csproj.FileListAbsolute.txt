@@ -1,7 +1,0 @@
-C:\DES-SOFTWARE-II\ProyectoDSII\DataManager\bin\Debug\DataManager.dll.config
-C:\DES-SOFTWARE-II\ProyectoDSII\DataManager\bin\Debug\DataManager.dll
-C:\DES-SOFTWARE-II\ProyectoDSII\DataManager\bin\Debug\DataManager.pdb
-C:\DES-SOFTWARE-II\ProyectoDSII\DataManager\bin\Debug\MySql.Data.dll
-C:\DES-SOFTWARE-II\ProyectoDSII\DataManager\obj\Debug\DataManager.csprojResolveAssemblyReference.cache
-C:\DES-SOFTWARE-II\ProyectoDSII\DataManager\obj\Debug\DataManager.dll
-C:\DES-SOFTWARE-II\ProyectoDSII\DataManager\obj\Debug\DataManager.pdb
