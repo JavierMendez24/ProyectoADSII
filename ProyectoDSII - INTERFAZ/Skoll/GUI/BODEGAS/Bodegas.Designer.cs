@@ -142,7 +142,6 @@
             this.btnZB4.TabIndex = 11;
             this.btnZB4.Text = "ZONA B-4";
             this.btnZB4.UseVisualStyleBackColor = false;
-            this.btnZB4.Click += new System.EventHandler(this.btnZB4_Click);
             // 
             // btnZB3
             // 
@@ -157,7 +156,6 @@
             this.btnZB3.TabIndex = 10;
             this.btnZB3.Text = "ZONA B-3";
             this.btnZB3.UseVisualStyleBackColor = false;
-            this.btnZB3.Click += new System.EventHandler(this.btnZB3_Click);
             // 
             // btnZB2
             // 
@@ -172,7 +170,6 @@
             this.btnZB2.TabIndex = 9;
             this.btnZB2.Text = "ZONA B-2";
             this.btnZB2.UseVisualStyleBackColor = false;
-            this.btnZB2.Click += new System.EventHandler(this.btnZB2_Click);
             // 
             // btnZB1
             // 
@@ -187,7 +184,6 @@
             this.btnZB1.TabIndex = 8;
             this.btnZB1.Text = "ZONA B-1";
             this.btnZB1.UseVisualStyleBackColor = false;
-            this.btnZB1.Click += new System.EventHandler(this.btnZB1_Click);
             // 
             // lblBB
             // 
@@ -227,7 +223,6 @@
             this.btnZI4.TabIndex = 31;
             this.btnZI4.Text = "ZONA I-4";
             this.btnZI4.UseVisualStyleBackColor = false;
-            this.btnZI4.Click += new System.EventHandler(this.btnZI4_Click);
             // 
             // lblBI
             // 
@@ -253,7 +248,6 @@
             this.btnZI3.TabIndex = 30;
             this.btnZI3.Text = "ZONA I-3";
             this.btnZI3.UseVisualStyleBackColor = false;
-            this.btnZI3.Click += new System.EventHandler(this.btnZI3_Click);
             // 
             // btnZI1
             // 
@@ -268,7 +262,6 @@
             this.btnZI1.TabIndex = 27;
             this.btnZI1.Text = "ZONA I-1";
             this.btnZI1.UseVisualStyleBackColor = false;
-            this.btnZI1.Click += new System.EventHandler(this.btnZI1_Click);
             // 
             // btnZI2
             // 
@@ -283,7 +276,6 @@
             this.btnZI2.TabIndex = 29;
             this.btnZI2.Text = "ZONA I-2";
             this.btnZI2.UseVisualStyleBackColor = false;
-            this.btnZI2.Click += new System.EventHandler(this.btnZI2_Click);
             // 
             // panelBodegaH
             // 
@@ -312,7 +304,6 @@
             this.btnZH4.TabIndex = 36;
             this.btnZH4.Text = "ZONA H-4";
             this.btnZH4.UseVisualStyleBackColor = false;
-            this.btnZH4.Click += new System.EventHandler(this.btnZH4_Click);
             // 
             // lblBH
             // 
@@ -338,7 +329,6 @@
             this.btnZH2.TabIndex = 34;
             this.btnZH2.Text = "ZONA H-2";
             this.btnZH2.UseVisualStyleBackColor = false;
-            this.btnZH2.Click += new System.EventHandler(this.btnZH2_Click);
             // 
             // btnZH3
             // 
@@ -353,7 +343,6 @@
             this.btnZH3.TabIndex = 35;
             this.btnZH3.Text = "ZONA H-3";
             this.btnZH3.UseVisualStyleBackColor = false;
-            this.btnZH3.Click += new System.EventHandler(this.btnZH3_Click);
             // 
             // btnZH1
             // 
@@ -368,7 +357,6 @@
             this.btnZH1.TabIndex = 32;
             this.btnZH1.Text = "ZONA H-1";
             this.btnZH1.UseVisualStyleBackColor = false;
-            this.btnZH1.Click += new System.EventHandler(this.btnZH1_Click);
             // 
             // panelBodegaF
             // 
@@ -397,7 +385,6 @@
             this.btnZF4.TabIndex = 26;
             this.btnZF4.Text = "ZONA F-4";
             this.btnZF4.UseVisualStyleBackColor = false;
-            this.btnZF4.Click += new System.EventHandler(this.btnZF4_Click);
             // 
             // lblBF
             // 
@@ -423,7 +410,6 @@
             this.btnZF1.TabIndex = 22;
             this.btnZF1.Text = "ZONA F-1";
             this.btnZF1.UseVisualStyleBackColor = false;
-            this.btnZF1.Click += new System.EventHandler(this.btnZF1_Click);
             // 
             // btnZF2
             // 
@@ -438,7 +424,6 @@
             this.btnZF2.TabIndex = 24;
             this.btnZF2.Text = "ZONA F-2";
             this.btnZF2.UseVisualStyleBackColor = false;
-            this.btnZF2.Click += new System.EventHandler(this.btnZF2_Click);
             // 
             // btnZF3
             // 
@@ -453,7 +438,6 @@
             this.btnZF3.TabIndex = 25;
             this.btnZF3.Text = "ZONA F-3";
             this.btnZF3.UseVisualStyleBackColor = false;
-            this.btnZF3.Click += new System.EventHandler(this.btnZF3_Click);
             // 
             // panelBodegaG
             // 
@@ -482,7 +466,6 @@
             this.btnZG4.TabIndex = 41;
             this.btnZG4.Text = "ZONA G-4";
             this.btnZG4.UseVisualStyleBackColor = false;
-            this.btnZG4.Click += new System.EventHandler(this.btnZG4_Click);
             // 
             // lblBG
             // 
@@ -508,7 +491,6 @@
             this.btnZG1.TabIndex = 37;
             this.btnZG1.Text = "ZONA G-1";
             this.btnZG1.UseVisualStyleBackColor = false;
-            this.btnZG1.Click += new System.EventHandler(this.btnZG1_Click);
             // 
             // btnZG2
             // 
@@ -523,7 +505,6 @@
             this.btnZG2.TabIndex = 39;
             this.btnZG2.Text = "ZONA G-2";
             this.btnZG2.UseVisualStyleBackColor = false;
-            this.btnZG2.Click += new System.EventHandler(this.btnZG2_Click);
             // 
             // btnZG3
             // 
@@ -538,7 +519,6 @@
             this.btnZG3.TabIndex = 40;
             this.btnZG3.Text = "ZONA G-3";
             this.btnZG3.UseVisualStyleBackColor = false;
-            this.btnZG3.Click += new System.EventHandler(this.btnZG3_Click);
             // 
             // panelBodegaC
             // 
@@ -567,7 +547,6 @@
             this.btnZC4.TabIndex = 16;
             this.btnZC4.Text = "ZONA C-4";
             this.btnZC4.UseVisualStyleBackColor = false;
-            this.btnZC4.Click += new System.EventHandler(this.btnZC4_Click);
             // 
             // lblBC
             // 
@@ -593,7 +572,6 @@
             this.btnZC3.TabIndex = 15;
             this.btnZC3.Text = "ZONA C-3";
             this.btnZC3.UseVisualStyleBackColor = false;
-            this.btnZC3.Click += new System.EventHandler(this.btnZC3_Click);
             // 
             // btnZC1
             // 
@@ -608,7 +586,6 @@
             this.btnZC1.TabIndex = 12;
             this.btnZC1.Text = "ZONA C-1";
             this.btnZC1.UseVisualStyleBackColor = false;
-            this.btnZC1.Click += new System.EventHandler(this.btnZC1_Click);
             // 
             // btnZC2
             // 
@@ -623,7 +600,6 @@
             this.btnZC2.TabIndex = 14;
             this.btnZC2.Text = "ZONA C-2";
             this.btnZC2.UseVisualStyleBackColor = false;
-            this.btnZC2.Click += new System.EventHandler(this.btnZC2_Click);
             // 
             // panelBodegaE
             // 
@@ -652,7 +628,6 @@
             this.btnZE4.TabIndex = 21;
             this.btnZE4.Text = "ZONA E-4";
             this.btnZE4.UseVisualStyleBackColor = false;
-            this.btnZE4.Click += new System.EventHandler(this.btnZE4_Click);
             // 
             // lblBE
             // 
@@ -678,7 +653,6 @@
             this.btnZE2.TabIndex = 19;
             this.btnZE2.Text = "ZONA E-2";
             this.btnZE2.UseVisualStyleBackColor = false;
-            this.btnZE2.Click += new System.EventHandler(this.btnZE2_Click);
             // 
             // btnZE3
             // 
@@ -693,7 +667,6 @@
             this.btnZE3.TabIndex = 20;
             this.btnZE3.Text = "ZONA E-3";
             this.btnZE3.UseVisualStyleBackColor = false;
-            this.btnZE3.Click += new System.EventHandler(this.btnZE3_Click);
             // 
             // btnZE1
             // 
@@ -708,7 +681,6 @@
             this.btnZE1.TabIndex = 17;
             this.btnZE1.Text = "ZONA E-1";
             this.btnZE1.UseVisualStyleBackColor = false;
-            this.btnZE1.Click += new System.EventHandler(this.btnZE1_Click);
             // 
             // panelBodegaD
             // 
@@ -737,7 +709,6 @@
             this.btnZD4.TabIndex = 16;
             this.btnZD4.Text = "ZONA D-4";
             this.btnZD4.UseVisualStyleBackColor = false;
-            this.btnZD4.Click += new System.EventHandler(this.btnZD4_Click);
             // 
             // lblBD
             // 
@@ -763,7 +734,6 @@
             this.btnZD3.TabIndex = 15;
             this.btnZD3.Text = "ZONA D-3";
             this.btnZD3.UseVisualStyleBackColor = false;
-            this.btnZD3.Click += new System.EventHandler(this.btnZD3_Click);
             // 
             // btnZD1
             // 
@@ -778,7 +748,6 @@
             this.btnZD1.TabIndex = 12;
             this.btnZD1.Text = "ZONA D-1";
             this.btnZD1.UseVisualStyleBackColor = false;
-            this.btnZD1.Click += new System.EventHandler(this.btnZD1_Click);
             // 
             // btnZD2
             // 
@@ -793,7 +762,6 @@
             this.btnZD2.TabIndex = 14;
             this.btnZD2.Text = "ZONA D-2";
             this.btnZD2.UseVisualStyleBackColor = false;
-            this.btnZD2.Click += new System.EventHandler(this.btnZD2_Click);
             // 
             // panelBodegaA
             // 
@@ -822,7 +790,6 @@
             this.btnZA4.TabIndex = 7;
             this.btnZA4.Text = "ZONA A-4";
             this.btnZA4.UseVisualStyleBackColor = false;
-            this.btnZA4.Click += new System.EventHandler(this.btnZA4_Click);
             // 
             // btnZA3
             // 
@@ -837,7 +804,6 @@
             this.btnZA3.TabIndex = 6;
             this.btnZA3.Text = "ZONA A-3";
             this.btnZA3.UseVisualStyleBackColor = false;
-            this.btnZA3.Click += new System.EventHandler(this.btnZA3_Click);
             // 
             // btnZA1
             // 
@@ -852,7 +818,6 @@
             this.btnZA1.TabIndex = 5;
             this.btnZA1.Text = "ZONA A-1";
             this.btnZA1.UseVisualStyleBackColor = false;
-            this.btnZA1.Click += new System.EventHandler(this.btnZA1_Click);
             // 
             // btnZA2
             // 
@@ -867,7 +832,6 @@
             this.btnZA2.TabIndex = 4;
             this.btnZA2.Text = "ZONA A-2";
             this.btnZA2.UseVisualStyleBackColor = false;
-            this.btnZA2.Click += new System.EventHandler(this.btnZA2_Click);
             // 
             // lblBA
             // 
