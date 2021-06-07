@@ -743,5 +743,24 @@ namespace CacheManager.CLS
 
             return Resultados;
         }
+
+        // VERIFICAR_ZONA
+        public static DataTable VERIFICAR_ZONA(int pIDZona)
+        {
+            DataTable Resultados = new DataTable();
+            DataManager.CLS.OperacionBD Consultor = new DataManager.CLS.OperacionBD();
+            String Consulta = @"SELECT a.ID_Zona FROM detalle_contrato a WHERE a.ID_Zona="+pIDZona+";";
+
+            try
+            {
+                Resultados = Consultor.Consultar(Consulta);
+            }
+            catch
+            {
+                Resultados = new DataTable();
+            }
+
+            return Resultados;
+        }
     }
 }

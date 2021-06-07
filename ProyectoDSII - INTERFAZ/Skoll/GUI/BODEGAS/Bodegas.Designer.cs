@@ -131,7 +131,7 @@
             // 
             // btnZB4
             // 
-            this.btnZB4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(251)))), ((int)(((byte)(162)))), ((int)(((byte)(186)))));
+            this.btnZB4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(164)))), ((int)(((byte)(238)))), ((int)(((byte)(206)))));
             this.btnZB4.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnZB4.FlatAppearance.BorderSize = 0;
             this.btnZB4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -146,7 +146,7 @@
             // 
             // btnZB3
             // 
-            this.btnZB3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(251)))), ((int)(((byte)(162)))), ((int)(((byte)(186)))));
+            this.btnZB3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(164)))), ((int)(((byte)(238)))), ((int)(((byte)(206)))));
             this.btnZB3.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnZB3.FlatAppearance.BorderSize = 0;
             this.btnZB3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -161,7 +161,7 @@
             // 
             // btnZB2
             // 
-            this.btnZB2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(251)))), ((int)(((byte)(162)))), ((int)(((byte)(186)))));
+            this.btnZB2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(164)))), ((int)(((byte)(238)))), ((int)(((byte)(206)))));
             this.btnZB2.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnZB2.FlatAppearance.BorderSize = 0;
             this.btnZB2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -176,7 +176,7 @@
             // 
             // btnZB1
             // 
-            this.btnZB1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(251)))), ((int)(((byte)(162)))), ((int)(((byte)(186)))));
+            this.btnZB1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(164)))), ((int)(((byte)(238)))), ((int)(((byte)(206)))));
             this.btnZB1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnZB1.FlatAppearance.BorderSize = 0;
             this.btnZB1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -556,7 +556,7 @@
             // 
             // btnZC4
             // 
-            this.btnZC4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(251)))), ((int)(((byte)(162)))), ((int)(((byte)(186)))));
+            this.btnZC4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(164)))), ((int)(((byte)(238)))), ((int)(((byte)(206)))));
             this.btnZC4.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnZC4.FlatAppearance.BorderSize = 0;
             this.btnZC4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -582,7 +582,7 @@
             // 
             // btnZC3
             // 
-            this.btnZC3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(251)))), ((int)(((byte)(162)))), ((int)(((byte)(186)))));
+            this.btnZC3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(164)))), ((int)(((byte)(238)))), ((int)(((byte)(206)))));
             this.btnZC3.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnZC3.FlatAppearance.BorderSize = 0;
             this.btnZC3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -597,7 +597,7 @@
             // 
             // btnZC1
             // 
-            this.btnZC1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(251)))), ((int)(((byte)(162)))), ((int)(((byte)(186)))));
+            this.btnZC1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(164)))), ((int)(((byte)(238)))), ((int)(((byte)(206)))));
             this.btnZC1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnZC1.FlatAppearance.BorderSize = 0;
             this.btnZC1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -612,7 +612,7 @@
             // 
             // btnZC2
             // 
-            this.btnZC2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(251)))), ((int)(((byte)(162)))), ((int)(((byte)(186)))));
+            this.btnZC2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(164)))), ((int)(((byte)(238)))), ((int)(((byte)(206)))));
             this.btnZC2.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnZC2.FlatAppearance.BorderSize = 0;
             this.btnZC2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -682,7 +682,7 @@
             // 
             // btnZE3
             // 
-            this.btnZE3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(251)))), ((int)(((byte)(162)))), ((int)(((byte)(186)))));
+            this.btnZE3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(164)))), ((int)(((byte)(238)))), ((int)(((byte)(206)))));
             this.btnZE3.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnZE3.FlatAppearance.BorderSize = 0;
             this.btnZE3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -697,7 +697,7 @@
             // 
             // btnZE1
             // 
-            this.btnZE1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(251)))), ((int)(((byte)(162)))), ((int)(((byte)(186)))));
+            this.btnZE1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(164)))), ((int)(((byte)(238)))), ((int)(((byte)(206)))));
             this.btnZE1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnZE1.FlatAppearance.BorderSize = 0;
             this.btnZE1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -726,7 +726,7 @@
             // 
             // btnZD4
             // 
-            this.btnZD4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(251)))), ((int)(((byte)(162)))), ((int)(((byte)(186)))));
+            this.btnZD4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(164)))), ((int)(((byte)(238)))), ((int)(((byte)(206)))));
             this.btnZD4.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnZD4.FlatAppearance.BorderSize = 0;
             this.btnZD4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -752,7 +752,7 @@
             // 
             // btnZD3
             // 
-            this.btnZD3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(251)))), ((int)(((byte)(162)))), ((int)(((byte)(186)))));
+            this.btnZD3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(164)))), ((int)(((byte)(238)))), ((int)(((byte)(206)))));
             this.btnZD3.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnZD3.FlatAppearance.BorderSize = 0;
             this.btnZD3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -767,7 +767,7 @@
             // 
             // btnZD1
             // 
-            this.btnZD1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(251)))), ((int)(((byte)(162)))), ((int)(((byte)(186)))));
+            this.btnZD1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(164)))), ((int)(((byte)(238)))), ((int)(((byte)(206)))));
             this.btnZD1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnZD1.FlatAppearance.BorderSize = 0;
             this.btnZD1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -782,7 +782,7 @@
             // 
             // btnZD2
             // 
-            this.btnZD2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(251)))), ((int)(((byte)(162)))), ((int)(((byte)(186)))));
+            this.btnZD2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(164)))), ((int)(((byte)(238)))), ((int)(((byte)(206)))));
             this.btnZD2.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnZD2.FlatAppearance.BorderSize = 0;
             this.btnZD2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -811,7 +811,7 @@
             // 
             // btnZA4
             // 
-            this.btnZA4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(251)))), ((int)(((byte)(162)))), ((int)(((byte)(186)))));
+            this.btnZA4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(164)))), ((int)(((byte)(238)))), ((int)(((byte)(206)))));
             this.btnZA4.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnZA4.FlatAppearance.BorderSize = 0;
             this.btnZA4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -826,7 +826,7 @@
             // 
             // btnZA3
             // 
-            this.btnZA3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(251)))), ((int)(((byte)(162)))), ((int)(((byte)(186)))));
+            this.btnZA3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(164)))), ((int)(((byte)(238)))), ((int)(((byte)(206)))));
             this.btnZA3.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnZA3.FlatAppearance.BorderSize = 0;
             this.btnZA3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -841,7 +841,7 @@
             // 
             // btnZA1
             // 
-            this.btnZA1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(251)))), ((int)(((byte)(162)))), ((int)(((byte)(186)))));
+            this.btnZA1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(164)))), ((int)(((byte)(238)))), ((int)(((byte)(206)))));
             this.btnZA1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnZA1.FlatAppearance.BorderSize = 0;
             this.btnZA1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -856,7 +856,7 @@
             // 
             // btnZA2
             // 
-            this.btnZA2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(251)))), ((int)(((byte)(162)))), ((int)(((byte)(186)))));
+            this.btnZA2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(164)))), ((int)(((byte)(238)))), ((int)(((byte)(206)))));
             this.btnZA2.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnZA2.FlatAppearance.BorderSize = 0;
             this.btnZA2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -903,6 +903,7 @@
             this.Name = "Bodegas";
             this.StartPosition = System.Windows.Forms.FormStartPosition.Manual;
             this.Text = "Bodegas";
+            this.Load += new System.EventHandler(this.Bodegas_Load);
             this.panelMain.ResumeLayout(false);
             this.panelMain.PerformLayout();
             this.panelBodegaB.ResumeLayout(false);

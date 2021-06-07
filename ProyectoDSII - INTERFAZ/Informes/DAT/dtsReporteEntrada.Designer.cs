@@ -295,6 +295,8 @@ namespace Informes.DAT {
             
             private global::System.Data.DataColumn columnCosto;
             
+            private global::System.Data.DataColumn columnID_Movimiento;
+            
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
             public ReporteEntradaDataTable() {
@@ -394,6 +396,14 @@ namespace Informes.DAT {
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public global::System.Data.DataColumn ID_MovimientoColumn {
+                get {
+                    return this.columnID_Movimiento;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
             [global::System.ComponentModel.Browsable(false)]
             public int Count {
                 get {
@@ -429,7 +439,7 @@ namespace Informes.DAT {
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            public ReporteEntradaRow AddReporteEntradaRow(string Tipo_Movimiento, string Usuario, string Fecha, string Nombre_Cliente, string Zona, string Nombre_Producto, string Marca, string Costo) {
+            public ReporteEntradaRow AddReporteEntradaRow(string Tipo_Movimiento, string Usuario, string Fecha, string Nombre_Cliente, string Zona, string Nombre_Producto, string Marca, string Costo, string ID_Movimiento) {
                 ReporteEntradaRow rowReporteEntradaRow = ((ReporteEntradaRow)(this.NewRow()));
                 object[] columnValuesArray = new object[] {
                         Tipo_Movimiento,
@@ -439,7 +449,8 @@ namespace Informes.DAT {
                         Zona,
                         Nombre_Producto,
                         Marca,
-                        Costo};
+                        Costo,
+                        ID_Movimiento};
                 rowReporteEntradaRow.ItemArray = columnValuesArray;
                 this.Rows.Add(rowReporteEntradaRow);
                 return rowReporteEntradaRow;
@@ -470,6 +481,7 @@ namespace Informes.DAT {
                 this.columnNombre_Producto = base.Columns["Nombre_Producto"];
                 this.columnMarca = base.Columns["Marca"];
                 this.columnCosto = base.Columns["Costo"];
+                this.columnID_Movimiento = base.Columns["ID_Movimiento"];
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -491,6 +503,8 @@ namespace Informes.DAT {
                 base.Columns.Add(this.columnMarca);
                 this.columnCosto = new global::System.Data.DataColumn("Costo", typeof(string), null, global::System.Data.MappingType.Element);
                 base.Columns.Add(this.columnCosto);
+                this.columnID_Movimiento = new global::System.Data.DataColumn("ID_Movimiento", typeof(string), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columnID_Movimiento);
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -761,6 +775,22 @@ namespace Informes.DAT {
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public string ID_Movimiento {
+                get {
+                    try {
+                        return ((string)(this[this.tableReporteEntrada.ID_MovimientoColumn]));
+                    }
+                    catch (global::System.InvalidCastException e) {
+                        throw new global::System.Data.StrongTypingException("El valor de la columna \'ID_Movimiento\' de la tabla \'ReporteEntrada\' es DBNull.", e);
+                    }
+                }
+                set {
+                    this[this.tableReporteEntrada.ID_MovimientoColumn] = value;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
             public bool IsTipo_MovimientoNull() {
                 return this.IsNull(this.tableReporteEntrada.Tipo_MovimientoColumn);
             }
@@ -853,6 +883,18 @@ namespace Informes.DAT {
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
             public void SetCostoNull() {
                 this[this.tableReporteEntrada.CostoColumn] = global::System.Convert.DBNull;
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public bool IsID_MovimientoNull() {
+                return this.IsNull(this.tableReporteEntrada.ID_MovimientoColumn);
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public void SetID_MovimientoNull() {
+                this[this.tableReporteEntrada.ID_MovimientoColumn] = global::System.Convert.DBNull;
             }
         }
         

@@ -12,7 +12,7 @@
   <xs:element name="dtsReporteEntrada" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="dtsReporteEntrada" msprop:Generator_UserDSName="dtsReporteEntrada">
     <xs:complexType>
       <xs:choice minOccurs="0" maxOccurs="unbounded">
-        <xs:element name="ReporteEntrada" msprop:Generator_TableClassName="ReporteEntradaDataTable" msprop:Generator_TableVarName="tableReporteEntrada" msprop:Generator_TablePropName="ReporteEntrada" msprop:Generator_RowDeletingName="ReporteEntradaRowDeleting" msprop:Generator_RowChangingName="ReporteEntradaRowChanging" msprop:Generator_RowEvHandlerName="ReporteEntradaRowChangeEventHandler" msprop:Generator_RowDeletedName="ReporteEntradaRowDeleted" msprop:Generator_UserTableName="ReporteEntrada" msprop:Generator_RowChangedName="ReporteEntradaRowChanged" msprop:Generator_RowEvArgName="ReporteEntradaRowChangeEvent" msprop:Generator_RowClassName="ReporteEntradaRow">
+        <xs:element name="ReporteEntrada" msprop:Generator_TableClassName="ReporteEntradaDataTable" msprop:Generator_TableVarName="tableReporteEntrada" msprop:Generator_RowChangedName="ReporteEntradaRowChanged" msprop:Generator_TablePropName="ReporteEntrada" msprop:Generator_RowDeletingName="ReporteEntradaRowDeleting" msprop:Generator_RowChangingName="ReporteEntradaRowChanging" msprop:Generator_RowEvHandlerName="ReporteEntradaRowChangeEventHandler" msprop:Generator_RowDeletedName="ReporteEntradaRowDeleted" msprop:Generator_RowClassName="ReporteEntradaRow" msprop:Generator_UserTableName="ReporteEntrada" msprop:Generator_RowEvArgName="ReporteEntradaRowChangeEvent">
           <xs:complexType>
             <xs:sequence>
               <xs:element name="Tipo_Movimiento" msprop:Generator_ColumnVarNameInTable="columnTipo_Movimiento" msprop:Generator_ColumnPropNameInRow="Tipo_Movimiento" msprop:Generator_ColumnPropNameInTable="Tipo_MovimientoColumn" msprop:Generator_UserColumnName="Tipo_Movimiento" type="xs:string" minOccurs="0" />
@@ -23,6 +23,7 @@
               <xs:element name="Nombre_Producto" msprop:Generator_ColumnVarNameInTable="columnNombre_Producto" msprop:Generator_ColumnPropNameInRow="Nombre_Producto" msprop:Generator_ColumnPropNameInTable="Nombre_ProductoColumn" msprop:Generator_UserColumnName="Nombre_Producto" type="xs:string" minOccurs="0" />
               <xs:element name="Marca" msprop:Generator_ColumnVarNameInTable="columnMarca" msprop:Generator_ColumnPropNameInRow="Marca" msprop:Generator_ColumnPropNameInTable="MarcaColumn" msprop:Generator_UserColumnName="Marca" type="xs:string" minOccurs="0" />
               <xs:element name="Costo" msprop:Generator_ColumnVarNameInTable="columnCosto" msprop:Generator_ColumnPropNameInRow="Costo" msprop:Generator_ColumnPropNameInTable="CostoColumn" msprop:Generator_UserColumnName="Costo" type="xs:string" minOccurs="0" />
+              <xs:element name="ID_Movimiento" msprop:Generator_ColumnVarNameInTable="columnID_Movimiento" msprop:Generator_ColumnPropNameInRow="ID_Movimiento" msprop:Generator_ColumnPropNameInTable="ID_MovimientoColumn" msprop:Generator_UserColumnName="ID_Movimiento" type="xs:string" minOccurs="0" />
             </xs:sequence>
           </xs:complexType>
         </xs:element>
