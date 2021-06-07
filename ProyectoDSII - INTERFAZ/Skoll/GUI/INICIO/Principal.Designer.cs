@@ -151,7 +151,6 @@
             // 
             // panelGestionGeneral
             // 
-            this.panelGestionGeneral.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.panelGestionGeneral.Controls.Add(this.btnUsuariosAdmin2);
             this.panelGestionGeneral.Controls.Add(this.btnUsuariosAdmin);
             this.panelGestionGeneral.Controls.Add(this.btnEmpleadosAdmin2);
