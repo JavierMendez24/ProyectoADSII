@@ -42,8 +42,6 @@
             this.nombres = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.ID_PERMISO = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.guna2Panel2 = new Guna.UI2.WinForms.Guna2Panel();
-            this.lblNombreRol = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
             this.lblEmpleados = new System.Windows.Forms.Label();
@@ -51,7 +49,6 @@
             this.panel2.SuspendLayout();
             this.panelDtgListaPermisos.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dtgPermisos)).BeginInit();
-            this.guna2Panel2.SuspendLayout();
             this.SuspendLayout();
             // 
             // panelMain
@@ -207,38 +204,12 @@
             // guna2Panel2
             // 
             this.guna2Panel2.BackColor = System.Drawing.Color.Teal;
-            this.guna2Panel2.Controls.Add(this.lblNombreRol);
-            this.guna2Panel2.Controls.Add(this.label2);
             this.guna2Panel2.Dock = System.Windows.Forms.DockStyle.Top;
             this.guna2Panel2.Location = new System.Drawing.Point(0, 0);
             this.guna2Panel2.Name = "guna2Panel2";
             this.guna2Panel2.ShadowDecoration.Parent = this.guna2Panel2;
             this.guna2Panel2.Size = new System.Drawing.Size(690, 29);
             this.guna2Panel2.TabIndex = 1;
-            // 
-            // lblNombreRol
-            // 
-            this.lblNombreRol.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.lblNombreRol.AutoSize = true;
-            this.lblNombreRol.Font = new System.Drawing.Font("Microsoft YaHei UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblNombreRol.ForeColor = System.Drawing.Color.White;
-            this.lblNombreRol.Location = new System.Drawing.Point(383, 5);
-            this.lblNombreRol.Name = "lblNombreRol";
-            this.lblNombreRol.Size = new System.Drawing.Size(87, 19);
-            this.lblNombreRol.TabIndex = 26;
-            this.lblNombreRol.Text = "-------------";
-            // 
-            // label2
-            // 
-            this.label2.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Microsoft YaHei UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.ForeColor = System.Drawing.Color.White;
-            this.label2.Location = new System.Drawing.Point(179, 5);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(203, 19);
-            this.label2.TabIndex = 25;
-            this.label2.Text = "LISTA DE PERMISOS DEL ROL:";
             // 
             // label8
             // 
@@ -289,8 +260,6 @@
             this.panel2.PerformLayout();
             this.panelDtgListaPermisos.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dtgPermisos)).EndInit();
-            this.guna2Panel2.ResumeLayout(false);
-            this.guna2Panel2.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -305,8 +274,6 @@
         private Guna.UI2.WinForms.Guna2Panel panelDtgListaPermisos;
         public System.Windows.Forms.DataGridView dtgPermisos;
         private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.Label lblNombreRol;
-        private System.Windows.Forms.Label label2;
         private System.Windows.Forms.ComboBox cbbSeleccionarRol;
         private System.Windows.Forms.DataGridViewCheckBoxColumn Seleccion;
         private System.Windows.Forms.DataGridViewTextBoxColumn ID_Opcion;

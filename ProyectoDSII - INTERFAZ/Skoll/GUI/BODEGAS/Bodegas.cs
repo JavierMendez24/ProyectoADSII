@@ -21,17 +21,17 @@ namespace Skoll.GUI.BODEGAS
         {
             DataTable tZona = new DataTable();
             tZona = CacheManager.CLS.Cache.VERIFICAR_ZONA(ID_Zona);
-            String Zona1;
+            String Zona;
             try
             {
-                Zona1 = tZona.Rows[0]["ID_Zona"].ToString();
+                Zona = tZona.Rows[0]["ID_Zona"].ToString();
             }
             catch
             {
-                Zona1 = "";
+                Zona = "";
             }
 
-            return Zona1;   
+            return Zona;   
         }
 
         private void Bodegas_Load(object sender, EventArgs e)

@@ -11,9 +11,11 @@ namespace Skoll.CLS
     {
         private static TransferenciaDatos _instance;
         
+        // ATRIBUTOS
         private Hashtable _Valores = new Hashtable();
         private int _Ultimo = -1;
 
+        // PROPIEDADES
         public Hashtable Valores
         {
             get
@@ -26,7 +28,6 @@ namespace Skoll.CLS
                 _Valores = value;
             }
         }
-
         public int Ultimo
         {
             get

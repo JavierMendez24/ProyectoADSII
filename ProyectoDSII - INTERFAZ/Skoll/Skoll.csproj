@@ -64,12 +64,6 @@
     <Compile Include="GUI\BODEGAS\Bodegas.Designer.cs">
       <DependentUpon>Bodegas.cs</DependentUpon>
     </Compile>
-    <Compile Include="GUI\BODEGAS\InformacionBodega.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="GUI\BODEGAS\InformacionBodega.Designer.cs">
-      <DependentUpon>InformacionBodega.cs</DependentUpon>
-    </Compile>
     <Compile Include="GUI\CLIENTES\AgregarCliente.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -266,9 +260,6 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="GUI\BODEGAS\Bodegas.resx">
       <DependentUpon>Bodegas.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="GUI\BODEGAS\InformacionBodega.resx">
-      <DependentUpon>InformacionBodega.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="GUI\CLIENTES\AgregarCliente.resx">
       <DependentUpon>AgregarCliente.cs</DependentUpon>

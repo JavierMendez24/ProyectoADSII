@@ -18,7 +18,6 @@ namespace Skoll.GUI.PRODUCTOS
         {
             SesionManager.CLS.Sesion item = SesionManager.CLS.Sesion.Instancia;
 
-            
             DataTable tCliente = new DataTable();
             DataTable tMovimiento = new DataTable();
             Productos productos = new Productos();
