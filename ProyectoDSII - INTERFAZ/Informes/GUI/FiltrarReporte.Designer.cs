@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FiltrarReporte));
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
@@ -37,6 +38,8 @@
             this.panelMain = new System.Windows.Forms.Panel();
             this.cbbSeleccionarZona = new System.Windows.Forms.ComboBox();
             this.label2 = new System.Windows.Forms.Label();
+            this.dtpSeleccionarFecha = new Guna.UI2.WinForms.Guna2DateTimePicker();
+            this.btnGenerarReporteEntrada = new Guna.UI2.WinForms.Guna2Button();
             this.label1 = new System.Windows.Forms.Label();
             this.panelDtgRptEntrada = new System.Windows.Forms.Panel();
             this.dtgRptEntrada = new System.Windows.Forms.DataGridView();
@@ -55,6 +58,8 @@
             this.panelMain.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(237)))), ((int)(((byte)(242)))));
             this.panelMain.Controls.Add(this.cbbSeleccionarZona);
             this.panelMain.Controls.Add(this.label2);
+            this.panelMain.Controls.Add(this.dtpSeleccionarFecha);
+            this.panelMain.Controls.Add(this.btnGenerarReporteEntrada);
             this.panelMain.Controls.Add(this.label1);
             this.panelMain.Controls.Add(this.panelDtgRptEntrada);
             this.panelMain.Controls.Add(this.lblCatalogo);
@@ -88,6 +93,49 @@
             this.label2.Size = new System.Drawing.Size(48, 20);
             this.label2.TabIndex = 65;
             this.label2.Text = "Zona:";
+            // 
+            // dtpSeleccionarFecha
+            // 
+            this.dtpSeleccionarFecha.BorderColor = System.Drawing.Color.Silver;
+            this.dtpSeleccionarFecha.BorderRadius = 5;
+            this.dtpSeleccionarFecha.BorderThickness = 1;
+            this.dtpSeleccionarFecha.CheckedState.Parent = this.dtpSeleccionarFecha;
+            this.dtpSeleccionarFecha.FillColor = System.Drawing.Color.White;
+            this.dtpSeleccionarFecha.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dtpSeleccionarFecha.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(40)))), ((int)(((byte)(52)))));
+            this.dtpSeleccionarFecha.Format = System.Windows.Forms.DateTimePickerFormat.Short;
+            this.dtpSeleccionarFecha.HoverState.Parent = this.dtpSeleccionarFecha;
+            this.dtpSeleccionarFecha.Location = new System.Drawing.Point(507, 79);
+            this.dtpSeleccionarFecha.MaxDate = new System.DateTime(9998, 12, 31, 0, 0, 0, 0);
+            this.dtpSeleccionarFecha.MinDate = new System.DateTime(1753, 1, 1, 0, 0, 0, 0);
+            this.dtpSeleccionarFecha.Name = "dtpSeleccionarFecha";
+            this.dtpSeleccionarFecha.ShadowDecoration.Parent = this.dtpSeleccionarFecha;
+            this.dtpSeleccionarFecha.Size = new System.Drawing.Size(133, 35);
+            this.dtpSeleccionarFecha.TabIndex = 64;
+            this.dtpSeleccionarFecha.Value = new System.DateTime(2021, 4, 13, 16, 31, 51, 340);
+            // 
+            // btnGenerarReporteEntrada
+            // 
+            this.btnGenerarReporteEntrada.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnGenerarReporteEntrada.BorderRadius = 6;
+            this.btnGenerarReporteEntrada.CheckedState.Parent = this.btnGenerarReporteEntrada;
+            this.btnGenerarReporteEntrada.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnGenerarReporteEntrada.CustomImages.Parent = this.btnGenerarReporteEntrada;
+            this.btnGenerarReporteEntrada.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(182)))), ((int)(((byte)(146)))));
+            this.btnGenerarReporteEntrada.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnGenerarReporteEntrada.ForeColor = System.Drawing.Color.White;
+            this.btnGenerarReporteEntrada.HoverState.Parent = this.btnGenerarReporteEntrada;
+            this.btnGenerarReporteEntrada.Image = ((System.Drawing.Image)(resources.GetObject("btnGenerarReporteEntrada.Image")));
+            this.btnGenerarReporteEntrada.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.btnGenerarReporteEntrada.ImageSize = new System.Drawing.Size(15, 15);
+            this.btnGenerarReporteEntrada.Location = new System.Drawing.Point(690, 79);
+            this.btnGenerarReporteEntrada.Name = "btnGenerarReporteEntrada";
+            this.btnGenerarReporteEntrada.ShadowDecoration.Parent = this.btnGenerarReporteEntrada;
+            this.btnGenerarReporteEntrada.Size = new System.Drawing.Size(167, 35);
+            this.btnGenerarReporteEntrada.TabIndex = 15;
+            this.btnGenerarReporteEntrada.Text = "GENERAR REPORTE";
+            this.btnGenerarReporteEntrada.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.btnGenerarReporteEntrada.TextOffset = new System.Drawing.Point(3, 0);
             // 
             // label1
             // 
@@ -238,6 +286,8 @@
         public System.Windows.Forms.Panel panelMain;
         private System.Windows.Forms.ComboBox cbbSeleccionarZona;
         private System.Windows.Forms.Label label2;
+        private Guna.UI2.WinForms.Guna2DateTimePicker dtpSeleccionarFecha;
+        private Guna.UI2.WinForms.Guna2Button btnGenerarReporteEntrada;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Panel panelDtgRptEntrada;
         private System.Windows.Forms.DataGridView dtgRptEntrada;

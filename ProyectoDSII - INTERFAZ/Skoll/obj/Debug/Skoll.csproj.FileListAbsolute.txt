@@ -310,3 +310,6 @@ D:\Universidad\ProyectoDSII\ProyectoADSII\ProyectoDSII - INTERFAZ\Skoll\bin\Debu
 D:\Universidad\ProyectoDSII\ProyectoADSII\ProyectoDSII - INTERFAZ\Skoll\bin\Debug\stdole.dll
 D:\Universidad\ProyectoDSII\ProyectoADSII\ProyectoDSII - INTERFAZ\Skoll\bin\Debug\ShockwaveFlashObjects.dll
 D:\Universidad\ProyectoDSII\ProyectoADSII\ProyectoDSII - INTERFAZ\Skoll\bin\Debug\Informes.pdb
+C:\SKOLL-DSII\ProyectoDSII - INTERFAZ\Skoll\bin\Debug\Skoll.exe.config
+C:\SKOLL-DSII\ProyectoDSII - INTERFAZ\Skoll\obj\Debug\Skoll.exe
+C:\SKOLL-DSII\ProyectoDSII - INTERFAZ\Skoll\obj\Debug\Skoll.pdb
