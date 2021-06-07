@@ -65,19 +65,7 @@ namespace Skoll.GUI.REPORTES
         {
             if (oSesion.ComprobarPermisos(11))
             {
-                try
-                {
-                    DataTable Datos = new DataTable();
-                    Datos = CacheManager.CLS.Cache.REPORTE_DE_ENTRADA(cbbSeleccionarZona.Text, dtpSeleccionarFecha.Text);
-                    Informes.REP.ReporteEntrada Reporte = new Informes.REP.ReporteEntrada();
-
-                    Reporte.SetDataSource(Datos);
-                    crvVisor.ReportSource = Reporte;
-                }
-                catch(Exception ex)
-                {
-
-                }
+                
             }
         }
     }

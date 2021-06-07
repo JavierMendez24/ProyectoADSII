@@ -94,7 +94,16 @@
       <LastGenOutput>ReporteEntrada.cs</LastGenOutput>
     </EmbeddedResource>
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="..\CacheManager\CacheManager.csproj">
+      <Project>{0653cb29-2cc2-4ce3-b4e3-8e0f3cbd10e9}</Project>
+      <Name>CacheManager</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SesionManager\SesionManager.csproj">
+      <Project>{e45fb91e-ed1a-4d63-8d28-53dd51ebcd92}</Project>
+      <Name>SesionManager</Name>
+    </ProjectReference>
+  </ItemGroup>
   <ItemGroup>
     <None Include="DAT\dtsReporteEntrada.xsc">
       <DependentUpon>dtsReporteEntrada.xsd</DependentUpon>

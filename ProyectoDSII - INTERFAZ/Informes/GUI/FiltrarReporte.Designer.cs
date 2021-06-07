@@ -28,18 +28,15 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FiltrarReporte));
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle7 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle11 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle12 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle8 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle9 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle10 = new System.Windows.Forms.DataGridViewCellStyle();
             this.panelMain = new System.Windows.Forms.Panel();
             this.cbbSeleccionarZona = new System.Windows.Forms.ComboBox();
             this.label2 = new System.Windows.Forms.Label();
-            this.dtpSeleccionarFecha = new Guna.UI2.WinForms.Guna2DateTimePicker();
-            this.btnGenerarReporteEntrada = new Guna.UI2.WinForms.Guna2Button();
             this.label1 = new System.Windows.Forms.Label();
             this.panelDtgRptEntrada = new System.Windows.Forms.Panel();
             this.dtgRptEntrada = new System.Windows.Forms.DataGridView();
@@ -48,6 +45,8 @@
             this.zona = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.fechaReporte = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.lblCatalogo = new System.Windows.Forms.Label();
+            this.dtpFecha = new System.Windows.Forms.DateTimePicker();
+            this.btnGenerar = new System.Windows.Forms.Button();
             this.panelMain.SuspendLayout();
             this.panelDtgRptEntrada.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dtgRptEntrada)).BeginInit();
@@ -56,10 +55,10 @@
             // panelMain
             // 
             this.panelMain.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(237)))), ((int)(((byte)(242)))));
+            this.panelMain.Controls.Add(this.btnGenerar);
+            this.panelMain.Controls.Add(this.dtpFecha);
             this.panelMain.Controls.Add(this.cbbSeleccionarZona);
             this.panelMain.Controls.Add(this.label2);
-            this.panelMain.Controls.Add(this.dtpSeleccionarFecha);
-            this.panelMain.Controls.Add(this.btnGenerarReporteEntrada);
             this.panelMain.Controls.Add(this.label1);
             this.panelMain.Controls.Add(this.panelDtgRptEntrada);
             this.panelMain.Controls.Add(this.lblCatalogo);
@@ -94,49 +93,6 @@
             this.label2.TabIndex = 65;
             this.label2.Text = "Zona:";
             // 
-            // dtpSeleccionarFecha
-            // 
-            this.dtpSeleccionarFecha.BorderColor = System.Drawing.Color.Silver;
-            this.dtpSeleccionarFecha.BorderRadius = 5;
-            this.dtpSeleccionarFecha.BorderThickness = 1;
-            this.dtpSeleccionarFecha.CheckedState.Parent = this.dtpSeleccionarFecha;
-            this.dtpSeleccionarFecha.FillColor = System.Drawing.Color.White;
-            this.dtpSeleccionarFecha.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.dtpSeleccionarFecha.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(40)))), ((int)(((byte)(52)))));
-            this.dtpSeleccionarFecha.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.dtpSeleccionarFecha.HoverState.Parent = this.dtpSeleccionarFecha;
-            this.dtpSeleccionarFecha.Location = new System.Drawing.Point(507, 79);
-            this.dtpSeleccionarFecha.MaxDate = new System.DateTime(9998, 12, 31, 0, 0, 0, 0);
-            this.dtpSeleccionarFecha.MinDate = new System.DateTime(1753, 1, 1, 0, 0, 0, 0);
-            this.dtpSeleccionarFecha.Name = "dtpSeleccionarFecha";
-            this.dtpSeleccionarFecha.ShadowDecoration.Parent = this.dtpSeleccionarFecha;
-            this.dtpSeleccionarFecha.Size = new System.Drawing.Size(133, 35);
-            this.dtpSeleccionarFecha.TabIndex = 64;
-            this.dtpSeleccionarFecha.Value = new System.DateTime(2021, 4, 13, 16, 31, 51, 340);
-            // 
-            // btnGenerarReporteEntrada
-            // 
-            this.btnGenerarReporteEntrada.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnGenerarReporteEntrada.BorderRadius = 6;
-            this.btnGenerarReporteEntrada.CheckedState.Parent = this.btnGenerarReporteEntrada;
-            this.btnGenerarReporteEntrada.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnGenerarReporteEntrada.CustomImages.Parent = this.btnGenerarReporteEntrada;
-            this.btnGenerarReporteEntrada.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(182)))), ((int)(((byte)(146)))));
-            this.btnGenerarReporteEntrada.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnGenerarReporteEntrada.ForeColor = System.Drawing.Color.White;
-            this.btnGenerarReporteEntrada.HoverState.Parent = this.btnGenerarReporteEntrada;
-            this.btnGenerarReporteEntrada.Image = ((System.Drawing.Image)(resources.GetObject("btnGenerarReporteEntrada.Image")));
-            this.btnGenerarReporteEntrada.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.btnGenerarReporteEntrada.ImageSize = new System.Drawing.Size(15, 15);
-            this.btnGenerarReporteEntrada.Location = new System.Drawing.Point(690, 79);
-            this.btnGenerarReporteEntrada.Name = "btnGenerarReporteEntrada";
-            this.btnGenerarReporteEntrada.ShadowDecoration.Parent = this.btnGenerarReporteEntrada;
-            this.btnGenerarReporteEntrada.Size = new System.Drawing.Size(167, 35);
-            this.btnGenerarReporteEntrada.TabIndex = 15;
-            this.btnGenerarReporteEntrada.Text = "GENERAR REPORTE";
-            this.btnGenerarReporteEntrada.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
-            this.btnGenerarReporteEntrada.TextOffset = new System.Drawing.Point(3, 0);
-            // 
             // label1
             // 
             this.label1.AutoSize = true;
@@ -169,14 +125,14 @@
             this.dtgRptEntrada.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.dtgRptEntrada.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.Sunken;
             this.dtgRptEntrada.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Sunken;
-            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(67)))), ((int)(((byte)(100)))));
-            dataGridViewCellStyle1.Font = new System.Drawing.Font("Segoe UI Semibold", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle1.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.Color.Turquoise;
-            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dtgRptEntrada.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
+            dataGridViewCellStyle7.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(67)))), ((int)(((byte)(100)))));
+            dataGridViewCellStyle7.Font = new System.Drawing.Font("Segoe UI Semibold", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle7.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle7.SelectionBackColor = System.Drawing.Color.Turquoise;
+            dataGridViewCellStyle7.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle7.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dtgRptEntrada.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle7;
             this.dtgRptEntrada.ColumnHeadersHeight = 35;
             this.dtgRptEntrada.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.DisableResizing;
             this.dtgRptEntrada.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
@@ -184,15 +140,15 @@
             this.cliente,
             this.zona,
             this.fechaReporte});
-            dataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle5.BackColor = System.Drawing.Color.White;
-            dataGridViewCellStyle5.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle5.ForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle5.Padding = new System.Windows.Forms.Padding(5, 0, 0, 0);
-            dataGridViewCellStyle5.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(186)))), ((int)(((byte)(245)))), ((int)(((byte)(237)))));
-            dataGridViewCellStyle5.SelectionForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle5.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.dtgRptEntrada.DefaultCellStyle = dataGridViewCellStyle5;
+            dataGridViewCellStyle11.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle11.BackColor = System.Drawing.Color.White;
+            dataGridViewCellStyle11.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle11.ForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle11.Padding = new System.Windows.Forms.Padding(5, 0, 0, 0);
+            dataGridViewCellStyle11.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(186)))), ((int)(((byte)(245)))), ((int)(((byte)(237)))));
+            dataGridViewCellStyle11.SelectionForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle11.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.dtgRptEntrada.DefaultCellStyle = dataGridViewCellStyle11;
             this.dtgRptEntrada.Dock = System.Windows.Forms.DockStyle.Fill;
             this.dtgRptEntrada.EnableHeadersVisualStyles = false;
             this.dtgRptEntrada.GridColor = System.Drawing.Color.White;
@@ -200,14 +156,14 @@
             this.dtgRptEntrada.Name = "dtgRptEntrada";
             this.dtgRptEntrada.ReadOnly = true;
             this.dtgRptEntrada.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Sunken;
-            dataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle6.BackColor = System.Drawing.Color.White;
-            dataGridViewCellStyle6.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle6.ForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle6.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(186)))), ((int)(((byte)(245)))), ((int)(((byte)(237)))));
-            dataGridViewCellStyle6.SelectionForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle6.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dtgRptEntrada.RowHeadersDefaultCellStyle = dataGridViewCellStyle6;
+            dataGridViewCellStyle12.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle12.BackColor = System.Drawing.Color.White;
+            dataGridViewCellStyle12.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle12.ForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle12.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(186)))), ((int)(((byte)(245)))), ((int)(((byte)(237)))));
+            dataGridViewCellStyle12.SelectionForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle12.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dtgRptEntrada.RowHeadersDefaultCellStyle = dataGridViewCellStyle12;
             this.dtgRptEntrada.RowHeadersVisible = false;
             this.dtgRptEntrada.RowTemplate.Height = 28;
             this.dtgRptEntrada.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
@@ -217,8 +173,8 @@
             // idMovimiento
             // 
             this.idMovimiento.DataPropertyName = "ID_Movimiento";
-            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            this.idMovimiento.DefaultCellStyle = dataGridViewCellStyle2;
+            dataGridViewCellStyle8.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            this.idMovimiento.DefaultCellStyle = dataGridViewCellStyle8;
             this.idMovimiento.HeaderText = "ID REPORTE";
             this.idMovimiento.Name = "idMovimiento";
             this.idMovimiento.ReadOnly = true;
@@ -235,8 +191,8 @@
             // zona
             // 
             this.zona.DataPropertyName = "Zona";
-            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            this.zona.DefaultCellStyle = dataGridViewCellStyle3;
+            dataGridViewCellStyle9.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            this.zona.DefaultCellStyle = dataGridViewCellStyle9;
             this.zona.HeaderText = "ZONA";
             this.zona.Name = "zona";
             this.zona.ReadOnly = true;
@@ -245,8 +201,8 @@
             // fechaReporte
             // 
             this.fechaReporte.DataPropertyName = "Fecha";
-            dataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            this.fechaReporte.DefaultCellStyle = dataGridViewCellStyle4;
+            dataGridViewCellStyle10.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            this.fechaReporte.DefaultCellStyle = dataGridViewCellStyle10;
             this.fechaReporte.HeaderText = "FECHA REPORTE";
             this.fechaReporte.Name = "fechaReporte";
             this.fechaReporte.ReadOnly = true;
@@ -264,6 +220,26 @@
             this.lblCatalogo.TabIndex = 2;
             this.lblCatalogo.Text = "REPORTES DE ENTRADA";
             // 
+            // dtpFecha
+            // 
+            this.dtpFecha.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dtpFecha.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
+            this.dtpFecha.Location = new System.Drawing.Point(507, 80);
+            this.dtpFecha.MinimumSize = new System.Drawing.Size(30, 30);
+            this.dtpFecha.Name = "dtpFecha";
+            this.dtpFecha.Size = new System.Drawing.Size(200, 30);
+            this.dtpFecha.TabIndex = 88;
+            // 
+            // btnGenerar
+            // 
+            this.btnGenerar.Location = new System.Drawing.Point(751, 80);
+            this.btnGenerar.Name = "btnGenerar";
+            this.btnGenerar.Size = new System.Drawing.Size(106, 31);
+            this.btnGenerar.TabIndex = 90;
+            this.btnGenerar.Text = "Generar Reporte";
+            this.btnGenerar.UseVisualStyleBackColor = true;
+            this.btnGenerar.Click += new System.EventHandler(this.btnGenerar_Click);
+            // 
             // FiltrarReporte
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -273,6 +249,7 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "FiltrarReporte";
             this.Text = "FiltrarReporte";
+            this.Load += new System.EventHandler(this.FiltrarReporte_Load);
             this.panelMain.ResumeLayout(false);
             this.panelMain.PerformLayout();
             this.panelDtgRptEntrada.ResumeLayout(false);
@@ -286,8 +263,6 @@
         public System.Windows.Forms.Panel panelMain;
         private System.Windows.Forms.ComboBox cbbSeleccionarZona;
         private System.Windows.Forms.Label label2;
-        private Guna.UI2.WinForms.Guna2DateTimePicker dtpSeleccionarFecha;
-        private Guna.UI2.WinForms.Guna2Button btnGenerarReporteEntrada;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Panel panelDtgRptEntrada;
         private System.Windows.Forms.DataGridView dtgRptEntrada;
@@ -296,5 +271,7 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn zona;
         private System.Windows.Forms.DataGridViewTextBoxColumn fechaReporte;
         private System.Windows.Forms.Label lblCatalogo;
+        private System.Windows.Forms.DateTimePicker dtpFecha;
+        private System.Windows.Forms.Button btnGenerar;
     }
 }

@@ -30,24 +30,37 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ReporteDeEntrada));
             this.panelReporteEntrada = new System.Windows.Forms.Panel();
+            this.btnClose = new System.Windows.Forms.PictureBox();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.btnCerrar = new System.Windows.Forms.PictureBox();
             this.crvVisor = new CrystalDecisions.Windows.Forms.CrystalReportViewer();
             this.panelReporteEntrada.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.btnClose)).BeginInit();
             this.panel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.btnCerrar)).BeginInit();
             this.SuspendLayout();
             // 
             // panelReporteEntrada
             // 
-            this.panelReporteEntrada.BackColor = System.Drawing.Color.White;
-            this.panelReporteEntrada.Controls.Add(this.btnCerrar);
+            this.panelReporteEntrada.BackColor = System.Drawing.Color.Teal;
+            this.panelReporteEntrada.Controls.Add(this.btnClose);
             this.panelReporteEntrada.Controls.Add(this.panel1);
             this.panelReporteEntrada.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panelReporteEntrada.Location = new System.Drawing.Point(0, 0);
             this.panelReporteEntrada.Name = "panelReporteEntrada";
             this.panelReporteEntrada.Size = new System.Drawing.Size(1000, 660);
             this.panelReporteEntrada.TabIndex = 0;
+            // 
+            // btnClose
+            // 
+            this.btnClose.BackColor = System.Drawing.Color.Transparent;
+            this.btnClose.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnClose.Image = ((System.Drawing.Image)(resources.GetObject("btnClose.Image")));
+            this.btnClose.Location = new System.Drawing.Point(971, 6);
+            this.btnClose.Name = "btnClose";
+            this.btnClose.Size = new System.Drawing.Size(21, 21);
+            this.btnClose.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.btnClose.TabIndex = 23;
+            this.btnClose.TabStop = false;
+            this.btnClose.Click += new System.EventHandler(this.btnClose_Click);
             // 
             // panel1
             // 
@@ -57,18 +70,6 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(1000, 625);
             this.panel1.TabIndex = 0;
-            // 
-            // btnCerrar
-            // 
-            this.btnCerrar.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnCerrar.Image = ((System.Drawing.Image)(resources.GetObject("btnCerrar.Image")));
-            this.btnCerrar.Location = new System.Drawing.Point(970, 8);
-            this.btnCerrar.Name = "btnCerrar";
-            this.btnCerrar.Size = new System.Drawing.Size(21, 21);
-            this.btnCerrar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.btnCerrar.TabIndex = 20;
-            this.btnCerrar.TabStop = false;
-            this.btnCerrar.Click += new System.EventHandler(this.btnCerrar_Click);
             // 
             // crvVisor
             // 
@@ -93,17 +94,16 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "ReporteDeEntrada";
             this.panelReporteEntrada.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.btnClose)).EndInit();
             this.panel1.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.btnCerrar)).EndInit();
             this.ResumeLayout(false);
 
         }
 
         #endregion
-
-        private System.Windows.Forms.Panel panelReporteEntrada;
-        private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.PictureBox btnCerrar;
-        private CrystalDecisions.Windows.Forms.CrystalReportViewer crvVisor;
+        public CrystalDecisions.Windows.Forms.CrystalReportViewer crvVisor;
+        public System.Windows.Forms.Panel panel1;
+        public System.Windows.Forms.Panel panelReporteEntrada;
+        private System.Windows.Forms.PictureBox btnClose;
     }
 }

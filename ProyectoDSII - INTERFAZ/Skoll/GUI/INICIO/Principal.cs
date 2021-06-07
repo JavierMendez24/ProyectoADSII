@@ -436,8 +436,8 @@ namespace Skoll.GUI.INICIO
                 }
                 else
                 {
-                    REPORTES.ReportesEntrada rpte = new REPORTES.ReportesEntrada();
-                    AddFormulario(rpte);
+                    Informes.GUI.FiltrarReporte srpte = new Informes.GUI.FiltrarReporte();
+                    AddFormulario(srpte);
                     btnBodegas.Checked = false;
                     btnCatalogo.Checked = false;
                     btnLista.Checked = false;

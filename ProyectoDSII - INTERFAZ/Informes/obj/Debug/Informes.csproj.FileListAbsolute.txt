@@ -24,3 +24,11 @@ D:\Universidad\ProyectoDSII\ProyectoADSII\ProyectoDSII - INTERFAZ\Informes\obj\D
 D:\Universidad\ProyectoDSII\ProyectoADSII\ProyectoDSII - INTERFAZ\Informes\obj\Debug\Informes.csproj.GenerateResource.Cache
 D:\Universidad\ProyectoDSII\ProyectoADSII\ProyectoDSII - INTERFAZ\Informes\obj\Debug\Informes.dll
 D:\Universidad\ProyectoDSII\ProyectoADSII\ProyectoDSII - INTERFAZ\Informes\obj\Debug\Informes.pdb
+D:\Universidad\ProyectoDSII\ProyectoADSII\ProyectoDSII - INTERFAZ\Informes\bin\Debug\CacheManager.dll
+D:\Universidad\ProyectoDSII\ProyectoADSII\ProyectoDSII - INTERFAZ\Informes\bin\Debug\SesionManager.dll
+D:\Universidad\ProyectoDSII\ProyectoADSII\ProyectoDSII - INTERFAZ\Informes\bin\Debug\DataManager.dll
+D:\Universidad\ProyectoDSII\ProyectoADSII\ProyectoDSII - INTERFAZ\Informes\bin\Debug\MySql.Data.dll
+D:\Universidad\ProyectoDSII\ProyectoADSII\ProyectoDSII - INTERFAZ\Informes\bin\Debug\CacheManager.pdb
+D:\Universidad\ProyectoDSII\ProyectoADSII\ProyectoDSII - INTERFAZ\Informes\bin\Debug\SesionManager.pdb
+D:\Universidad\ProyectoDSII\ProyectoADSII\ProyectoDSII - INTERFAZ\Informes\bin\Debug\DataManager.pdb
+D:\Universidad\ProyectoDSII\ProyectoADSII\ProyectoDSII - INTERFAZ\Informes\obj\Debug\Informes.GUI.FiltrarReporte.resources
